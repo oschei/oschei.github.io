@@ -8,6 +8,7 @@ layout: default
 - TS&T Consultant at [Deloitte Switzerland](https://www2.deloitte.com/ch/en/pages/technology/solutions/technology-strategy-and-transformation.html)
 
 ## Previously
+- Site Reliability Engineer at [Bridgewater Associates](https://www.bridgewater.com/)
 - DevOps Developer at [IBM](https://www.ibm.com/cloud/object-storage)
 - Intern at [ON Semiconductor](http://onsemi.com/)
 - Operations Specialist at [Apple](http://www.apple.com/retail/scottsdalequarter/)
