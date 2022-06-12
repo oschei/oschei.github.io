@@ -9,9 +9,9 @@ layout: default
 
 ## Previously
 - Site Reliability Engineer at [Bridgewater Associates](https://www.bridgewater.com/)
-- DevOps Developer at [IBM](https://www.ibm.com/cloud/object-storage)
-- Intern at [ON Semiconductor](http://onsemi.com/)
-- Operations Specialist at [Apple](http://www.apple.com/retail/scottsdalequarter/)
+- DevOps Engineer at [IBM](https://www.ibm.com/cloud/object-storage)
+- Product Marketing Engineer (Intern) at [ON Semiconductor](http://onsemi.com/)
+- Operations Specialist, Mentor at [Apple](http://www.apple.com/retail/scottsdalequarter/)
 - Software Developer at [OIZ](https://www.stadt-zuerich.ch/fd/de/index/das_departement/organisation/oiz.html)
 - Volunteer at [OJA](https://www.oja.ch/)
 
