@@ -15,7 +15,7 @@ layout: default
 - Software Developer at [OIZ](https://www.stadt-zuerich.ch/fd/de/index/das_departement/organisation/oiz.html)
 - Volunteer at [OJA](https://www.oja.ch/)
 
-- [M.S. Computer Science](https://omscs.gatech.edu/) at [Georgia Institute of Technology](https://engineering.asu.edu/)
+- [M.S. Computer Science](https://omscs.gatech.edu/) at [Georgia Institute of Technology](https://www.cc.gatech.edu/)
 - [B.S.E. Computer Systems Engineering](http://explore.engineering.asu.edu/undergraduate-degrees/computer-systems/) at [Arizona State University](https://engineering.asu.edu/)
 
 More detailed resume [here](./detailed.html).
