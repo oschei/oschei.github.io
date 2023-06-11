@@ -5,9 +5,10 @@ layout: default
 # At a glance
 
 ## Currently
-- TS&T Consultant at [Deloitte Switzerland](https://www2.deloitte.com/ch/en/pages/technology/solutions/technology-strategy-and-transformation.html)
+- Senior Project Manager at [Scandit](https://www.scandit.com/)
 
 ## Previously
+- TS&T Consultant at [Deloitte Switzerland](https://www2.deloitte.com/ch/en/pages/technology/solutions/technology-strategy-and-transformation.html)
 - Site Reliability Engineer at [Bridgewater Associates](https://www.bridgewater.com/)
 - DevOps Engineer at [IBM](https://www.ibm.com/cloud/object-storage)
 - Product Marketing Engineer (Intern) at [ON Semiconductor](http://onsemi.com/)
