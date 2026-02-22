@@ -231,6 +231,23 @@ footer {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
+#theme-toggle {
+  display: block;
+  margin-top: 12px;
+  background: none;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 4px 10px;
+  color: #555;
+  font-family: inherit;
+}
+
+#theme-toggle:hover {
+  background: #f4f4f4;
+}
+
 @media print,
 screen and (max-width: 1040px) {
 
@@ -314,7 +331,7 @@ screen and (max-width: 480px) {
   }
 }
 
-@media (prefers-color-scheme: dark) {
+@mixin dark-theme {
   body {
     background-color: #1a1a1a;
     color: #b8b8b8;
@@ -351,6 +368,11 @@ screen and (max-width: 480px) {
 
   strong {
     color: #e2e2e2;
+  }
+
+  th,
+  dt {
+    color: #d4d4d4;
   }
 
   blockquote {
@@ -391,4 +413,23 @@ screen and (max-width: 480px) {
   section {
     border-color: #383838;
   }
+
+  #theme-toggle {
+    border-color: #383838;
+    color: #b8b8b8;
+
+    &:hover {
+      background: #262626;
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) {
+    @include dark-theme;
+  }
+}
+
+html[data-theme="dark"] {
+  @include dark-theme;
 }
