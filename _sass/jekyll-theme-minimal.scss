@@ -141,6 +141,11 @@ header {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
+header img {
+  display: block;
+  margin-bottom: 20px;
+}
+
 ul.downloads {
   list-style: none;
   height: 40px;
@@ -231,21 +236,56 @@ footer {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
-#theme-toggle {
-  display: block;
+.theme-toggle {
+  display: flex;
+  align-items: center;
   margin-top: 12px;
-  background: none;
-  border: 1px solid #e0e0e0;
-  border-radius: 4px;
   cursor: pointer;
-  font-size: 16px;
-  padding: 4px 10px;
-  color: #555;
-  font-family: inherit;
+  gap: 8px;
+  user-select: none;
 }
 
-#theme-toggle:hover {
-  background: #f4f4f4;
+.theme-toggle input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.theme-toggle-track {
+  position: relative;
+  flex-shrink: 0;
+  width: 44px;
+  height: 24px;
+  background: #ccc;
+  border-radius: 12px;
+  transition: background 0.2s ease;
+}
+
+.theme-toggle-track::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  background: #fff;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.theme-toggle input:checked + .theme-toggle-track {
+  background: #4a9ed4;
+}
+
+.theme-toggle input:checked + .theme-toggle-track::after {
+  transform: translateX(20px);
+}
+
+.theme-toggle-label {
+  font-size: 12px;
+  color: #777;
 }
 
 @media print,
@@ -414,13 +454,16 @@ screen and (max-width: 480px) {
     border-color: #383838;
   }
 
-  #theme-toggle {
-    border-color: #383838;
-    color: #b8b8b8;
+  .theme-toggle-track {
+    background: #555;
+  }
 
-    &:hover {
-      background: #262626;
-    }
+  .theme-toggle input:checked + .theme-toggle-track {
+    background: #4a9ed4;
+  }
+
+  .theme-toggle-label {
+    color: #999;
   }
 }
 
