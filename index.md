@@ -21,6 +21,6 @@ layout: default
 
 ## Skills
 - **Technical:** Python, SQL, Machine Learning, Generative AI, LLMs, Infrastructure Automation, Monitoring & Alerting, Software Development Life Cycle
-- **Strategy & Leadership:** Enterprise Architecture, IT Transformation, Technology Operating Models, Project Management
+- **Strategy & Leadership:** Enterprise Architecture, Project Management, IT Transformation, Technology Operating Models
 
 More detailed resume [here](./detailed.html).
