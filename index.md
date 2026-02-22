@@ -13,7 +13,7 @@ layout: default
 - DevOps Engineer at [IBM](https://www.ibm.com/cloud/object-storage)
 - Product Marketing Engineer (Intern) at [onsemi](http://onsemi.com/)
 - Operations Specialist, Mentor at [Apple](http://www.apple.com/retail/scottsdalequarter/)
-- Software Developer at [OIZ](https://www.stadt-zuerich.ch/fd/de/index/das_departement/organisation/oiz.html)
+- Software Developer at [OIZ](https://www.stadt-zuerich.ch/de/politik-und-verwaltung/stadtverwaltung/fd/oiz.html)
 - Volunteer at [OJA](https://www.oja.ch/)
 
 - [M.S. Computer Science](https://omscs.gatech.edu/) at [Georgia Institute of Technology](https://www.cc.gatech.edu/)
