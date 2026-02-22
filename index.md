@@ -20,7 +20,7 @@ layout: default
 - [B.S.E. Computer Systems Engineering](http://explore.engineering.asu.edu/undergraduate-degrees/computer-systems/) at [Arizona State University](https://engineering.asu.edu/)
 
 ## Skills
-- **Technical:** Python, SQL, Machine Learning, Generative AI, LLMs, Infrastructure Automation, Monitoring & Alerting, Software Development Life Cycle
-- **Strategy & Leadership:** Enterprise Architecture, Project Management, IT Transformation, Technology Operating Models
+- **Technical:** Python, SQL, BigQuery, Machine Learning, Generative AI, Large Language Models, Automation, System Monitoring, SDLC Management, Enterprise Software Architecture
+- **Strategy & Leadership:** Enterprise Architecture, Project Management, Digital Transformation, Technology Operating Models
 
 More detailed resume [here](./detailed.html).
