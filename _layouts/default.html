@@ -36,7 +36,11 @@
         <li><a href="{{ site.github_url }}">View my <strong>GitHub</strong></a></li>
         <li><a href="{{ site.detailed }}">See more <strong>Details</strong></a></li>
       </ul>
-      <button id="theme-toggle" aria-label="Toggle dark mode">☾</button>
+      <label class="theme-toggle" aria-label="Toggle dark mode">
+        <input type="checkbox" id="theme-toggle-input" role="switch">
+        <span class="theme-toggle-track"></span>
+        <span class="theme-toggle-label">Dark mode</span>
+      </label>
     </header>
     <section>
 

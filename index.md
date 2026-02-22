@@ -20,10 +20,9 @@ layout: default
 - [B.S.E. Computer Systems Engineering](http://explore.engineering.asu.edu/undergraduate-degrees/computer-systems/) at [Arizona State University](https://engineering.asu.edu/)
 
 ## Skills
-- **Architecture & Strategy:** Enterprise Architecture, IT Transformation, Technology Operating Models, Project Management, Cross-platform Integration
-- **Engineering:** DevOps, Site Reliability Engineering, Infrastructure Automation, Monitoring & Alerting, SDLC
+- **Architecture & Strategy:** Enterprise Architecture, IT Transformation, Technology Operating Models, Project Management, Cross-Platform Integration
+- **Engineering:** DevOps, Site Reliability Engineering, Infrastructure Automation, Monitoring & Alerting, Software Development Life Cycle
 - **AI & Machine Learning:** Machine Learning, Generative AI, LLMs
 - **Languages & Tools:** Python, .NET/C#, Jupyter Notebooks, Arduino, SQL
-- **Interests:** Human-Computer Interaction, Computing Ethics
 
 More detailed resume [here](./detailed.html).
