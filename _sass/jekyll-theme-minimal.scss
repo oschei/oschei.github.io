@@ -240,6 +240,7 @@ footer {
   display: block;
   margin-top: 14px;
   cursor: pointer;
+  text-align: center;
 }
 
 .theme-toggle input {
@@ -317,10 +318,6 @@ screen and (max-width: 1040px) {
     width: auto;
   }
 
-  header {
-    padding-right: 320px;
-  }
-
   section {
     border: 1px solid #e5e5e5;
     border-width: 1px 0;
@@ -333,9 +330,7 @@ screen and (max-width: 1040px) {
   }
 
   header ul {
-    position: absolute;
-    right: 50px;
-    top: 52px;
+    position: static;
   }
 }
 
