@@ -5,13 +5,13 @@ layout: default
 # At a glance
 
 ## Currently
-- Senior Project Manager at [Scandit](https://www.scandit.com/)
+- Enterprise Architect at [Scandit](https://www.scandit.com/)
 
 ## Previously
-- TS&T Consultant at [Deloitte Switzerland](https://www2.deloitte.com/ch/en/pages/technology/solutions/technology-strategy-and-transformation.html)
+- Senior Consultant at [Deloitte Switzerland](https://www2.deloitte.com/ch/en/pages/technology/solutions/technology-strategy-and-transformation.html)
 - Site Reliability Engineer at [Bridgewater Associates](https://www.bridgewater.com/)
 - DevOps Engineer at [IBM](https://www.ibm.com/cloud/object-storage)
-- Product Marketing Engineer (Intern) at [ON Semiconductor](http://onsemi.com/)
+- Product Marketing Engineer (Intern) at [onsemi](http://onsemi.com/)
 - Operations Specialist, Mentor at [Apple](http://www.apple.com/retail/scottsdalequarter/)
 - Software Developer at [OIZ](https://www.stadt-zuerich.ch/fd/de/index/das_departement/organisation/oiz.html)
 - Volunteer at [OJA](https://www.oja.ch/)
