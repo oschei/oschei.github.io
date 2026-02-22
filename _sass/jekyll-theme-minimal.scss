@@ -237,12 +237,9 @@ footer {
 }
 
 .theme-toggle {
-  display: flex;
-  align-items: center;
-  margin-top: 12px;
+  display: block;
+  margin-top: 14px;
   cursor: pointer;
-  gap: 8px;
-  user-select: none;
 }
 
 .theme-toggle input {
@@ -254,38 +251,54 @@ footer {
 
 .theme-toggle-track {
   position: relative;
-  flex-shrink: 0;
-  width: 44px;
-  height: 24px;
-  background: #ccc;
-  border-radius: 12px;
-  transition: background 0.2s ease;
+  display: inline-block;
+  width: 80px;
+  height: 42px;
+  background: #7a7a7a;
+  border-radius: 11px;
 }
 
-.theme-toggle-track::after {
-  content: '';
+.theme-toggle-moon,
+.theme-toggle-sun {
+  position: absolute;
+  top: 3px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  z-index: 2;
+  pointer-events: none;
+  line-height: 1;
+}
+
+.theme-toggle-moon {
+  left: 3px;
+  color: #fff;
+}
+
+.theme-toggle-sun {
+  right: 3px;
+  color: #555;
+}
+
+.theme-toggle-thumb {
   position: absolute;
   top: 3px;
   left: 3px;
-  width: 18px;
-  height: 18px;
+  width: 36px;
+  height: 36px;
   background: #fff;
-  border-radius: 50%;
-  transition: transform 0.2s ease;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  transition: transform 0.25s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+  transform: translateX(38px);
 }
 
-.theme-toggle input:checked + .theme-toggle-track {
-  background: #4a9ed4;
-}
-
-.theme-toggle input:checked + .theme-toggle-track::after {
-  transform: translateX(20px);
-}
-
-.theme-toggle-label {
-  font-size: 12px;
-  color: #777;
+.theme-toggle input:checked ~ .theme-toggle-track .theme-toggle-thumb {
+  transform: translateX(0);
 }
 
 @media print,
@@ -455,14 +468,19 @@ screen and (max-width: 480px) {
   }
 
   .theme-toggle-track {
-    background: #555;
+    background: #4a4a4a;
   }
 
-  .theme-toggle input:checked + .theme-toggle-track {
-    background: #4a9ed4;
+  .theme-toggle-thumb {
+    background: #232323;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
   }
 
-  .theme-toggle-label {
+  .theme-toggle-moon {
+    color: #999;
+  }
+
+  .theme-toggle-sun {
     color: #999;
   }
 }
