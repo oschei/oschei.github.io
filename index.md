@@ -19,4 +19,9 @@ layout: default
 - [M.S. Computer Science](https://omscs.gatech.edu/) at [Georgia Institute of Technology](https://www.cc.gatech.edu/)
 - [B.S.E. Computer Systems Engineering](http://explore.engineering.asu.edu/undergraduate-degrees/computer-systems/) at [Arizona State University](https://engineering.asu.edu/)
 
+## Skills
+- **Architecture & Strategy:** Enterprise Architecture, IT Transformation, Technology Operating Models, Cross-platform Integration
+- **Engineering:** DevOps, Site Reliability Engineering, Infrastructure Automation, Monitoring & Alerting
+- **Languages & Tools:** Python, .NET/C#, Jupyter Notebooks, Arduino, SQL
+
 More detailed resume [here](./detailed.html).
