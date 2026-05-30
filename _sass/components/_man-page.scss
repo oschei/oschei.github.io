@@ -1,0 +1,29 @@
+.man-head {
+  color: var(--comment);
+  font-size: var(--fs-mini);
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 14px;
+  letter-spacing: 0.08em;
+}
+.man-section {
+  color: var(--error);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-size: var(--fs-small);
+  margin: 16px 0 4px;
+}
+.man-section:first-of-type { margin-top: 8px; }
+.man-body {
+  color: var(--text);
+  font-size: var(--fs-small);
+  padding-left: 14px;
+  line-height: 1.7;
+}
+.man-body code {
+  background: var(--bg-deep);
+  color: var(--accent);
+  padding: 1px 5px;
+  border-radius: var(--radius-sm);
+  font-size: 0.92em;
+}
