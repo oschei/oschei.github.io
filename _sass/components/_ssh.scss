@@ -1,0 +1,30 @@
+.ssh-line { color: var(--comment); font-size: var(--fs-small); margin: 2px 0; }
+.ssh-line.warn { color: var(--warn); }
+.ssh-line.ok { color: var(--success); }
+
+.ssh-welcome { margin-top: 12px; color: var(--text); }
+
+.ssh-list { margin: 12px 0 6px; }
+.ssh-list .row {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  align-items: baseline;
+  font-size: var(--fs-small);
+  padding: 2px 0;
+}
+.ssh-list .row .k { color: var(--error); }
+.ssh-list .row .v { color: var(--text); }
+.ssh-list .row .v a {
+  color: var(--accent);
+  border-bottom: 1px dashed rgba(255, 158, 100, 0.4);
+}
+.ssh-list .row .v a:hover,
+.ssh-list .row .v a:focus-visible { border-bottom-style: solid; }
+.ssh-list .row .v .optional { color: var(--comment); font-size: var(--fs-mini); margin-left: 6px; }
+
+.ssh-logout { margin-top: 12px; }
+.ssh-logout .farewell {
+  color: var(--text-muted);
+  font-style: italic;
+  font-size: var(--fs-small);
+}
