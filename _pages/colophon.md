@@ -33,9 +33,17 @@ Reduced motion is honored. If something doesn't work for you, write me:
 
 <div class="man-section">EASTER EGGS</div>
 <div class="man-body">
-Seven 🥕 scattered across canonical pages. Type <code>--carrots</code> to
-see your progress. Hidden commands: <code>--panic</code>, <code>--soma</code>, <code>cd shire</code>.
+Seven 🥕 scattered across canonical pages.
+Type <button type="button" class="inline-cmd" data-cmd="--carrots"><code>--carrots</code></button> to
+see your progress. Hidden commands:
+<button type="button" class="inline-cmd" data-cmd="--panic"><code>--panic</code></button>,
+<button type="button" class="inline-cmd" data-cmd="--soma"><code>--soma</code></button>,
+<button type="button" class="inline-cmd" data-cmd="cd shire"><code>cd shire</code></button>.
 {% include carrot.html page="colophon" %}
+
+<p style="margin-top: 16px;">
+  <button type="button" class="inline-cmd" data-cmd="--reveal"><code># i'm impatient, just reveal the carrots</code></button>
+</p>
 </div>
 
 <div class="man-section">CREDITS</div>
@@ -48,5 +56,8 @@ Built with coffee, Claude Code, and stubbornness.
 
 <div class="man-section">SEE ALSO</div>
 <div class="man-body">
-<code>history(1)</code>, <code>--carrots(1)</code>, <code>strava(7)</code>, <code>goodreads(7)</code>
+<button type="button" class="inline-cmd" data-cmd="history"><code>history(1)</code></button>,
+<button type="button" class="inline-cmd" data-cmd="--carrots"><code>--carrots(1)</code></button>,
+<a class="inline-cmd" href="{{ site.strava_url }}" rel="external noopener"><code>strava(7)</code></a>,
+<a class="inline-cmd" href="{{ site.goodreads_url }}" rel="external noopener"><code>goodreads(7)</code></a>
 </div>

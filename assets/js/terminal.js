@@ -28,6 +28,7 @@
   var HIDDEN = {
     '--panic':   handlePanic,
     '--carrots': handleCarrots,
+    '--reveal':  handleReveal,
     '--soma':    handleSoma,
     'cd shire':  handleShire
   };
@@ -154,6 +155,13 @@
     }, 1200);
   }
 
+  function handleReveal() {
+    // Calls into carrots.js — unlocks all 7 + shows the grand reveal.
+    if (typeof window.__revealAllCarrots === 'function') {
+      window.__revealAllCarrots();
+    }
+  }
+
   function attachInputHandler() {
     var input = document.getElementById('cmd-input');
     if (!input) return;
@@ -177,32 +185,50 @@
 
   // Block cursor — position a fake █ at the input's caret. The real caret
   // is hidden via CSS (caret-color: transparent). We measure the rendered
-  // width of input.value up to selectionStart using a hidden span that
-  // inherits the input's font.
+  // width of input.value up to selectionStart by copying the input's
+  // computed font onto a hidden span and reading its offsetWidth.
   function attachBlockCursor() {
     var input   = document.getElementById('cmd-input');
     var cursor  = document.getElementById('cmd-cursor');
     var measure = document.getElementById('cmd-measure');
     if (!input || !cursor || !measure) return;
 
+    function syncFont() {
+      // Copy the input's actually-computed font properties onto the
+      // measure span. Belt-and-braces: this guarantees the width
+      // measurement uses the same metrics as what the input renders,
+      // regardless of how the CSS got there.
+      var s = window.getComputedStyle(input);
+      measure.style.fontFamily    = s.fontFamily;
+      measure.style.fontSize      = s.fontSize;
+      measure.style.fontWeight    = s.fontWeight;
+      measure.style.fontStyle     = s.fontStyle;
+      measure.style.letterSpacing = s.letterSpacing;
+      measure.style.padding       = '0';   // measure shouldn't add padding
+      measure.style.border        = '0';
+      measure.style.boxSizing     = 'content-box';
+    }
+
     function position() {
       var pos = (typeof input.selectionStart === 'number')
         ? input.selectionStart
         : input.value.length;
-      // Use the same content the input is rendering — when empty, the
-      // placeholder shows but the caret sits at 0, so measure stays empty.
       measure.textContent = input.value.substring(0, pos);
-      // input.offsetLeft is the X within its positioning parent (the field
-      // wrapper, position: relative).
+      // input.offsetLeft is the X within its positioning parent (the
+      // field wrapper, position: relative).
       cursor.style.left = (input.offsetLeft + measure.offsetWidth) + 'px';
     }
+
+    syncFont();
+    position();
 
     ['input', 'focus', 'click', 'keyup', 'select'].forEach(function (ev) {
       input.addEventListener(ev, position);
     });
-    window.addEventListener('resize', position);
-    // Initial position
-    position();
+    window.addEventListener('resize', function () {
+      syncFont();
+      position();
+    });
   }
 
   function attachGlobalShortcuts() {
@@ -225,10 +251,28 @@
     });
   }
 
+  // Expose the command executor so inline-cmd elements with `data-cmd`
+  // can trigger it via clicks. Same code path as typed commands.
+  window.__exec = execute;
+
+  function attachInlineCmdClicks() {
+    document.addEventListener('click', function (ev) {
+      var trigger = ev.target.closest('[data-cmd]');
+      if (!trigger) return;
+      // Honor modifier-clicks for link-style triggers — let users open
+      // navigable commands in a new tab as expected.
+      if (ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+      if (ev.button !== 0) return;
+      ev.preventDefault();
+      execute(trigger.getAttribute('data-cmd'));
+    });
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     attachInputHandler();
     attachGlobalShortcuts();
     attachBlockCursor();
+    attachInlineCmdClicks();
   });
 
   // ---- Smoke test runner — call window.__terminalTests() in DevTools ----
