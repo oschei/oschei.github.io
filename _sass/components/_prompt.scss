@@ -1,0 +1,26 @@
+.prompt {
+  color: var(--comment);
+  font-size: var(--fs-small);
+  font-family: var(--font-mono);
+  white-space: nowrap;
+}
+.prompt .user { color: var(--info); }
+.prompt .host { color: var(--success); }
+.prompt .path { color: var(--purple); }
+.prompt .sigil { color: var(--text); margin: 0 4px; }
+.prompt .verb { color: var(--info); margin-right: 4px; }
+.prompt .arg { color: var(--text); }
+.prompt .flag { color: var(--accent); }
+
+.cmd-line {
+  font-size: var(--fs-small);
+  color: var(--text);
+  margin-bottom: var(--sp-4);
+}
+
+// Inline shell comment used as a "tip" line
+.tip {
+  color: var(--comment);
+  font-size: var(--fs-small);
+  margin-top: var(--sp-3);
+}
