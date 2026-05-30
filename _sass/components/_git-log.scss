@@ -1,0 +1,20 @@
+.commit { margin-bottom: 20px; font-size: var(--fs-small); }
+.commit .hash { color: var(--warn); }
+.commit .head { color: var(--success); }
+.commit .author { color: var(--text); }
+.commit .author .email { color: var(--comment); }
+.commit .date { color: var(--text); }
+.commit .blank { color: var(--comment); margin: 6px 0; padding-left: 16px; }
+.commit .title { color: var(--text); padding-left: 16px; font-weight: 500; }
+.commit .bullet { color: var(--text); padding-left: 16px; }
+.commit .bullet::before { content: '- '; color: var(--comment); }
+
+.git-log-branch-marker {
+  color: var(--comment);
+  font-size: var(--fs-mini);
+  padding: 6px 0;
+  border-top: 1px dashed var(--border);
+  margin-top: 14px;
+  margin-bottom: 8px;
+  letter-spacing: 0.06em;
+}
