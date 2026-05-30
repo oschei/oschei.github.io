@@ -1,0 +1,20 @@
+<div class="input-bar">
+  <label for="cmd-input">
+    <span class="prompt" aria-hidden="true">
+      <span class="user">guest</span>@<span class="host">oschei.com</span><span class="sigil">:</span><span class="path">~</span><span class="sigil">$</span>
+    </span>
+    <span class="visually-hidden">Type a command</span>
+  </label>
+  <input
+    type="text"
+    id="cmd-input"
+    autocomplete="off"
+    autocapitalize="off"
+    spellcheck="false"
+    aria-describedby="cmd-hint cmd-feedback"
+    placeholder="cat about.md">
+  <span id="cmd-feedback" class="feedback" role="status" aria-live="polite"></span>
+  <span id="cmd-hint" class="hint">
+    # type a command (e.g. <code>cat about.md</code>), or tab to a link above
+  </span>
+</div>

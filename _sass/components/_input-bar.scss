@@ -1,0 +1,46 @@
+.input-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px dashed var(--border);
+  font-size: var(--fs-small);
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.input-bar label {
+  display: contents; // prompt span absorbs layout
+}
+
+.input-bar input[type="text"] {
+  flex: 1;
+  min-width: 50px;
+  background: transparent;
+  border: none;
+  color: var(--text);
+  font-family: var(--font-mono);
+  // 16px+ prevents iOS Safari from auto-zooming on focus, even on
+  // pages where surrounding text is smaller.
+  font-size: 16px;
+  caret-color: var(--text);
+  padding: 4px 0;
+}
+.input-bar input[type="text"]:focus { outline: none; }
+.input-bar input[type="text"]::placeholder { color: var(--comment); font-style: italic; }
+
+.input-bar .hint {
+  color: var(--comment);
+  font-size: var(--fs-mini);
+  flex-basis: 100%;
+  font-style: italic;
+}
+
+.input-bar .feedback {
+  display: block;
+  flex-basis: 100%;
+  margin-top: 6px;
+  font-size: var(--fs-small);
+}
+.input-bar .feedback.err { color: var(--error); }
+.input-bar .feedback.ok { color: var(--success); }
