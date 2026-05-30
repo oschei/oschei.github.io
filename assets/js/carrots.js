@@ -338,23 +338,13 @@
     scene.className = 'achievement__scene';
     scene.innerHTML = COMPLETION_SVG;
 
-    var kicker = document.createElement('div');
-    kicker.className = 'achievement__kicker';
-    kicker.textContent = 'carrot index · complete';
-
     var quote = document.createElement('blockquote');
     quote.className = 'achievement__quote';
     quote.textContent = '"' + MASTER + '"';
 
-    var stats = document.createElement('div');
-    stats.className = 'achievement__stats';
-    stats.textContent = 'found 7 of 7';
-
     card.appendChild(close);
     card.appendChild(scene);
-    card.appendChild(kicker);
     card.appendChild(quote);
-    card.appendChild(stats);
     overlay.appendChild(card);
     document.body.appendChild(overlay);
 

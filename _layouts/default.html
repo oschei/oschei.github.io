@@ -58,9 +58,14 @@
             aria-pressed="false"
             aria-label="Switch to light theme">&#x2600;</button>
   </div>
-  <script src="{{ '/assets/js/terminal.js' | relative_url }}" defer></script>
-  <script src="{{ '/assets/js/theme.js' | relative_url }}" defer></script>
-  <script src="{{ '/assets/js/carrots.js' | relative_url }}" defer></script>
-  <script src="{{ '/assets/js/analytics.js' | relative_url }}" defer></script>
+  {%- comment -%}
+    Cache-bust JS the same way CSS does — site.github.build_revision
+    changes on every GH Pages build, forcing browsers to refetch when
+    the underlying file changed.
+  {%- endcomment -%}
+  <script src="{{ '/assets/js/terminal.js?v='  | append: site.github.build_revision | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/theme.js?v='     | append: site.github.build_revision | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/carrots.js?v='   | append: site.github.build_revision | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/analytics.js?v=' | append: site.github.build_revision | relative_url }}" defer></script>
 </body>
 </html>
