@@ -21,6 +21,16 @@
   position: relative;
   display: flex;
   align-items: center;
+  // One source of truth for the typed-text font size. Used by the input,
+  // the cursor (via em), and the hidden measure span.
+  --input-fs: var(--fs-small);
+}
+// iOS Safari auto-zooms inputs smaller than 16px on focus. The
+// -webkit-touch-callout @supports query is iOS-Safari-only, so we
+// bump only there — desktop/Android/Firefox stay at the matching
+// --fs-small (12px) for typographic consistency.
+@supports (-webkit-touch-callout: none) {
+  .input-bar__field { --input-fs: 16px; }
 }
 
 .input-bar input[type="text"] {
@@ -30,9 +40,7 @@
   border: none;
   color: var(--text);
   font-family: var(--font-mono);
-  // 16px+ prevents iOS Safari from auto-zooming on focus, even on
-  // pages where surrounding text is smaller.
-  font-size: 16px;
+  font-size: var(--input-fs);
   // Real caret is hidden; the block cursor below handles the visual.
   caret-color: transparent;
   padding: 4px 0;
@@ -41,15 +49,17 @@
 .input-bar input[type="text"]::placeholder { color: var(--comment); font-style: italic; }
 
 // Block cursor — positioned via JS to follow the input's selection.
+// Sized in em so it scales with whatever --input-fs is.
 .input-bar__cursor {
   position: absolute;
   top: 50%;
   left: 0;
-  width: 9px;
-  height: 17px;
+  width: 0.55em;
+  height: 1.15em;
   background: var(--text);
   transform: translateY(-50%);
   pointer-events: none;
+  font-size: var(--input-fs);   // anchor the em to the input's font size
   animation: cursor-blink 1.1s steps(1) infinite;
 }
 .input-bar__field:not(:focus-within) .input-bar__cursor {
@@ -72,7 +82,8 @@
   visibility: hidden;
   white-space: pre;
   font-family: var(--font-mono);
-  font-size: 16px;
+  // MUST match the input's font-size exactly so width measurements line up.
+  font-size: var(--input-fs);
   pointer-events: none;
   // Don't affect layout
   left: 0;
