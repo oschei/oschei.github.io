@@ -5,15 +5,61 @@
   margin: 0 0 18px;
   border-radius: 0 var(--radius-md) var(--radius-md) 0;
   font-size: var(--fs-small);
-  line-height: 1.95;
+  line-height: 1.7;
   font-family: var(--font-mono);
 }
 
+// New <dl>-based structure (about page).
+// Two-column grid on desktop, single column stacked on mobile so long
+// values wrap cleanly instead of overflowing.
+.yaml-card__delim { color: var(--comment); margin: 2px 0; }
+.yaml-card__data {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  row-gap: 4px;
+  column-gap: 16px;
+  margin: 0;
+}
+.yaml-card__data dt {
+  color: var(--error);
+  white-space: nowrap;
+}
+.yaml-card__data dt::after {
+  content: ':';
+  color: var(--comment);
+}
+.yaml-card__data dd {
+  color: var(--success);
+  margin: 0;
+  // Long values (e.g. interests) wrap inside this column rather than
+  // overflowing the parent.
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 540px) {
+  .yaml-card__data {
+    grid-template-columns: 1fr;   // collapse to single column
+    row-gap: 2px;
+  }
+  .yaml-card__data dt {
+    margin-top: 6px;
+  }
+  .yaml-card__data dt:first-of-type {
+    margin-top: 0;
+  }
+  .yaml-card__data dd {
+    padding-left: 1em;             // hanging indent for the value rows
+  }
+}
+
+// Legacy <pre>-based structure (project layout still uses these spans).
+// Keep working until/unless the project YAML card is also refactored.
 .yaml-card .delim { color: var(--comment); }
 .yaml-card .key { color: var(--error); }
 .yaml-card .colon { color: var(--comment); margin-right: 4px; }
 .yaml-card .str { color: var(--success); }
 .yaml-card .arr { color: var(--cyan); }
+
 .yaml-card a {
   color: var(--accent);
   border-bottom: 1px dashed rgba(255, 158, 100, 0.4);

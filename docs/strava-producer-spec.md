@@ -112,14 +112,35 @@ map of about 10 rows balances visually.
 
 - **Max width:** 44 chars
 - **Max height:** 10 rows
-- **Always preserve the route's bounding-box aspect ratio** within those
-  bounds — don't stretch a square loop into a wide rectangle.
+- **Min width:** 16 chars
+- **Min height:** 4 rows
+- **Preserve the route's bounding-box aspect ratio** within the bounds
+  above. Don't stretch a square loop into a wide rectangle.
 
 | route bbox aspect | recommended grid |
 |---|---|
 | wider than tall (W ≥ 2 × H) | ~44 wide × 4-6 rows |
 | roughly square | ~30 wide × ~7 rows |
 | taller than wide | ~20-25 wide × 10 rows |
+
+### Conflict resolution — when aspect fidelity and min-width disagree
+
+For genuinely extreme aspect ratios (a 3.3 : 1 tall-narrow route, say),
+perfect aspect preservation would demand a grid like 3 wide × 10 tall —
+unreadable. In that case, **the floors win**: keep at least 16 chars
+wide and 4 rows tall, even if the rendered aspect compresses the route's
+shape. Better to ship a slightly-distorted but readable map than a
+perfectly-proportioned smear.
+
+Order of precedence (highest → lowest):
+
+1. Min floors (16 × 4) — never go below.
+2. Max ceilings (44 × 10) — never go above.
+3. Aspect ratio — match the route as closely as the above allow.
+
+So a 3.3 : 1 route renders at roughly 16 wide × 10 tall (aspect 0.625),
+not 3 × 10 (aspect 0.3). The shape comes through; the page doesn't
+break.
 
 Mobile viewports can scroll the map horizontally if needed (the site's
 `<pre>` has `overflow-x: auto`), so don't shrink the map for mobile.

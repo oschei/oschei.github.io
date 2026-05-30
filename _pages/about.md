@@ -16,7 +16,7 @@ redirect_from:
 
 # Oliver Scheiwiller
 
-<p>The rest of the résumé lives in <a class="inline-cmd" href="/experience/" data-cmd="git log experience"><code>git log experience</code></a>. Off the clock, I try and run far.</p>
+<p>The rest of my resume lives in <a class="inline-cmd" href="/experience/" data-cmd="git log experience"><code>git log experience</code></a>. Off the clock, I try and run far.</p>
 
 {% include run-block.html %}
 
