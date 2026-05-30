@@ -1,0 +1,32 @@
+.ls-header {
+  color: var(--comment);
+  font-size: var(--fs-mini);
+  padding: 4px 0 6px;
+  border-bottom: 1px dashed var(--border);
+  margin-bottom: 8px;
+}
+
+.ls-row {
+  display: grid;
+  grid-template-columns: 110px 70px 110px 1fr;
+  align-items: baseline;
+  padding: 2px 4px;
+  font-size: var(--fs-small);
+  color: var(--text);
+  text-decoration: none;
+  border-radius: var(--radius-sm);
+}
+.ls-row:hover,
+.ls-row:focus-visible { background: rgba(255, 158, 100, 0.06); }
+.ls-row .perms { color: var(--comment); }
+.ls-row .size { color: var(--success); text-align: right; padding-right: 18px; }
+.ls-row .date { color: var(--comment); }
+.ls-row .name { color: var(--info); }
+.ls-row:hover .name,
+.ls-row:focus-visible .name { color: var(--accent); text-decoration: underline; }
+.ls-row .gloss { color: var(--comment); font-style: italic; margin-left: 14px; display: block; grid-column: 4; }
+
+@media (max-width: 540px) {
+  .ls-row { grid-template-columns: 60px 70px 1fr; }
+  .ls-row .perms { display: none; }
+}
