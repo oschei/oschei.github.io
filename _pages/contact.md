@@ -1,9 +1,11 @@
 ---
 permalink: /contact/
-title: "Contact · Oliver Scheiwiller"
-description: Email, LinkedIn, GitHub, Strava, Goodreads.
+title: Contact
+description: How to reach me — LinkedIn, GitHub, Strava, Goodreads.
 term_title: "guest@oschei.com — ssh oliver — zsh"
 ---
+
+<h1 class="visually-hidden">Contact — Oliver Scheiwiller</h1>
 
 {% include prompt.html cmd="<span class='verb'>ssh</span> <span class='arg'>oliver</span>" %}
 

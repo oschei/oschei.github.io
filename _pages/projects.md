@@ -1,9 +1,11 @@
 ---
 permalink: /projects/
-title: "Projects · Oliver Scheiwiller"
+title: Projects
 description: Selected projects — what I've built and shipped.
 term_title: "guest@oschei.com — ~/projects — zsh"
 ---
+
+<h1 class="visually-hidden">Projects</h1>
 
 {% include prompt.html path="~" cmd="<span class='verb'>ls</span> <span class='flag'>-lh</span> <span class='arg'>projects/</span>" %}
 

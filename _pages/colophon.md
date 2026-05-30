@@ -1,9 +1,11 @@
 ---
 permalink: /colophon/
-title: "About this site · Oliver Scheiwiller"
+title: About this site
 description: Built with Jekyll on GitHub Pages. Tokyo Night, JetBrains Mono. Includes a11y statement.
 term_title: "guest@oschei.com — man oschei — zsh"
 ---
+
+<h1 class="visually-hidden">About this site</h1>
 
 {% include prompt.html cmd="<span class='verb'>man</span> <span class='arg'>oschei</span>" %}
 

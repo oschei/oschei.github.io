@@ -2,6 +2,8 @@
 layout: default
 ---
 {% assign p = page %}
+<h1 class="visually-hidden">{{ p.title }}</h1>
+
 <div class="prompt" aria-hidden="true">
   <span class="user">guest</span>@<span class="host">oschei.com</span><span class="sigil">:</span><span class="path">~/projects</span><span class="sigil">$</span> <span class="verb">cat</span> <span class="arg">{{ p.slug }}.md</span>
 </div>
