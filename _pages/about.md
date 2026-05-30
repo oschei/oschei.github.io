@@ -16,9 +16,7 @@ redirect_from:
 
 # Oliver Scheiwiller
 
-<p>Started writing software as an apprentice in Zürich at seventeen. <!-- TODO: refine per open question #4 --></p>
-
-<p>The rest of the résumé lives in <code>git log experience</code>. Off the clock, I try and run far.</p>
+<p>The rest of the résumé lives in <a class="inline-cmd" href="/experience/"><code>git log experience</code></a>. Off the clock, I try and run far.</p>
 
 {% include run-block.html %}
 

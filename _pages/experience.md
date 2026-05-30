@@ -9,7 +9,7 @@ term_title: "guest@oschei.com — ~ — zsh"
 
 <div class="commit">
   <div><span class="hash">commit 9f3a8b1</span> &nbsp;<span class="head">(HEAD -&gt; current)</span></div>
-  <div class="author">Author: Oliver Scheiwiller &lt;<span class="email">oliver@scandit.com</span>&gt;</div>
+  <div class="author">Author: Oliver Scheiwiller &lt;<span class="email">enterprisearchitect@scandit</span>&gt;</div>
   <div class="date">Date:   Dec 2022 — present &nbsp;·&nbsp; Zürich, Switzerland</div>
   <div class="blank">&nbsp;</div>
   <div class="title">Enterprise Architect, previously Senior Project Manager — Scandit</div>
@@ -21,7 +21,7 @@ term_title: "guest@oschei.com — ~ — zsh"
 
 <div class="commit">
   <div><span class="hash">commit 4a8c1f2</span></div>
-  <div class="author">Author: Oliver Scheiwiller &lt;<span class="email">senior@deloitte.com</span>&gt;</div>
+  <div class="author">Author: Oliver Scheiwiller &lt;<span class="email">seniorconsultant@deloitte</span>&gt;</div>
   <div class="date">Date:   Jan 2021 — Nov 2022 &nbsp;·&nbsp; Zürich, Switzerland</div>
   <div class="blank">&nbsp;</div>
   <div class="title">Senior Consultant — Deloitte</div>
@@ -33,7 +33,7 @@ term_title: "guest@oschei.com — ~ — zsh"
 
 <div class="commit">
   <div><span class="hash">commit 7c2f5d8</span></div>
-  <div class="author">Author: Oliver Scheiwiller &lt;<span class="email">sre@bridgewater.com</span>&gt;</div>
+  <div class="author">Author: Oliver Scheiwiller &lt;<span class="email">sitereliabilityengineer@bridgewater</span>&gt;</div>
   <div class="date">Date:   Jan 2020 — Dec 2020 &nbsp;·&nbsp; Westport, Connecticut</div>
   <div class="blank">&nbsp;</div>
   <div class="title">Site Reliability Engineer — Bridgewater Associates</div>
@@ -45,7 +45,7 @@ term_title: "guest@oschei.com — ~ — zsh"
 
 <div class="commit">
   <div><span class="hash">commit b1d4e3a</span></div>
-  <div class="author">Author: Oliver Scheiwiller &lt;<span class="email">devops@ibm.com</span>&gt;</div>
+  <div class="author">Author: Oliver Scheiwiller &lt;<span class="email">devopsengineer@ibm</span>&gt;</div>
   <div class="date">Date:   Jul 2018 — Jan 2020 &nbsp;·&nbsp; Austin, Texas</div>
   <div class="blank">&nbsp;</div>
   <div class="title">DevOps Engineer — IBM</div>
@@ -57,7 +57,7 @@ term_title: "guest@oschei.com — ~ — zsh"
 
 <div class="commit">
   <div><span class="hash">commit 6e8a2c4</span></div>
-  <div class="author">Author: Oliver Scheiwiller &lt;<span class="email">intern@onsemi.com</span>&gt;</div>
+  <div class="author">Author: Oliver Scheiwiller &lt;<span class="email">productmarketingengineer@onsemi</span>&gt;</div>
   <div class="date">Date:   May 2017 — May 2018 &nbsp;·&nbsp; Phoenix, Arizona</div>
   <div class="blank">&nbsp;</div>
   <div class="title">Product Marketing Engineer (Intern) — onsemi</div>
@@ -69,7 +69,7 @@ term_title: "guest@oschei.com — ~ — zsh"
 
 <div class="commit">
   <div><span class="hash">commit 3a9d7f1</span></div>
-  <div class="author">Author: Oliver Scheiwiller &lt;<span class="email">specialist@apple.com</span>&gt;</div>
+  <div class="author">Author: Oliver Scheiwiller &lt;<span class="email">operationsspecialist@apple</span>&gt;</div>
   <div class="date">Date:   Oct 2013 — May 2017 &nbsp;·&nbsp; Scottsdale, Arizona</div>
   <div class="blank">&nbsp;</div>
   <div class="title">Operations Specialist, Mentor — Apple</div>
@@ -81,7 +81,7 @@ term_title: "guest@oschei.com — ~ — zsh"
 
 <div class="commit">
   <div><span class="hash">commit 1f5b9d2</span></div>
-  <div class="author">Author: Oliver Scheiwiller &lt;<span class="email">developer@stadt-zuerich.ch</span>&gt;</div>
+  <div class="author">Author: Oliver Scheiwiller &lt;<span class="email">applikationsentwickler@oiz</span>&gt;</div>
   <div class="date">Date:   Aug 2008 — Aug 2012 &nbsp;·&nbsp; Zürich, Switzerland</div>
   <div class="blank">&nbsp;</div>
   <div class="title">Software Developer (Applikationsentwickler EFZ) — Stadt Zürich, Organisation und Informatik</div>
@@ -95,7 +95,7 @@ term_title: "guest@oschei.com — ~ — zsh"
 
 <div class="commit">
   <div><span class="hash">commit edu-9f3a</span></div>
-  <div class="author">Author: Oliver Scheiwiller &lt;<span class="email">student@gatech.edu</span>&gt;</div>
+  <div class="author">Author: Oliver Scheiwiller &lt;<span class="email">mscompsci@gatech</span>&gt;</div>
   <div class="date">Date:   Jan 2019 — May 2022 &nbsp;·&nbsp; Atlanta, Georgia</div>
   <div class="blank">&nbsp;</div>
   <div class="title">MS, Computer Science (Interactive Intelligence) — Georgia Institute of Technology</div>
@@ -103,7 +103,7 @@ term_title: "guest@oschei.com — ~ — zsh"
 
 <div class="commit">
   <div><span class="hash">commit edu-4a8c</span></div>
-  <div class="author">Author: Oliver Scheiwiller &lt;<span class="email">student@asu.edu</span>&gt;</div>
+  <div class="author">Author: Oliver Scheiwiller &lt;<span class="email">bsecomputerengineering@asu</span>&gt;</div>
   <div class="date">Date:   Aug 2014 — May 2018 &nbsp;·&nbsp; Tempe, Arizona</div>
   <div class="blank">&nbsp;</div>
   <div class="title">BSE, Computer Engineering — Arizona State University, Ira A. Fulton School of Engineering</div>
@@ -111,7 +111,7 @@ term_title: "guest@oschei.com — ~ — zsh"
 
 <div class="commit">
   <div><span class="hash">commit edu-7c2f</span></div>
-  <div class="author">Author: Oliver Scheiwiller &lt;<span class="email">student@tbz.ch</span>&gt;</div>
+  <div class="author">Author: Oliver Scheiwiller &lt;<span class="email">applikationsentwickler@tbz</span>&gt;</div>
   <div class="date">Date:   Aug 2008 — Aug 2012 &nbsp;·&nbsp; Zürich, Switzerland</div>
   <div class="blank">&nbsp;</div>
   <div class="title">Software Developer (Applikationsentwickler EFZ) — Technische Berufsschule Zürich</div>
