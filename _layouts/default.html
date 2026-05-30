@@ -31,7 +31,13 @@
       {{ content }}
       {% include input-bar.html %}
     </main>
+    <button id="theme-toggle"
+            class="theme-toggle"
+            type="button"
+            aria-pressed="false"
+            aria-label="Switch to light theme">&#x2600;</button>
   </div>
   <script src="{{ '/assets/js/terminal.js' | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/theme.js' | relative_url }}" defer></script>
 </body>
 </html>

@@ -1,0 +1,20 @@
+.theme-toggle {
+  position: fixed;
+  bottom: var(--sp-4);
+  right: var(--sp-4);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--bg-deep);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 50;
+  transition: transform 0.15s ease;
+}
+.theme-toggle:hover { transform: scale(1.08); }
+.theme-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
