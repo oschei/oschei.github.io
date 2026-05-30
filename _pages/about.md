@@ -21,3 +21,22 @@ redirect_from:
 <p>The rest of the résumé lives in <code>git log experience</code>. Off the clock, I try and run far.</p>
 
 {% include run-block.html %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Oliver Scheiwiller",
+  "url": "{{ site.url }}",
+  "image": "{{ site.url }}/assets/img/oschei.jpg",
+  "jobTitle": "Enterprise Architect",
+  "worksFor": { "@type": "Organization", "name": "Scandit" },
+  "address": { "@type": "PostalAddress", "addressLocality": "Zürich", "addressCountry": "CH" },
+  "sameAs": [
+    "{{ site.linkedin_url }}",
+    "{{ site.github_url }}",
+    "{{ site.strava_url }}",
+    "{{ site.goodreads_url }}"
+  ]
+}
+</script>
