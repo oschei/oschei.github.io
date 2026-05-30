@@ -1,0 +1,34 @@
+{%- comment -%}
+  Renders the numbered command menu.
+
+  Each row is a real <a> link with descriptive aria-label so screen readers
+  hear "cat about dot M D, a short bio" instead of "$ cat about dot M D."
+{%- endcomment -%}
+<nav class="history" aria-label="Primary">
+  {% include prompt.html cmd='<span style="color: var(--text)">history</span>' %}
+  <a href="/about/" class="history__row" aria-label="cat about.md — a short bio">
+    <span class="num" aria-hidden="true">1</span>
+    <span class="cmd"><span class="verb">cat</span> <span class="arg">about.md</span></span>
+    <span class="cmt" aria-hidden="true"># a short bio</span>
+  </a>
+  <a href="/projects/" class="history__row" aria-label="ls projects — selected projects">
+    <span class="num" aria-hidden="true">2</span>
+    <span class="cmd"><span class="verb">ls</span> <span class="arg">projects/</span></span>
+    <span class="cmt" aria-hidden="true"># selected projects</span>
+  </a>
+  <a href="/experience/" class="history__row" aria-label="git log experience — work history">
+    <span class="num" aria-hidden="true">3</span>
+    <span class="cmd"><span class="verb">git log</span> <span class="arg">experience</span></span>
+    <span class="cmt" aria-hidden="true"># work history</span>
+  </a>
+  <a href="/contact/" class="history__row" aria-label="ssh oliver — contact">
+    <span class="num" aria-hidden="true">4</span>
+    <span class="cmd"><span class="verb">ssh</span> <span class="arg">oliver</span></span>
+    <span class="cmt" aria-hidden="true"># contact</span>
+  </a>
+  <a href="/colophon/" class="history__row" aria-label="man oschei — about this site">
+    <span class="num" aria-hidden="true">5</span>
+    <span class="cmd"><span class="verb">man</span> <span class="arg">oschei</span></span>
+    <span class="cmt" aria-hidden="true"># about this site</span>
+  </a>
+</nav>
