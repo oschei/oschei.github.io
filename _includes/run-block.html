@@ -1,0 +1,47 @@
+{%- comment -%}
+  Renders the live "latest run" block from site.data.latest_run.
+
+  Behaviors:
+  - Missing file / null activity → block omitted, page unaffected.
+  - Stale: generated_at older than 30 days → "· stale" badge.
+  - ASCII map rendered verbatim; colored start/end dots are v2.
+{%- endcomment -%}
+{%- assign run = site.data.latest_run -%}
+{%- if run and run.activity -%}
+  {%- assign a = run.activity -%}
+
+  {%- comment -%} Stale check — generated_at older than 30 days {%- endcomment -%}
+  {%- assign stale = false -%}
+  {%- if run.generated_at -%}
+    {%- assign gen_ts = run.generated_at | date: "%s" | plus: 0 -%}
+    {%- assign now_ts = site.time | date: "%s" | plus: 0 -%}
+    {%- assign delta = now_ts | minus: gen_ts -%}
+    {%- if delta > 2592000 %}{%- assign stale = true -%}{%- endif -%}
+  {%- endif -%}
+
+  <section class="run-block" aria-label="Latest run">
+    <div class="run-block__label">
+      <span>
+        <span class="live">live</span>
+        &nbsp;latest run · {{ a.date_label }}
+        {%- if stale %} <span class="stale">· stale</span>{%- endif -%}
+      </span>
+      <a class="run-block__strava" href="{{ a.url }}" rel="external noopener" aria-label="Open this activity on Strava">↗ open in strava</a>
+    </div>
+
+    <pre class="run-block__map" aria-label="Route map for the latest run">{{ a.ascii_map }}</pre>
+
+    <div class="run-block__stats">
+      <span><span class="k">dist</span><span class="v--accent">{{ a.distance_km }} km</span></span>
+      <span><span class="k">time</span><span class="v">{{ a.duration_human }}</span></span>
+      <span><span class="k">pace</span><span class="v">{{ a.pace_human }}</span></span>
+      {%- if a.elevation_gain_m and a.elevation_gain_m > 0 %}
+        <span><span class="k">elev</span><span class="v">↑ {{ a.elevation_gain_m }} m</span></span>
+      {%- endif %}
+    </div>
+
+    {%- if a.description and a.description != "" %}
+      <p class="run-block__desc">{{ a.description | escape }}</p>
+    {%- endif %}
+  </section>
+{%- endif -%}
