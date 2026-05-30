@@ -27,8 +27,8 @@ Hand-written. No frameworks. No tracking cookies.
 Full keyboard navigation. WCAG AA+ color contrast across the palette.
 Every command on this site is also a real <code>&lt;a href&gt;</code> link,
 so screen readers, keyboard users, and search engines all see the same nav.
-Reduced motion is honored. If something doesn't work for you, write me:
-<a href="mailto:oliver@oschei.com">oliver@oschei.com</a>.
+Reduced motion is honored. If something doesn't work for you, reach me
+via any channel on <a class="inline-cmd" href="/contact/" data-cmd="ssh oliver"><code>ssh oliver</code></a>.
 </div>
 
 <div class="man-section">EASTER EGGS</div>
