@@ -10,11 +10,13 @@
   {% seo %}
 
   {%- comment -%}
-    Preload the primary font in parallel with the stylesheet so it's
-    already in the network pipeline by the time CSS parses the
-    @font-face declarations. Cuts LCP noticeably on cold loads.
+    Preload Regular + Bold in parallel with the stylesheet so neither
+    blocks LCP. The H1 (likely the LCP element on every page) is bold,
+    so Bold is critical too — without preload it loads serially after
+    Regular and dominates the critical path.
   {%- endcomment -%}
   <link rel="preload" href="/assets/fonts/JetBrainsMono.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/JetBrainsMono-Bold.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preconnect" href="https://gc.zgo.at" crossorigin>
 
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
