@@ -7,3 +7,4 @@ vendor
 .gitignore
 CLAUDE.md
 .superpowers/
+.bundle/
