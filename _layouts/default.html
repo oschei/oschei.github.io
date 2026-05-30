@@ -1,56 +1,35 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="{{ site.lang | default: 'en' }}" data-theme="dark">
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Personal Website for Oliver Scheiwiller">
-  <meta name="author" content="Oliver Scheiwiller">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1a1b26" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#e1e2e7" media="(prefers-color-scheme: light)">
 
+  {%- comment -%} SEO + OG handled by jekyll-seo-tag {%- endcomment -%}
   {% seo %}
+
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-  {% include head-custom.html %}
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+
   <script>
+    // Theme persistence — run before paint to avoid FOUC
     (function () {
-      var t = localStorage.getItem('theme');
-      if (t) document.documentElement.setAttribute('data-theme', t);
+      var t = localStorage.getItem('oschei.theme');
+      if (t === 'dark' || t === 'light') {
+        document.documentElement.setAttribute('data-theme', t);
+      }
     })();
   </script>
-
 </head>
-
 <body>
-  <div class="wrapper">
-    <header>
-      <h1><a href="{{ '/'' | absolute_url }}">{{ site.title }}</a></h1>
+  <a href="#main" class="skip-link">Skip to content</a>
 
-      {% if site.logo %}
-      <img src="{{site.logo | relative_url}}" alt="Logo" />
-      {% endif %}
-
-      <h1>👋</h1>
-      <p>{{ site.intro }}</p>
-
-      <ul class="downloads">
-        <li><a href="{{ site.linkedin_url }}">Connect on <strong>LinkedIn</strong></a></li>
-        <li><a href="{{ site.github_url }}">View my <strong>GitHub</strong></a></li>
-        <li><a href="{{ site.detailed }}">See more <strong>Details</strong></a></li>
-      </ul>
-      <label class="theme-toggle" aria-label="Toggle dark mode">
-        <input type="checkbox" id="theme-toggle-input" role="switch">
-        <span class="theme-toggle-track">
-          <span class="theme-toggle-moon">☽</span>
-          <span class="theme-toggle-sun">☀</span>
-          <span class="theme-toggle-thumb"></span>
-        </span>
-      </label>
-    </header>
-    <section>
-
+  <div class="term">
+    {% include terminal-chrome.html title=page.term_title %}
+    <main id="main" class="term-body">
       {{ content }}
-
-    </section>
+    </main>
   </div>
 </body>
-
 </html>
