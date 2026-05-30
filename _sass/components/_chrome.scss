@@ -5,6 +5,28 @@
   overflow: hidden;
   margin: 0 auto;
   max-width: var(--term-max);
+  border: 1px solid var(--border);
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.45),
+              0 2px 6px rgba(0, 0, 0, 0.25);
+  // Scanline texture lives on the terminal itself, not the page workspace
+  background-image: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(255, 255, 255, 0.012) 2px,
+    rgba(255, 255, 255, 0.012) 3px
+  );
+}
+html[data-theme="light"] .term {
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.10),
+              0 2px 6px rgba(0, 0, 0, 0.06);
+  background-image: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.012) 2px,
+    rgba(0, 0, 0, 0.012) 3px
+  );
 }
 
 .term-chrome {

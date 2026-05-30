@@ -1,0 +1,29 @@
+// "cd .." back-link rendered as a clickable terminal command line.
+// Appears at the top of every page that isn't /about or /404 — gives
+// visitors a one-click way home (or one level up for project subpages).
+.cd-back {
+  display: inline-block;
+  text-decoration: none;
+  font-size: var(--fs-small);
+  font-family: var(--font-mono);
+  margin-bottom: var(--sp-4);
+  color: var(--comment);
+  opacity: 0.75;
+  border-radius: var(--radius-sm);
+  padding: 2px 6px;
+  transition: opacity 0.15s ease, background 0.15s ease;
+}
+.cd-back:hover,
+.cd-back:focus-visible {
+  opacity: 1;
+  background: rgba(255, 158, 100, 0.08);
+  outline: none;
+}
+.cd-back .sigil { color: var(--success); margin-right: 6px; }
+.cd-back .verb  { color: var(--info);    margin-right: 4px; }
+.cd-back .arg   { color: var(--text); }
+.cd-back:hover .arg,
+.cd-back:focus-visible .arg {
+  color: var(--accent);
+  text-decoration: underline;
+}

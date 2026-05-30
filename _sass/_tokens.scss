@@ -3,8 +3,9 @@
 
 :root {
   // Palette — dark (default)
-  --bg-base: #1a1b26;
-  --bg-deep: #16161e;
+  --bg-page: #0e0f15;             // workspace behind the terminal "window"
+  --bg-base: #1a1b26;             // terminal interior
+  --bg-deep: #16161e;             // terminal title bar / inset panels
   --bg-panel: rgba(255, 255, 255, 0.025);
   --text: #c0caf5;
   --text-muted: #9aa5ce;
@@ -56,6 +57,7 @@
 
 // Light variant — Tokyo Day
 html[data-theme="light"] {
+  --bg-page: #c8cad0;
   --bg-base: #e1e2e7;
   --bg-deep: #d6d8de;
   --bg-panel: rgba(0, 0, 0, 0.03);
@@ -77,6 +79,7 @@ html[data-theme="light"] {
   html:not([data-theme="dark"]):not([data-theme="light"]) {
     // Re-declare light tokens (browsers don't cascade from html[data-theme="light"]
     // automatically when only the media query matches).
+    --bg-page: #c8cad0;
     --bg-base: #e1e2e7;
     --bg-deep: #d6d8de;
     --bg-panel: rgba(0, 0, 0, 0.03);

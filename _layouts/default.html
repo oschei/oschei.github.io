@@ -31,6 +31,22 @@
   <div class="term">
     {% include terminal-chrome.html title=page.term_title %}
     <main id="main" class="term-body">
+      {%- comment -%}
+        Back-link for any page that isn't home or 404. Project subpages
+        get `cd ..` (one level up to /projects/); everything else gets
+        `cd ~` (back to /about/).
+      {%- endcomment -%}
+      {%- if page.url and page.url != '/about/' and page.url != '/404.html' -%}
+        {%- assign _cd_target = '/about/' -%}
+        {%- assign _cd_arg = '~' -%}
+        {%- if page.url contains '/projects/' and page.url != '/projects/' -%}
+          {%- assign _cd_target = '/projects/' -%}
+          {%- assign _cd_arg = '..' -%}
+        {%- endif -%}
+        <a class="cd-back" href="{{ _cd_target }}" aria-label="Back — cd {{ _cd_arg }}">
+          <span class="sigil" aria-hidden="true">$</span><span class="verb">cd</span> <span class="arg">{{ _cd_arg }}</span>
+        </a>
+      {%- endif -%}
       {{ content }}
       {% include input-bar.html %}
     </main>

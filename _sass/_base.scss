@@ -1,5 +1,5 @@
 body {
-  background: var(--bg-base);
+  background: var(--bg-page);
   color: var(--text);
   font-family: var(--font-mono);
   font-size: var(--fs-body);
@@ -7,24 +7,12 @@ body {
   font-variant-ligatures: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: repeating-linear-gradient(
-    0deg,
-    transparent,
-    transparent 2px,
-    rgba(255, 255, 255, 0.012) 2px,
-    rgba(255, 255, 255, 0.012) 3px
-  );
   min-height: 100vh;
+  padding: var(--sp-7) var(--sp-4);
 }
 
-html[data-theme="light"] body {
-  background-image: repeating-linear-gradient(
-    0deg,
-    transparent,
-    transparent 2px,
-    rgba(0, 0, 0, 0.012) 2px,
-    rgba(0, 0, 0, 0.012) 3px
-  );
+@media (max-width: 540px) {
+  body { padding: var(--sp-4) var(--sp-3); }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -54,6 +42,18 @@ code {
   padding: 1px 5px;
   border-radius: var(--radius-sm);
   font-size: 0.92em;
+}
+
+// An <a> wrapping <code> behaves like a clickable terminal command in prose.
+a.inline-cmd {
+  text-decoration: none;
+  border-radius: var(--radius-sm);
+  transition: filter 0.15s ease;
+}
+a.inline-cmd:hover code,
+a.inline-cmd:focus-visible code {
+  background: var(--accent);
+  color: var(--bg-base);
 }
 
 ::selection { background: var(--accent); color: var(--bg-base); }
