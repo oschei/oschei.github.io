@@ -6,6 +6,14 @@
 .commit .date { color: var(--text); }
 .commit .blank { color: var(--comment); margin: 6px 0; padding-left: 16px; }
 .commit .title { color: var(--text); padding-left: 16px; font-weight: 500; }
+.commit .title a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(255, 158, 100, 0.4);
+}
+.commit .title a:hover,
+.commit .title a:focus-visible { border-bottom-style: solid; }
+
 .commit .bullet { color: var(--text); padding-left: 16px; }
 .commit .bullet::before { content: '- '; color: var(--comment); }
 
