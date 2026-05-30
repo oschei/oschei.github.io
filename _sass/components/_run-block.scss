@@ -31,6 +31,20 @@ html[data-theme="light"] .run-block {
 .run-block__strava:hover,
 .run-block__strava:focus-visible { text-decoration: underline; }
 
+// Two-column body: map on the left, info column (stats + desc) on the right.
+.run-block__body {
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+  margin-top: 4px;
+}
+@media (max-width: 640px) {
+  .run-block__body {
+    flex-direction: column;
+    gap: 14px;
+  }
+}
+
 .run-block__map {
   font-family: var(--font-mono);
   white-space: pre;
@@ -39,27 +53,61 @@ html[data-theme="light"] .run-block {
   color: var(--text);
   margin: 0;
   overflow-x: auto;
+  flex: 0 0 auto;     // natural width; doesn't grow or shrink with siblings
 }
 .run-block__map .start { color: var(--success); }  // green start marker
 .run-block__map .end   { color: var(--accent);  }  // orange finish marker
 
+.run-block__info {
+  flex: 1;
+  min-width: 0;       // allow text wrapping inside flex child
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
 .run-block__stats {
-  margin-top: 10px;
   font-size: var(--fs-small);
   color: var(--text);
   display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
+  flex-direction: column;   // stacked key-value rows on desktop
+  gap: 4px;
 }
-.run-block__stats .k { color: var(--comment); margin-right: 4px; }
+.run-block__stats span {
+  display: flex;
+  align-items: baseline;
+}
+.run-block__stats .k {
+  color: var(--comment);
+  display: inline-block;
+  width: 44px;
+  margin-right: 6px;
+}
 .run-block__stats .v--accent { color: var(--accent); font-weight: 500; }
 
+// Mobile: pack stats back into a horizontal wrapping row
+@media (max-width: 640px) {
+  .run-block__stats {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .run-block__stats .k { width: auto; min-width: 0; margin-right: 4px; }
+}
+
 .run-block__desc {
-  margin-top: 10px;
+  margin: 0;
   font-size: var(--fs-small);
   line-height: 1.5;
   color: var(--text-muted);
   font-style: italic;
   padding-left: 14px;
   border-left: 1px solid var(--border);
+}
+
+// Carrot sits in the bottom-right corner of the whole block.
+.run-block__carrot {
+  position: absolute;
+  bottom: 10px;
+  right: 14px;
 }

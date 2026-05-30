@@ -145,13 +145,16 @@
   }
 
   function handleShire() {
-    // Quick toast then redirect
+    // Quick toast, then redirect. Defensively remove the toast first so
+    // it can't persist if the redirect is delayed or blocked by anything
+    // upstream (browser extensions, slow nav, etc.).
     var t = document.createElement('div');
     t.className = 'toast';
     t.textContent = 'There and back again.';
     document.body.appendChild(t);
     setTimeout(function () {
-      window.location.href = '/about/';
+      if (t && t.parentNode) t.parentNode.removeChild(t);
+      window.location.assign('/about/');
     }, 1200);
   }
 
