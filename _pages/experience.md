@@ -116,3 +116,7 @@ term_title: "guest@oschei.com — ~ — zsh"
   <div class="blank">&nbsp;</div>
   <div class="title">Software Developer (Applikationsentwickler EFZ) — Technische Berufsschule Zürich</div>
 </div>
+
+<div style="text-align: right; margin-top: 14px;">
+  {% include carrot.html page="experience" %}
+</div>

@@ -35,7 +35,7 @@ Reduced motion is honored. If something doesn't work for you, write me:
 <div class="man-body">
 Seven 🥕 scattered across canonical pages. Type <code>--carrots</code> to
 see your progress. Hidden commands: <code>--panic</code>, <code>--soma</code>, <code>cd shire</code>.
-<span class="carrot-placeholder" data-page="colophon">🥕</span>
+{% include carrot.html page="colophon" %}
 </div>
 
 <div class="man-section">CREDITS</div>

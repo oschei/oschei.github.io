@@ -19,3 +19,7 @@ term_title: "guest@oschei.com — ~/projects — zsh"
   <span class="gloss">{{ p.gloss }}</span>
 </a>
 {% endfor %}
+
+<div style="text-align: right; margin-top: 14px;">
+  {% include carrot.html page="projects" %}
+</div>

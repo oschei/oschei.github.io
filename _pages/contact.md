@@ -29,5 +29,5 @@ term_title: "guest@oschei.com — ssh oliver — zsh"
 <div class="ssh-logout">
   <div class="ssh-line">logout</div>
   <div class="ssh-line">Connection to oliver closed.</div>
-  <div class="farewell">so long, and thanks for all the fish. <span class="carrot-placeholder" data-page="contact">🥕</span></div>
+  <div class="farewell">so long, and thanks for all the fish. {% include carrot.html page="contact" %}</div>
 </div>
