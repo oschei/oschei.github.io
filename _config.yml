@@ -1,9 +1,73 @@
 title: Oliver Scheiwiller
-logo: /assets/img/oschei.jpg
-detailed: detailed.html
-intro: "Hello, my name is Oliver! I’m the Enterprise Architect @ Scandit. My interests include human-computer interaction, ethics in computing, accessible design, and technology assisted learning."
-show_downloads: true
-google_analytics:
-theme: jekyll-theme-minimal
+tagline: not fast, not funny
+description: >-
+  Runner and enterprise architect. Personal site, terminal-styled.
+  Currently architecting at Scandit, in Zürich.
+url: https://oschei.com
+lang: en
+
+author:
+  name: Oliver Scheiwiller
+
+social:
+  name: Oliver Scheiwiller
+  links:
+    - https://www.linkedin.com/in/oschei/
+    - https://github.com/oschei
+
+# Easy-to-edit profile links surfaced in contact + JSON-LD
 linkedin_url: https://www.linkedin.com/in/oschei/
-github_url: https://www.github.com/oschei
+github_url:   https://github.com/oschei
+strava_url:   "<TODO: open question 2 — strava athlete URL>"
+goodreads_url: "<TODO: open question 1 — goodreads profile URL>"
+calendly_url: "<TODO: open question 3 — calendly URL or leave empty>"
+
+# Analytics — set after creating the GoatCounter site
+goatcounter_code: ""
+
+# Image for OG card
+image: /assets/img/og-card.png
+
+# Theme
+theme: jekyll-theme-minimal
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+# Collections for projects
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+
+# Files / directories Jekyll should process even though they start with _
+include:
+  - _pages
+
+# Build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - jekyll-theme-minimal.gemspec
+  - README.md
+  - script/
+  - vendor/
+  - docs/
+  - .superpowers/
+  - "*.log"
