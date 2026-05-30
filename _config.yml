@@ -18,12 +18,12 @@ social:
 # Easy-to-edit profile links surfaced in contact + JSON-LD
 linkedin_url: https://www.linkedin.com/in/oschei/
 github_url:   https://github.com/oschei
-strava_url:   "<TODO: open question 2 — strava athlete URL>"
-goodreads_url: "<TODO: open question 1 — goodreads profile URL>"
-calendly_url: "<TODO: open question 3 — calendly URL or leave empty>"
+strava_url:   https://www.strava.com/athletes/guapito
+goodreads_url: https://www.goodreads.com/oschei
+calendly_url: ""
 
-# Analytics — set after creating the GoatCounter site
-goatcounter_code: ""
+# Analytics — GoatCounter code (just the subdomain prefix)
+goatcounter_code: "oschei"
 
 # Image for OG card — PNG to be generated and committed later;
 # uncomment once available.
