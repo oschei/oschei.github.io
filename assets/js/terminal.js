@@ -187,39 +187,47 @@
   }
 
   // Block cursor — position a fake █ at the input's caret. The real caret
-  // is hidden via CSS (caret-color: transparent). We measure the rendered
-  // width of input.value up to selectionStart by copying the input's
-  // computed font onto a hidden span and reading its offsetWidth.
+  // is hidden via CSS (caret-color: transparent).
+  //
+  // Perf: JetBrains Mono is a monospace font, so per-char width is
+  // constant. We sample one character once (and on resize / font swap)
+  // to get charWidth, then position is pure arithmetic — no layout reads
+  // per keystroke, no forced reflow.
   function attachBlockCursor() {
     var input   = document.getElementById('cmd-input');
     var cursor  = document.getElementById('cmd-cursor');
     var measure = document.getElementById('cmd-measure');
     if (!input || !cursor || !measure) return;
 
+    var charWidth = 0;
+
     function syncFont() {
       // Copy the input's actually-computed font properties onto the
-      // measure span. Belt-and-braces: this guarantees the width
-      // measurement uses the same metrics as what the input renders,
-      // regardless of how the CSS got there.
+      // measure span so a sampled char measures at exactly the same
+      // width the input is rendering at.
       var s = window.getComputedStyle(input);
       measure.style.fontFamily    = s.fontFamily;
       measure.style.fontSize      = s.fontSize;
       measure.style.fontWeight    = s.fontWeight;
       measure.style.fontStyle     = s.fontStyle;
       measure.style.letterSpacing = s.letterSpacing;
-      measure.style.padding       = '0';   // measure shouldn't add padding
+      measure.style.padding       = '0';
       measure.style.border        = '0';
       measure.style.boxSizing     = 'content-box';
+      // Sample one ASCII char. JetBrains Mono is monospace, so this is
+      // the width every typed character will take.
+      measure.textContent = 'M';
+      charWidth = measure.offsetWidth || 0;
     }
 
     function position() {
       var pos = (typeof input.selectionStart === 'number')
         ? input.selectionStart
         : input.value.length;
-      measure.textContent = input.value.substring(0, pos);
       // input.offsetLeft is the X within its positioning parent (the
-      // field wrapper, position: relative).
-      cursor.style.left = (input.offsetLeft + measure.offsetWidth) + 'px';
+      // field wrapper, position: relative). Pure math from here on —
+      // no layout reads, no reflow.
+      cursor.style.left = (input.offsetLeft + pos * charWidth) + 'px';
     }
 
     syncFont();
@@ -232,6 +240,14 @@
       syncFont();
       position();
     });
+    // Re-sample after web fonts load — switching from system fallback
+    // to JetBrains Mono changes the per-char width.
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(function () {
+        syncFont();
+        position();
+      });
+    }
   }
 
   function attachGlobalShortcuts() {
