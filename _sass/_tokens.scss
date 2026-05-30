@@ -9,7 +9,8 @@
   --bg-panel: rgba(255, 255, 255, 0.025);
   --text: #c0caf5;
   --text-muted: #9aa5ce;
-  --comment: #565f89;
+  // Bumped from #565f89 (2.76:1, FAIL) to hit WCAG AA 4.5:1 on bg-base.
+  --comment: #828bb8;             // 5.16:1 on bg-base ✓
   --accent: #ff9e64;
   --success: #9ece6a;
   --info: #7aa2f7;
@@ -55,44 +56,45 @@
   --term-pad-y: 22px;
 }
 
-// Light variant — Tokyo Day
+// Light variant — Tokyo Day, darkened to hit WCAG AA on bg-base #e1e2e7.
+// (Originals only hit AA on text; every other role was below 4.5:1.)
 html[data-theme="light"] {
   --bg-page: #c8cad0;
   --bg-base: #e1e2e7;
   --bg-deep: #d6d8de;
   --bg-panel: rgba(0, 0, 0, 0.03);
-  --text: #3760bf;
-  --text-muted: #6172b0;
-  --comment: #8990b3;
-  --accent: #b15c00;
-  --success: #587539;
-  --info: #2e7de9;
-  --cyan: #007197;
-  --purple: #9854f1;
-  --warn: #8c6c3e;
-  --error: #c64343;
-  --border: #b8babf;
+  --text: #2e3a85;                // 7.88:1 ✓ AAA
+  --text-muted: #4a5380;          // 5.72:1 ✓
+  --comment: #525c83;             // 5.05:1 ✓
+  --accent: #8a4400;              // 5.58:1 ✓
+  --success: #3d5a25;             // 6.04:1 ✓
+  --info: #2554a8;                // 5.57:1 ✓
+  --cyan: #005a78;                // 5.94:1 ✓
+  --purple: #6b3aa8;              // 5.81:1 ✓
+  --warn: #6e5121;                // 5.67:1 ✓
+  --error: #a02323;               // 5.88:1 ✓
+  --border: #b8babf;              // decorative, no text-contrast requirement
 }
 
 // Respect prefers-color-scheme: light when no explicit choice made
 @media (prefers-color-scheme: light) {
   html:not([data-theme="dark"]):not([data-theme="light"]) {
-    // Re-declare light tokens (browsers don't cascade from html[data-theme="light"]
-    // automatically when only the media query matches).
+    // Re-declare AA-compliant light tokens (browsers don't cascade from
+    // html[data-theme="light"] automatically when only the media query matches).
     --bg-page: #c8cad0;
     --bg-base: #e1e2e7;
     --bg-deep: #d6d8de;
     --bg-panel: rgba(0, 0, 0, 0.03);
-    --text: #3760bf;
-    --text-muted: #6172b0;
-    --comment: #8990b3;
-    --accent: #b15c00;
-    --success: #587539;
-    --info: #2e7de9;
-    --cyan: #007197;
-    --purple: #9854f1;
-    --warn: #8c6c3e;
-    --error: #c64343;
+    --text: #2e3a85;
+    --text-muted: #4a5380;
+    --comment: #525c83;
+    --accent: #8a4400;
+    --success: #3d5a25;
+    --info: #2554a8;
+    --cyan: #005a78;
+    --purple: #6b3aa8;
+    --warn: #6e5121;
+    --error: #a02323;
     --border: #b8babf;
   }
 }
