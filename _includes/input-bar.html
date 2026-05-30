@@ -5,14 +5,18 @@
     </span>
     <span class="visually-hidden">Type a command</span>
   </label>
-  <input
-    type="text"
-    id="cmd-input"
-    autocomplete="off"
-    autocapitalize="off"
-    spellcheck="false"
-    aria-describedby="cmd-hint cmd-feedback"
-    placeholder="cat about.md">
+  <div class="input-bar__field">
+    <input
+      type="text"
+      id="cmd-input"
+      autocomplete="off"
+      autocapitalize="off"
+      spellcheck="false"
+      aria-describedby="cmd-hint cmd-feedback"
+      placeholder="cat about.md">
+    <span class="input-bar__cursor" id="cmd-cursor" aria-hidden="true"></span>
+    <span class="input-bar__measure" id="cmd-measure" aria-hidden="true"></span>
+  </div>
   <span id="cmd-feedback" class="feedback" role="status" aria-live="polite"></span>
   <span id="cmd-hint" class="hint">
     # type a command (e.g. <code>cat about.md</code>), or tab to a link above

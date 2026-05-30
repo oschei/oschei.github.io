@@ -13,6 +13,16 @@
   display: contents; // prompt span absorbs layout
 }
 
+// Field wrapper holds the input + the JS-positioned block cursor + a
+// hidden measure span used to compute caret X position.
+.input-bar__field {
+  flex: 1;
+  min-width: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
 .input-bar input[type="text"] {
   flex: 1;
   min-width: 50px;
@@ -23,11 +33,51 @@
   // 16px+ prevents iOS Safari from auto-zooming on focus, even on
   // pages where surrounding text is smaller.
   font-size: 16px;
-  caret-color: var(--text);
+  // Real caret is hidden; the block cursor below handles the visual.
+  caret-color: transparent;
   padding: 4px 0;
 }
 .input-bar input[type="text"]:focus { outline: none; }
 .input-bar input[type="text"]::placeholder { color: var(--comment); font-style: italic; }
+
+// Block cursor — positioned via JS to follow the input's selection.
+.input-bar__cursor {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 9px;
+  height: 17px;
+  background: var(--text);
+  transform: translateY(-50%);
+  pointer-events: none;
+  animation: cursor-blink 1.1s steps(1) infinite;
+}
+.input-bar__field:not(:focus-within) .input-bar__cursor {
+  // Solid (non-blinking) when input isn't focused — signals "interactive
+  // but waiting." Still visible.
+  animation: none;
+  opacity: 0.55;
+}
+@keyframes cursor-blink {
+  50% { opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .input-bar__cursor { animation: none; }
+}
+
+// Hidden span used purely to measure the rendered width of the text
+// preceding the caret. Inherits the input's font so widths match exactly.
+.input-bar__measure {
+  position: absolute;
+  visibility: hidden;
+  white-space: pre;
+  font-family: var(--font-mono);
+  font-size: 16px;
+  pointer-events: none;
+  // Don't affect layout
+  left: 0;
+  top: -9999px;
+}
 
 .input-bar .hint {
   color: var(--comment);

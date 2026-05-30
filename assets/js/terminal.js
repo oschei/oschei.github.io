@@ -175,6 +175,36 @@
     input.addEventListener('input', clearFeedback);
   }
 
+  // Block cursor — position a fake █ at the input's caret. The real caret
+  // is hidden via CSS (caret-color: transparent). We measure the rendered
+  // width of input.value up to selectionStart using a hidden span that
+  // inherits the input's font.
+  function attachBlockCursor() {
+    var input   = document.getElementById('cmd-input');
+    var cursor  = document.getElementById('cmd-cursor');
+    var measure = document.getElementById('cmd-measure');
+    if (!input || !cursor || !measure) return;
+
+    function position() {
+      var pos = (typeof input.selectionStart === 'number')
+        ? input.selectionStart
+        : input.value.length;
+      // Use the same content the input is rendering — when empty, the
+      // placeholder shows but the caret sits at 0, so measure stays empty.
+      measure.textContent = input.value.substring(0, pos);
+      // input.offsetLeft is the X within its positioning parent (the field
+      // wrapper, position: relative).
+      cursor.style.left = (input.offsetLeft + measure.offsetWidth) + 'px';
+    }
+
+    ['input', 'focus', 'click', 'keyup', 'select'].forEach(function (ev) {
+      input.addEventListener(ev, position);
+    });
+    window.addEventListener('resize', position);
+    // Initial position
+    position();
+  }
+
   function attachGlobalShortcuts() {
     document.addEventListener('keydown', function (ev) {
       // `/` or Cmd-K / Ctrl-K → focus the input from anywhere
@@ -198,6 +228,7 @@
   document.addEventListener('DOMContentLoaded', function () {
     attachInputHandler();
     attachGlobalShortcuts();
+    attachBlockCursor();
   });
 
   // ---- Smoke test runner — call window.__terminalTests() in DevTools ----
