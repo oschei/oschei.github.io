@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-05-24T08:42:00Z",
+  "generated_at": "2026-05-30T16:38:15Z",
   "activity": {
-    "id": "14258372165",
-    "url": "https://www.strava.com/activities/14258372165",
-    "date_label": "sat 24 may",
-    "description": "Some humid loop around the hills. Legs felt like sand by km 15.",
-    "distance_km": 21.2,
-    "duration_human": "1h 54",
-    "pace_human": "5:23/km",
-    "elevation_gain_m": 412,
-    "ascii_map": "●━━━╮          ╭━━━━╮\n    ╰━━━━━━━━━━╯    ╰━━━╮\n                        ╰━━━╮\n                            ╰━━━●"
+    "id": "18710425482",
+    "url": "https://www.strava.com/activities/18710425482",
+    "date_label": "sat 30 may",
+    "description": "call me corn the way i had so much pop today",
+    "distance_km": 11.6,
+    "duration_human": "1h 11",
+    "pace_human": "6:08/km",
+    "elevation_gain_m": 55,
+    "ascii_map": "                    ╭──────────────────────●\n                ╭───╯\n         ╭────────\n    ●──────\n       ╭╯\n      ──╮\n────────╯"
   }
 }
