@@ -25,11 +25,12 @@
     'colophon':            '/colophon/'
   };
 
-  // Hidden commands are wired in Phase 6 — placeholder here so they don't
-  // error out as "command not found":
-  var HIDDEN = [
-    '--panic', '--carrots', '--soma', 'cd shire'
-  ];
+  var HIDDEN = {
+    '--panic':   handlePanic,
+    '--carrots': handleCarrots,
+    '--soma':    handleSoma,
+    'cd shire':  handleShire
+  };
 
   function normalize(input) {
     return input.trim().toLowerCase();
@@ -65,13 +66,92 @@
       return;
     }
 
-    if (HIDDEN.indexOf(n) !== -1) {
-      // Hidden commands wired in Phase 6 — placeholder for now
-      showFeedback("(hidden command — not wired yet)", 'err');
+    if (HIDDEN.hasOwnProperty(n)) {
+      HIDDEN[n]();
+      if (window.__trackCmd) window.__trackCmd('hidden_cmd', n);
       return;
     }
 
     showFeedback("command not found: " + n + ". try 'history'.", 'err');
+  }
+
+  function makeOverlay(titleText, bodyText, modClass) {
+    var overlay = document.createElement('div');
+    overlay.className = 'overlay' + (modClass ? ' ' + modClass : '');
+    overlay.setAttribute('role', 'dialog');
+    overlay.setAttribute('aria-modal', 'true');
+    overlay.setAttribute('aria-label', titleText);
+
+    var card = document.createElement('div');
+    card.className = 'overlay__card';
+
+    var close = document.createElement('button');
+    close.className = 'overlay__close';
+    close.setAttribute('aria-label', 'Close');
+    close.textContent = '×';
+    close.addEventListener('click', function () { overlay.remove(); });
+
+    var title = document.createElement('div');
+    title.className = 'overlay__title';
+    title.textContent = titleText;
+
+    var body = document.createElement('div');
+    body.className = 'overlay__body';
+    body.textContent = bodyText;
+
+    card.appendChild(close);
+    card.appendChild(title);
+    card.appendChild(body);
+    overlay.appendChild(card);
+    document.body.appendChild(overlay);
+
+    function dismiss(ev) {
+      if (ev.key === 'Escape') { overlay.remove(); document.removeEventListener('keydown', dismiss); }
+    }
+    document.addEventListener('keydown', dismiss);
+    close.focus();
+  }
+
+  function handlePanic() {
+    makeOverlay("DON'T PANIC.", 'You forgot your towel.');
+  }
+
+  function handleCarrots() {
+    var found = [];
+    try {
+      var raw = localStorage.getItem('oschei.carrots.found');
+      found = raw ? JSON.parse(raw) : [];
+      if (!Array.isArray(found)) found = [];
+    } catch (e) { found = []; }
+    var TOTAL = 7;
+    var msg;
+    if (found.length === 0) {
+      msg = "0 of 7 found. They're hidden in plain sight on every page.";
+    } else if (found.length >= TOTAL) {
+      msg = "you can't pull a carrot up to check its progress.";
+    } else {
+      msg = found.length + " of " + TOTAL + " found. Pages with carrots: " +
+            ['about','projects','project','experience','contact','colophon','404'].join(', ');
+    }
+    makeOverlay('🥕 ' + found.length + '/' + TOTAL, msg);
+  }
+
+  function handleSoma() {
+    document.body.classList.add('overlay--soma');
+    setTimeout(function () {
+      document.body.classList.remove('overlay--soma');
+    }, 3000);
+  }
+
+  function handleShire() {
+    // Quick toast then redirect
+    var t = document.createElement('div');
+    t.className = 'toast';
+    t.textContent = 'There and back again.';
+    document.body.appendChild(t);
+    setTimeout(function () {
+      window.location.href = '/about/';
+    }, 1200);
   }
 
   function attachInputHandler() {
@@ -136,7 +216,7 @@
     check('COMMANDS handles cd home alias',
       COMMANDS['cd home'] === '/about/');
     check('HIDDEN includes --panic',
-      HIDDEN.indexOf('--panic') !== -1);
+      HIDDEN.hasOwnProperty('--panic'));
 
     console.table(results);
     return results;
