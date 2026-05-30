@@ -72,7 +72,7 @@ term_title: "guest@oschei.com — ~ — zsh"
   <div class="author">Author: Oliver Scheiwiller &lt;<span class="email">operationsspecialist@apple</span>&gt;</div>
   <div class="date">Date:   Oct 2013 — May 2017 &nbsp;·&nbsp; Scottsdale, Arizona</div>
   <div class="blank">&nbsp;</div>
-  <div class="title">Operations Specialist, Mentor — <a href="https://www.apple.com/" rel="external noopener">Apple</a></div>
+  <div class="title">Operations Specialist, Mentor — <a href="https://www.apple.com/retail/scottsdalequarter/" rel="external noopener">Apple</a></div>
   <div class="blank">&nbsp;</div>
   <div class="bullet">Conducted Core training programs, enhancing readiness of new specialists and managers</div>
   <div class="bullet">Elevated store performance to top market position through faster delivery and order processing</div>
@@ -98,7 +98,7 @@ term_title: "guest@oschei.com — ~ — zsh"
   <div class="author">Author: Oliver Scheiwiller &lt;<span class="email">mscompsci@gatech</span>&gt;</div>
   <div class="date">Date:   Jan 2019 — May 2022 &nbsp;·&nbsp; Atlanta, Georgia</div>
   <div class="blank">&nbsp;</div>
-  <div class="title">MS, Computer Science (Interactive Intelligence) — <a href="https://www.cc.gatech.edu/" rel="external noopener">Georgia Institute of Technology</a></div>
+  <div class="title">MS, Computer Science (Interactive Intelligence) — <a href="https://omscs.gatech.edu/" rel="external noopener">Georgia Institute of Technology</a></div>
 </div>
 
 <div class="commit">
