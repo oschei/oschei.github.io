@@ -40,6 +40,8 @@ html[data-theme="light"] .run-block {
   margin: 0;
   overflow-x: auto;
 }
+.run-block__map .start { color: var(--success); }  // green start marker
+.run-block__map .end   { color: var(--accent);  }  // orange finish marker
 
 .run-block__stats {
   margin-top: 10px;

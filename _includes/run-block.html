@@ -4,7 +4,12 @@
   Behaviors:
   - Missing file / null activity → block omitted, page unaffected.
   - Stale: generated_at older than 30 days → "· stale" badge.
-  - ASCII map rendered verbatim; colored start/end dots are v2.
+  - ASCII map: per the producer contract (docs/strava-producer-spec.md),
+    ascii_map carries exactly two ● — the first is start, the last is
+    finish. Splitting on ● always yields 3 segments. We wrap the start
+    in .start (green) and the end in .end (orange). For loop routes the
+    middle segment is the empty string; for out-and-back routes it's the
+    body of the map. Either way the rendering is correct.
 {%- endcomment -%}
 {%- assign run = site.data.latest_run -%}
 {%- if run and run.activity -%}
@@ -29,7 +34,8 @@
       <a class="run-block__strava" href="{{ a.url }}" rel="external noopener" aria-label="Open this activity on Strava">↗ open in strava</a>
     </div>
 
-    <pre class="run-block__map" aria-label="Route map for the latest run">{{ a.ascii_map }}</pre>
+    {%- assign map_parts = a.ascii_map | split: "●" -%}
+    <pre class="run-block__map" aria-label="Route map for the latest run">{{ map_parts[0] }}<span class="start" aria-hidden="true">●</span>{{ map_parts[1] }}<span class="end" aria-hidden="true">●</span>{{ map_parts[2] }}</pre>
 
     <div class="run-block__stats">
       <span><span class="k">dist</span><span class="v--accent">{{ a.distance_km }} km</span></span>
