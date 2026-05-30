@@ -25,9 +25,8 @@ calendly_url: ""
 # Analytics — GoatCounter code (just the subdomain prefix)
 goatcounter_code: "oschei"
 
-# Image for OG card — PNG to be generated and committed later;
-# uncomment once available.
-# image: /assets/img/og-card.png
+# Image for OG card — terminal-style social preview, 1200×630.
+image: /assets/img/og-card.png
 
 # Theme
 theme: jekyll-theme-minimal
