@@ -1,0 +1,12 @@
+{
+  "name": "Oliver Scheiwiller",
+  "short_name": "oschei",
+  "description": "Runner and enterprise architect. Personal site.",
+  "start_url": "/about/",
+  "display": "standalone",
+  "background_color": "#1a1b26",
+  "theme_color": "#1a1b26",
+  "icons": [
+    { "src": "/assets/img/favicon.svg", "type": "image/svg+xml", "sizes": "any" }
+  ]
+}
