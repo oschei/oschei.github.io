@@ -68,7 +68,7 @@ will reflect the new data.
 | `activity.duration_human` | string | `"Xh YY"` when ≥ 1 hour, else `"YYm SS"`. Source: `moving_time` (seconds). |
 | `activity.pace_human` | string | Always `"M:SS/km"`. Source: `moving_time / distance_km`, then format as M:SS. |
 | `activity.elevation_gain_m` | int | Whole meters. Source: `total_elevation_gain`. Send `0` if missing. |
-| `activity.ascii_map` | string | Pre-rendered route as unicode box characters. Newlines as `\n` in JSON. **Max ~50 chars wide × ~10 lines tall.** See ASCII map section below. |
+| `activity.ascii_map` | string | Pre-rendered route as unicode box characters. Newlines as `\n` in JSON. **Max 44 chars wide × 10 rows tall.** Preserve the route's aspect ratio within those bounds — wide-shallow routes use fewer rows; tall-narrow routes use fewer columns. See ASCII map section below. |
 
 ---
 
@@ -104,11 +104,25 @@ all the work.
 Avoid double-line characters (`═ ║`) — they don't render consistently in
 all monospace fonts.
 
-### Width discipline
+### Grid sizing
 
-- Desktop comfortably shows ~50 chars wide.
-- Mobile narrows to ~30. Anything wider scrolls horizontally inside `<pre>`.
-- For mobile-readable maps, target ~40 chars wide.
+The site renders the map inside a two-column run-block. The map column
+sits next to a stats + description column that's ~120-140px tall, so a
+map of about 10 rows balances visually.
+
+- **Max width:** 44 chars
+- **Max height:** 10 rows
+- **Always preserve the route's bounding-box aspect ratio** within those
+  bounds — don't stretch a square loop into a wide rectangle.
+
+| route bbox aspect | recommended grid |
+|---|---|
+| wider than tall (W ≥ 2 × H) | ~44 wide × 4-6 rows |
+| roughly square | ~30 wide × ~7 rows |
+| taller than wide | ~20-25 wide × 10 rows |
+
+Mobile viewports can scroll the map horizontally if needed (the site's
+`<pre>` has `overflow-x: auto`), so don't shrink the map for mobile.
 
 ---
 
