@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{% assign p = page %}
+<div class="prompt" aria-hidden="true">
+  <span class="user">guest</span>@<span class="host">oschei.com</span><span class="sigil">:</span><span class="path">~/projects</span><span class="sigil">$</span> <span class="verb">cat</span> <span class="arg">{{ p.slug }}.md</span>
+</div>
+
+<pre class="yaml-card" role="presentation" aria-label="Project metadata">
+<span class="delim">---</span>
+<span class="key">project</span><span class="colon">:</span>  <span class="str">{{ p.slug }}</span>
+<span class="key">role</span><span class="colon">:</span>     <span class="str">{{ p.role }}</span>
+<span class="key">when</span><span class="colon">:</span>     <span class="str">{{ p.when }}</span>
+<span class="key">scope</span><span class="colon">:</span>    <span class="str">{{ p.scope }}</span>
+<span class="key">stack</span><span class="colon">:</span>    <span class="arr">[{{ p.stack | join: ", " }}]</span>
+<span class="key">status</span><span class="colon">:</span>   <span class="str">{{ p.status }}</span>
+{% if p.links %}<span class="key">links</span><span class="colon">:</span>    {% for l in p.links %}<a href="{{ l.url }}" rel="external noopener">→ {{ l.label }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
+<span class="delim">---</span>
+</pre>
+
+<article class="project-detail">
+  {{ content }}
+</article>
