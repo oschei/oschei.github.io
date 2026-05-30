@@ -1,0 +1,12 @@
+.err-line { color: var(--error); font-size: var(--fs-small); margin-bottom: 14px; }
+.dont-panic {
+  color: var(--text);
+  font-size: 20px;
+  font-weight: 700;
+  margin: 6px 0 14px;
+}
+.hint-line {
+  color: var(--comment);
+  font-size: var(--fs-small);
+  margin-top: 12px;
+}
