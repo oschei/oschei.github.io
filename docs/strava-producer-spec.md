@@ -9,7 +9,7 @@ automatically once you push.
 ## Goal
 
 Write a single JSON file describing your latest Strava run, commit it
-to the personal-site repo on the `main` branch, and push. GitHub Pages
+to the personal-site repo on the `master` branch, and push. GitHub Pages
 will rebuild the site (~30s) and the home page's "latest run" block
 will reflect the new data.
 
@@ -20,15 +20,15 @@ will reflect the new data.
 | | |
 |---|---|
 | Repo | `git@github.com:oschei/oschei.github.io.git` |
-| Branch | **`main`** (this is the only branch GitHub Pages builds from) |
+| Branch | **`master`** (this is the only branch GitHub Pages builds from for this repo) |
 | File path | `_data/latest_run.json` |
 | Trigger | Your choice — cron, post-activity webhook, or Strava polling. After a typical run, the JSON should land within a few minutes. |
-| Effect | Any commit pushed to `main` triggers a GitHub Pages rebuild. No further action needed. |
+| Effect | Any commit pushed to `master` triggers a GitHub Pages rebuild. No further action needed. |
 
-> **Important:** GitHub Pages rebuilds *only on push to `main`*. Branches,
-> PRs, and direct file uploads to the GitHub UI all work as long as the
-> result is a commit on `main`. If you commit to another branch or fork,
-> nothing happens.
+> **Important:** This repo uses `master` (the legacy default), not `main`.
+> GitHub Pages rebuilds *only on push to `master`*. Pushing to any other
+> branch (including `main`) deploys nothing. Make sure your push command
+> targets `master` explicitly: `git push origin HEAD:master`.
 
 ---
 
@@ -165,7 +165,7 @@ git config user.email "strava-bot@oschei.com"
 git add _data/latest_run.json
 git diff --quiet --cached && echo "No changes." && exit 0
 git commit -m "chore(strava): update latest run"
-git push origin main
+git push origin master
 ```
 
 ### Option B · deploy key
@@ -194,7 +194,7 @@ public repos but not infinite).
 ## What NOT to do
 
 - ❌ Don't modify any file other than `_data/latest_run.json`.
-- ❌ Don't push to any branch other than `main` (no rebuild trigger).
+- ❌ Don't push to any branch other than `master` (no rebuild trigger).
 - ❌ Don't include Strava OAuth tokens or any other secrets in the JSON.
 - ❌ Don't add markdown or HTML to the `description` — plain text only.
 - ❌ Don't render the ASCII map wider than ~50 chars (mobile layout breaks).
@@ -213,7 +213,7 @@ public repos but not infinite).
 ## Test
 
 1. Write a stub JSON matching the shape above (use real-ish numbers).
-2. `git commit && git push origin main`.
+2. `git commit && git push origin master`.
 3. Watch the GitHub Pages build at
    `https://github.com/oschei/oschei.github.io/actions` — should
    complete in ~30s.
@@ -221,5 +221,5 @@ public repos but not infinite).
    show your stub data.
 
 If it doesn't appear: check that `_data/latest_run.json` is valid JSON
-(`jq . _data/latest_run.json`), that the file is on `main`, and that
+(`jq . _data/latest_run.json`), that the file is on `master`, and that
 the GitHub Pages build succeeded.
