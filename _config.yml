@@ -25,8 +25,9 @@ calendly_url: "<TODO: open question 3 — calendly URL or leave empty>"
 # Analytics — set after creating the GoatCounter site
 goatcounter_code: ""
 
-# Image for OG card
-image: /assets/img/og-card.png
+# Image for OG card — PNG to be generated and committed later;
+# uncomment once available.
+# image: /assets/img/og-card.png
 
 # Theme
 theme: jekyll-theme-minimal
