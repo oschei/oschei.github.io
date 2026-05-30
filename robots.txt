@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /_data/
+Disallow: /_drafts/
+
+Sitemap: https://oschei.com/sitemap.xml
