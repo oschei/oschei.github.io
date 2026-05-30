@@ -32,9 +32,6 @@ image: /assets/img/og-card.png
 twitter:
   card: summary_large_image
 
-# Theme
-theme: jekyll-theme-minimal
-
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
@@ -72,7 +69,6 @@ include:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - jekyll-theme-minimal.gemspec
   - README.md
   - script/
   - vendor/
