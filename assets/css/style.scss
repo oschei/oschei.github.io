@@ -1,4 +1,11 @@
 ---
+# Front matter required so Jekyll runs SCSS preprocessor
 ---
 
-@import "jekyll-theme-minimal";
+@import "tokens";
+@import "fonts";
+@import "reset";
+@import "base";
+
+@import "components/chrome";
+@import "components/prompt";
