@@ -1,0 +1,9 @@
+{%- comment -%}
+  Renders a single carrot easter egg.
+  Usage: {% include carrot.html page="about" %}
+{%- endcomment -%}
+<button
+  type="button"
+  class="carrot"
+  data-carrot="{{ include.page }}"
+  aria-label="Easter egg from /{{ include.page }} — click to reveal a quote">🥕</button>
