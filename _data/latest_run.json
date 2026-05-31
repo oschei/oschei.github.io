@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-05-31T07:19:50Z",
+  "generated_at": "2026-05-31T08:08:14Z",
   "activity": {
     "id": "18724100548",
     "url": "https://www.strava.com/activities/18724100548",
     "date_label": "sun 31 may",
-    "description": "",
+    "description": "last night’s big ol’ bowl of pasta puttin in WORK today 🍝",
     "distance_km": 20.2,
     "duration_human": "1h 58",
-    "pace_human": "5:51/km",
+    "pace_human": "5:52/km",
     "elevation_gain_m": 87,
     "ascii_map": "   ╭●\n ╭─╯ ●\n╭┤   ├╮\n╰┤   ├┤\n ╰─┬┬┼╯\n   ├┼┤\n   ╰┴┴───╮\n         ╰─╮\n           ╰──╮\n              ╰─"
   }
