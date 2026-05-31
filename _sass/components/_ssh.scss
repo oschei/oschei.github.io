@@ -14,12 +14,6 @@
 }
 .ssh-list .row .k { color: var(--error); }
 .ssh-list .row .v { color: var(--text); }
-.ssh-list .row .v a {
-  color: var(--accent);
-  border-bottom: 1px dashed rgba(255, 158, 100, 0.4);
-}
-.ssh-list .row .v a:hover,
-.ssh-list .row .v a:focus-visible { border-bottom-style: solid; }
 .ssh-list .row .v .optional { color: var(--comment); font-size: var(--fs-mini); margin-left: 6px; }
 
 .ssh-logout { margin-top: 12px; }

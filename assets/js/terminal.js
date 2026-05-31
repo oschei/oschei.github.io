@@ -221,13 +221,10 @@
     }
 
     function position() {
-      var pos = (typeof input.selectionStart === 'number')
-        ? input.selectionStart
-        : input.value.length;
       // input.offsetLeft is the X within its positioning parent (the
       // field wrapper, position: relative). Pure math from here on —
       // no layout reads, no reflow.
-      cursor.style.left = (input.offsetLeft + pos * charWidth) + 'px';
+      cursor.style.left = (input.offsetLeft + input.selectionStart * charWidth) + 'px';
     }
 
     syncFont();
@@ -269,10 +266,6 @@
       }
     });
   }
-
-  // Expose the command executor so inline-cmd elements with `data-cmd`
-  // can trigger it via clicks. Same code path as typed commands.
-  window.__exec = execute;
 
   function attachInlineCmdClicks() {
     document.addEventListener('click', function (ev) {

@@ -33,13 +33,26 @@
       }
     })();
   </script>
-  {% include analytics.html %}
+  {%- if site.goatcounter_code and site.goatcounter_code != "" -%}
+  <script data-goatcounter="https://{{ site.goatcounter_code }}.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+  {%- endif -%}
 </head>
 <body>
   <a href="#main" class="skip-link">Skip to content</a>
 
   <div class="term">
-    {% include terminal-chrome.html title=page.term_title %}
+    <div class="term-chrome" role="presentation">
+      <span class="dot dot--r" aria-hidden="true"></span>
+      <span class="dot dot--y" aria-hidden="true"></span>
+      <span class="dot dot--g" aria-hidden="true"></span>
+      <span class="title" aria-hidden="true">{{ page.term_title | default: "guest@oschei.com — ~ — zsh" }}</span>
+      <span class="counter" id="carrot-counter" data-active="false" aria-live="polite" aria-atomic="true">
+        <span aria-hidden="true">🥕</span>
+        <span class="visually-hidden">Easter eggs found: </span>
+        <span id="carrot-counter-text">0/7</span>
+      </span>
+    </div>
     <main id="main" class="term-body">
       {%- comment -%}
         Back-link for any page that isn't home or 404. Project subpages
@@ -60,7 +73,30 @@
         </a>
       {%- endif -%}
       {{ content }}
-      {% include input-bar.html %}
+      <div class="input-bar">
+        <label for="cmd-input">
+          <span class="prompt" aria-hidden="true">
+            <span class="user">guest</span>@<span class="host">oschei.com</span><span class="sigil">:</span><span class="path">~</span><span class="sigil">$</span>
+          </span>
+          <span class="visually-hidden">Type a command</span>
+        </label>
+        <div class="input-bar__field">
+          <input
+            type="text"
+            id="cmd-input"
+            autocomplete="off"
+            autocapitalize="off"
+            spellcheck="false"
+            aria-describedby="cmd-hint cmd-feedback"
+            placeholder="cat about.md">
+          <span class="input-bar__cursor" id="cmd-cursor" aria-hidden="true"></span>
+          <span class="input-bar__measure" id="cmd-measure" aria-hidden="true"></span>
+        </div>
+        <span id="cmd-feedback" class="feedback" role="status" aria-live="polite"></span>
+        <span id="cmd-hint" class="hint">
+          # type a command (e.g. <code>cat about.md</code>), or tab to a link above
+        </span>
+      </div>
     </main>
     <button id="theme-toggle"
             class="theme-toggle"

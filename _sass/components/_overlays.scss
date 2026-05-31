@@ -98,15 +98,6 @@
   filter: drop-shadow(0 4px 16px rgba(255, 158, 100, 0.3));
 }
 
-.achievement__kicker {
-  color: var(--accent);
-  font-family: var(--font-mono);
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  font-size: var(--fs-mini);
-  margin: 6px 0 22px;
-}
-
 .achievement__quote {
   font-family: var(--font-mono);
   font-style: italic;
@@ -117,16 +108,6 @@
   padding: 0;
   // Override the default <blockquote> indent
   border: 0;
-}
-
-.achievement__stats {
-  color: var(--success);
-  font-family: var(--font-mono);
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  font-size: var(--fs-mini);
-  padding-top: 16px;
-  border-top: 1px dashed var(--border);
 }
 
 @keyframes overlay-fade-in {

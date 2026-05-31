@@ -119,6 +119,6 @@ term_title: "guest@oschei.com — ~ — zsh"
   <div class="title">Software Developer (Applikationsentwickler EFZ) — <a href="https://www.tbz.ch/" rel="external noopener">Technische Berufsschule Zürich</a></div>
 </div>
 
-<div style="text-align: right; margin-top: 14px;">
+<div class="carrot-corner">
   {% include carrot.html page="experience" %}
 </div>

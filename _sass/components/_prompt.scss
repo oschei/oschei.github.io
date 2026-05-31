@@ -11,16 +11,3 @@
 .prompt .verb { color: var(--info); margin-right: 4px; }
 .prompt .arg { color: var(--text); }
 .prompt .flag { color: var(--accent); }
-
-.cmd-line {
-  font-size: var(--fs-small);
-  color: var(--text);
-  margin-bottom: var(--sp-4);
-}
-
-// Inline shell comment used as a "tip" line
-.tip {
-  color: var(--comment);
-  font-size: var(--fs-small);
-  margin-top: var(--sp-3);
-}

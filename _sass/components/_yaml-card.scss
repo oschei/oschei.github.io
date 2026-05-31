@@ -60,9 +60,4 @@
 .yaml-card .str { color: var(--success); }
 .yaml-card .arr { color: var(--cyan); }
 
-.yaml-card a {
-  color: var(--accent);
-  border-bottom: 1px dashed rgba(255, 158, 100, 0.4);
-}
-.yaml-card a:hover,
-.yaml-card a:focus-visible { border-bottom-style: solid; }
+// Link styling lives in _base.scss with the other dashed-link contexts.

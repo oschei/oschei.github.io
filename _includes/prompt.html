@@ -2,13 +2,11 @@
   Renders the prompt line + (optional) a command being run.
 
   Usage:
-    {% include prompt.html %}                       → just the prompt
-    {% include prompt.html cmd="history" %}         → prompt + command
-    {% include prompt.html user="guest" host="oschei.com" path="~" cmd="cat about.md" %}
+    {% include prompt.html %}                 → just the prompt
+    {% include prompt.html cmd="history" %}   → prompt + command
+    {% include prompt.html path="~/projects" cmd="ls" %}   → custom path
 {%- endcomment -%}
-{%- assign user = include.user | default: "guest" -%}
-{%- assign host = include.host | default: "oschei.com" -%}
 {%- assign path = include.path | default: "~" -%}
 <div class="prompt" aria-hidden="true">
-  <span class="user">{{ user }}</span>@<span class="host">{{ host }}</span><span class="sigil">:</span><span class="path">{{ path }}</span><span class="sigil">$</span>{%- if include.cmd %} {{ include.cmd }}{%- endif %}
+  <span class="user">guest</span>@<span class="host">oschei.com</span><span class="sigil">:</span><span class="path">{{ path }}</span><span class="sigil">$</span>{%- if include.cmd %} {{ include.cmd }}{%- endif %}
 </div>

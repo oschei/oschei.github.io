@@ -93,6 +93,26 @@ code {
   border-radius: var(--radius-sm);
 }
 
+// Dashed-orange underline → solid on hover. Used inside the content
+// areas that have linked text (about page card, contact SSH list,
+// project detail, experience commit titles).
+.yaml-card a,
+.ssh-list .row .v a,
+.project-detail a,
+.commit .title a {
+  color: var(--accent);
+  border-bottom: 1px dashed rgba(255, 158, 100, 0.4);
+}
+.yaml-card a:hover,        .yaml-card a:focus-visible,
+.ssh-list .row .v a:hover, .ssh-list .row .v a:focus-visible,
+.project-detail a:hover,   .project-detail a:focus-visible,
+.commit .title a:hover,    .commit .title a:focus-visible {
+  border-bottom-style: solid;
+}
+
+// Right-aligned wrapper for the trailing carrot easter egg.
+.carrot-corner { text-align: right; margin-top: 14px; }
+
 // Visually-hidden utility for screen-reader-only text
 .visually-hidden {
   position: absolute;

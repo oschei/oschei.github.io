@@ -3,9 +3,3 @@
 .project-detail p { margin: 0 0 var(--sp-3); max-width: 60ch; }
 .project-detail ul { padding-left: 1.5em; margin: 0 0 var(--sp-3); }
 .project-detail ul li { list-style: disc; color: var(--text); margin-bottom: 4px; }
-.project-detail a {
-  color: var(--accent);
-  border-bottom: 1px dashed rgba(255, 158, 100, 0.4);
-}
-.project-detail a:hover,
-.project-detail a:focus-visible { border-bottom-style: solid; }

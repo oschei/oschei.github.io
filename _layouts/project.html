@@ -4,9 +4,8 @@ layout: default
 {% assign p = page %}
 <h1 class="visually-hidden">{{ p.title }}</h1>
 
-<div class="prompt" aria-hidden="true">
-  <span class="user">guest</span>@<span class="host">oschei.com</span><span class="sigil">:</span><span class="path">~/projects</span><span class="sigil">$</span> <span class="verb">cat</span> <span class="arg">{{ p.slug }}.md</span>
-</div>
+{%- capture _cat_cmd -%}<span class='verb'>cat</span> <span class='arg'>{{ p.slug }}.md</span>{%- endcapture -%}
+{% include prompt.html path="~/projects" cmd=_cat_cmd %}
 
 <pre class="yaml-card" role="presentation" aria-label="Project metadata">
 <span class="delim">---</span>
@@ -23,6 +22,6 @@ layout: default
 <article class="project-detail">
   {{ content }}
 </article>
-<div style="text-align: right; margin-top: 18px;">
+<div class="carrot-corner">
   {% include carrot.html page="project" %}
 </div>

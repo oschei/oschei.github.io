@@ -22,6 +22,6 @@ term_title: "guest@oschei.com — ~/projects — zsh"
 </a>
 {% endfor %}
 
-<div style="text-align: right; margin-top: 14px;">
+<div class="carrot-corner">
   {% include carrot.html page="projects" %}
 </div>

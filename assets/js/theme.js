@@ -7,9 +7,11 @@
   var KEY = 'oschei.theme';
 
   function currentTheme() {
-    var explicit = document.documentElement.getAttribute('data-theme');
-    if (explicit === 'dark' || explicit === 'light') return explicit;
-    return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    // <html data-theme> is hardcoded in the layout (default "dark") and
+    // the inline FOUC script in default.html only ever sets it to
+    // "dark" or "light" — never removes it. So the attribute is always
+    // present and well-formed.
+    return document.documentElement.getAttribute('data-theme');
   }
 
   function setTheme(next) {
