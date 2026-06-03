@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-02T10:36:48Z",
+  "generated_at": "2026-06-03T06:01:24Z",
   "activity": {
-    "id": "18753561533",
-    "url": "https://www.strava.com/activities/18753561533",
-    "date_label": "tue 2 jun",
+    "id": "18765647910",
+    "url": "https://www.strava.com/activities/18765647910",
+    "date_label": "wed 3 jun",
     "description": "",
-    "distance_km": 7.4,
-    "duration_human": "47m 12",
-    "pace_human": "6:24/km",
-    "elevation_gain_m": 55,
-    "ascii_map": "       ●─●┬┬──┬─\n          ╰┤  │\n           ╰─┬┤\n             ├┤\n            ╭┼╯\n           ╭┼╯\n          ─┼┤\n           ├┼┬╮\n        ╭──┴┴┴┴─\n────────╯"
+    "distance_km": 12.3,
+    "duration_human": "1h 15",
+    "pace_human": "6:10/km",
+    "elevation_gain_m": 86,
+    "ascii_map": "     ●─●┬┬┬──┬┬─\n        ╰┴┤  ├┤\n          │  ├┤\n          ╰─┬┼┤\n            ├┼╯\n           ─┼┤\n            ├╯\n   ╭┬┬┬─────╯\n ╭┬┼┼┼┤\n─┴┴┴┴┴╯"
   }
 }
