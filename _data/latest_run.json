@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-03T06:03:12Z",
+  "generated_at": "2026-06-04T06:52:14Z",
   "activity": {
-    "id": "18765647910",
-    "url": "https://www.strava.com/activities/18765647910",
-    "date_label": "wed 3 jun",
-    "description": "decided to give my shoes one last workout before retiring them 👟🔫",
-    "distance_km": 12.3,
-    "duration_human": "1h 15",
-    "pace_human": "6:10/km",
-    "elevation_gain_m": 86,
-    "ascii_map": "     ●─●┬┬┬──┬┬─\n        ╰┴┤  ├┤\n          │  ├┤\n          ╰─┬┼┤\n            ├┼╯\n           ─┼┤\n            ├╯\n   ╭┬┬┬─────╯\n ╭┬┼┼┼┤\n─┴┴┴┴┴╯"
+    "id": "18779754096",
+    "url": "https://www.strava.com/activities/18779754096",
+    "date_label": "thu 4 jun",
+    "description": "",
+    "distance_km": 10.8,
+    "duration_human": "1h 08",
+    "pace_human": "6:18/km",
+    "elevation_gain_m": 78,
+    "ascii_map": "       ●─●┬┬╮\n         ╰┴┼┤\n           ├╯\n          ╭┤\n         ╭┼┤\n         ├┼┼╮\n   ╭┬────┴┴┴╯\n ╭┬┼┤\n─┴┴┴┴───┬╮\n        ╰┴──────"
   }
 }
