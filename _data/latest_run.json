@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-04T07:31:31Z",
+  "generated_at": "2026-06-06T06:48:23Z",
   "activity": {
-    "id": "18779754096",
-    "url": "https://www.strava.com/activities/18779754096",
-    "date_label": "thu 4 jun",
-    "description": "breaking in the new shoes\nfun fact: my first ever 10k in october 2024 was also in new shoes and was 6:57km pace all out effort lol",
-    "distance_km": 10.8,
-    "duration_human": "1h 08",
-    "pace_human": "6:18/km",
-    "elevation_gain_m": 78,
-    "ascii_map": "       ●─●┬┬╮\n         ╰┴┼┤\n           ├╯\n          ╭┤\n         ╭┼┤\n         ├┼┼╮\n   ╭┬────┴┴┴╯\n ╭┬┼┤\n─┴┴┴┴───┬╮\n        ╰┴──────"
+    "id": "18805142266",
+    "url": "https://www.strava.com/activities/18805142266",
+    "date_label": "sat 6 jun",
+    "description": "we’re locked in twin 🤞",
+    "distance_km": 11.3,
+    "duration_human": "1h 09",
+    "pace_human": "6:11/km",
+    "elevation_gain_m": 59,
+    "ascii_map": "       ╭───────●\n       │\n      ╭╯\n      │\n ●┬┬──╯\n  ╰┤\n   │\n  ╭┤\n  ├┤\n──┴╯"
   }
 }
