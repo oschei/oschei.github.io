@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-06T06:48:23Z",
+  "generated_at": "2026-06-07T07:12:57Z",
   "activity": {
-    "id": "18805142266",
-    "url": "https://www.strava.com/activities/18805142266",
-    "date_label": "sat 6 jun",
-    "description": "we’re locked in twin 🤞",
-    "distance_km": 11.3,
-    "duration_human": "1h 09",
-    "pace_human": "6:11/km",
-    "elevation_gain_m": 59,
-    "ascii_map": "       ╭───────●\n       │\n      ╭╯\n      │\n ●┬┬──╯\n  ╰┤\n   │\n  ╭┤\n  ├┤\n──┴╯"
+    "id": "18818874390",
+    "url": "https://www.strava.com/activities/18818874390",
+    "date_label": "sun 7 jun",
+    "description": "should’ve just done the extra 2min tbh but at least I got to see baby-ish ducks 🐥🦆",
+    "distance_km": 20.4,
+    "duration_human": "1h 58",
+    "pace_human": "5:49/km",
+    "elevation_gain_m": 103,
+    "ascii_map": "   ╭●\n ╭─╯ ●\n╭┤   ├─\n╰┤   │\n ╰─┬┬┼─\n   ├┼┤\n   ╰┴┴───╮\n         ╰─╮\n           ╰─┬╮\n             ╰┴─"
   }
 }
