@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-07T07:12:57Z",
+  "generated_at": "2026-06-10T10:57:01Z",
   "activity": {
-    "id": "18818874390",
-    "url": "https://www.strava.com/activities/18818874390",
-    "date_label": "sun 7 jun",
-    "description": "should’ve just done the extra 2min tbh but at least I got to see baby-ish ducks 🐥🦆",
-    "distance_km": 20.4,
-    "duration_human": "1h 58",
-    "pace_human": "5:49/km",
-    "elevation_gain_m": 103,
-    "ascii_map": "   ╭●\n ╭─╯ ●\n╭┤   ├─\n╰┤   │\n ╰─┬┬┼─\n   ├┼┤\n   ╰┴┴───╮\n         ╰─╮\n           ╰─┬╮\n             ╰┴─"
+    "id": "18862829000",
+    "url": "https://www.strava.com/activities/18862829000",
+    "date_label": "wed 10 jun",
+    "description": "only highlight today was the guy who I’ve never spoken to but we wave to each other every morning",
+    "distance_km": 7.3,
+    "duration_human": "45m 57",
+    "pace_human": "6:19/km",
+    "elevation_gain_m": 59,
+    "ascii_map": "       ●─●┬┬──┬─\n          ╰┤  │\n           ╰─┬┤\n             ├┤\n            ╭┼╯\n          ╭┬┼╯\n          ├┼┤\n          ├┼┼┬╮\n        ╭┬┴┴┴┴┴─\n────────┴╯"
   }
 }
