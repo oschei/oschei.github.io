@@ -1,10 +1,10 @@
 ---
 slug: trail-terminal
-date: 2025-05-12
+date: 2026-05-30
 weight: 3.4M
 gloss: this site
 role: designer + developer
-when: 2025
+when: 2026
 scope: personal site redesign
 stack: [Jekyll, Liquid, Sass, GoatCounter]
 status: live

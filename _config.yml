@@ -56,6 +56,7 @@ defaults:
       type: projects
     values:
       layout: project
+      term_title: "guest@oschei.com — ~/projects — zsh"
 
 # Files / directories Jekyll should process even though they start with _
 include:

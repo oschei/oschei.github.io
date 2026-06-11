@@ -2,7 +2,7 @@
 permalink: /experience/
 title: Resume
 description: Enterprise Architect at Scandit. Previously Deloitte, Bridgewater, IBM, onsemi, OIZ. Includes CV / résumé details.
-term_title: "guest@oschei.com — ~ — zsh"
+term_title: "guest@oschei.com — git log experience — zsh"
 ---
 
 <h1 class="visually-hidden">Resume — Oliver Scheiwiller</h1>
