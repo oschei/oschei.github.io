@@ -21,7 +21,7 @@ term_title: "guest@oschei.com — man oschei — zsh"
 <div class="man-body">
 Jekyll · GitHub Pages · GoatCounter (cookie-less analytics).<br>
 JetBrains Mono · Tokyo Night palette. Self-hosted fonts.<br>
-Hand-written. No frameworks. No tracking cookies.
+No frameworks. No tracking cookies.
 </div>
 
 <div class="man-section">ACCESSIBILITY</div>

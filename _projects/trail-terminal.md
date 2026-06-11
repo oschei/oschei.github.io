@@ -8,6 +8,7 @@ when: 2025
 scope: personal site redesign
 stack: [Jekyll, Liquid, Sass, GoatCounter]
 status: live
+carrot: true
 links:
   - { label: "github", url: "https://github.com/oschei/oschei.github.io" }
   - { label: "live site", url: "https://oschei.com" }

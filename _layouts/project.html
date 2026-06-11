@@ -22,6 +22,8 @@ layout: default
 <article class="project-detail">
   {{ content }}
 </article>
+{% if page.carrot %}
 <div class="carrot-corner">
   {% include carrot.html page="project" %}
 </div>
+{% endif %}
