@@ -16,7 +16,9 @@ term_title: "guest@oschei.com — ~ — zsh"
   <div class="blank">&nbsp;</div>
   <div class="title">Enterprise Architect, previously Senior Project Manager — <a href="https://www.scandit.com/" rel="external noopener">Scandit</a></div>
   <div class="blank">&nbsp;</div>
-  <div class="bullet">Ensure cohesive system alignment by managing integration, data strategy, and cross-platform interoperability</div>
+  <div class="bullet">Drive enterprise applications roadmap managing integration, data strategy, and cross-platform compatibility</div>
+  <div class="bullet">Applied LLM and agentic tooling to replace Tableau reporting, perform data migrations, and save licensing costs</div>
+  <div class="bullet">Architected and shipped a new self-serve motion, automating purchasing and fulfillment systems and processes</div>
   <div class="bullet">Mitigate technical risks across enterprise systems to safeguard operational continuity</div>
   <div class="bullet">Lead cross-functional transformation initiatives aligned with key strategic objectives</div>
 </div>
@@ -28,9 +30,10 @@ term_title: "guest@oschei.com — ~ — zsh"
   <div class="blank">&nbsp;</div>
   <div class="title">Senior Consultant — <a href="https://www.deloitte.com/ch/en/services/consulting/services/technology-strategy-and-transformation.html" rel="external noopener">Deloitte</a></div>
   <div class="blank">&nbsp;</div>
-  <div class="bullet">Shaped Technology Operating Models to define target states for enterprise-wide IT transformations</div>
+  <div class="bullet">Shaped Technology Operating Models to define target states for large enterprise IT transformations</div>
+  <div class="bullet">Translated client requirements into target-state recommendations within lean 2-3 person strategy teams</div>
   <div class="bullet">Orchestrated team talent initiatives including hiring, onboarding, and performance management</div>
-  <div class="bullet">Drove development of cross-industry client proposals and bids, resulting in new project wins</div>
+  <div class="bullet">Developed cross-industry client proposals and RFP responses, contributing to new project wins</div>
 </div>
 
 <div class="commit">
@@ -86,7 +89,7 @@ term_title: "guest@oschei.com — ~ — zsh"
   <div class="author">Author: Oliver Scheiwiller &lt;<span class="email">applikationsentwickler@oiz</span>&gt;</div>
   <div class="date">Date:   Aug 2008 — Aug 2012 &nbsp;·&nbsp; Zürich, Switzerland</div>
   <div class="blank">&nbsp;</div>
-  <div class="title">Software Developer (Applikationsentwickler EFZ) — <a href="https://www.stadt-zuerich.ch/de/politik-und-verwaltung/stadtverwaltung/fd/oiz.html" rel="external noopener">Stadt Zürich, Organisation und Informatik</a></div>
+  <div class="title">Software Developer (Applikationsentwickler EFZ), Mentor — <a href="https://www.stadt-zuerich.ch/de/politik-und-verwaltung/stadtverwaltung/fd/oiz.html" rel="external noopener">Stadt Zürich, Organisation und Informatik</a></div>
   <div class="blank">&nbsp;</div>
   <div class="bullet">Implemented application to support the accurate tabulation of ballots for the City of Zurich election process</div>
   <div class="bullet">Modernized database systems by developing .NET WPF applications to replace legacy Access databases</div>
