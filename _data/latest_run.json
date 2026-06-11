@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-10T10:57:01Z",
+  "generated_at": "2026-06-11T07:20:36Z",
   "activity": {
-    "id": "18862829000",
-    "url": "https://www.strava.com/activities/18862829000",
-    "date_label": "wed 10 jun",
-    "description": "only highlight today was the guy who I’ve never spoken to but we wave to each other every morning",
+    "id": "18874513428",
+    "url": "https://www.strava.com/activities/18874513428",
+    "date_label": "thu 11 jun",
+    "description": "bro thinks he’s being sneaky we all see you dingus",
     "distance_km": 7.3,
-    "duration_human": "45m 57",
-    "pace_human": "6:19/km",
-    "elevation_gain_m": 59,
-    "ascii_map": "       ●─●┬┬──┬─\n          ╰┤  │\n           ╰─┬┤\n             ├┤\n            ╭┼╯\n          ╭┬┼╯\n          ├┼┤\n          ├┼┼┬╮\n        ╭┬┴┴┴┴┴─\n────────┴╯"
+    "duration_human": "46m 21",
+    "pace_human": "6:22/km",
+    "elevation_gain_m": 61,
+    "ascii_map": "       ●─●┬┬──┬─\n          ╰┤  │\n           ╰─┬┤\n             ├╯\n            ╭┤\n          ╭┬┼╯\n          ├┼┤\n          ├┼┼┬╮\n        ╭┬┴┴┴┴┴─\n────────┴╯"
   }
 }
