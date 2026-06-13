@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-11T07:20:36Z",
+  "generated_at": "2026-06-13T07:12:51Z",
   "activity": {
-    "id": "18874513428",
-    "url": "https://www.strava.com/activities/18874513428",
-    "date_label": "thu 11 jun",
-    "description": "bro thinks he’s being sneaky we all see you dingus",
-    "distance_km": 7.3,
-    "duration_human": "46m 21",
-    "pace_human": "6:22/km",
-    "elevation_gain_m": 61,
-    "ascii_map": "       ●─●┬┬──┬─\n          ╰┤  │\n           ╰─┬┤\n             ├╯\n            ╭┤\n          ╭┬┼╯\n          ├┼┤\n          ├┼┼┬╮\n        ╭┬┴┴┴┴┴─\n────────┴╯"
+    "id": "18898837728",
+    "url": "https://www.strava.com/activities/18898837728",
+    "date_label": "sat 13 jun",
+    "description": "deloading the runs loading the caffeine",
+    "distance_km": 12.3,
+    "duration_human": "1h 17",
+    "pace_human": "6:16/km",
+    "elevation_gain_m": 62,
+    "ascii_map": "      ╭┬────╮\n      ├╯    ╰─●─\n     ╭╯\n     │\n ●┬┬─╯\n  ├┤\n  ├╯\n  │\n  ├╮\n──┴╯"
   }
 }
