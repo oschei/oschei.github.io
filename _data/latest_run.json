@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-13T07:12:51Z",
+  "generated_at": "2026-06-14T06:27:49Z",
   "activity": {
-    "id": "18898837728",
-    "url": "https://www.strava.com/activities/18898837728",
-    "date_label": "sat 13 jun",
-    "description": "deloading the runs loading the caffeine",
-    "distance_km": 12.3,
-    "duration_human": "1h 17",
-    "pace_human": "6:16/km",
-    "elevation_gain_m": 62,
-    "ascii_map": "      ╭┬────╮\n      ├╯    ╰─●─\n     ╭╯\n     │\n ●┬┬─╯\n  ├┤\n  ├╯\n  │\n  ├╮\n──┴╯"
+    "id": "18912048488",
+    "url": "https://www.strava.com/activities/18912048488",
+    "date_label": "sun 14 jun",
+    "description": "short loop almost doesn’t even feel worthy of a sweet treat reward",
+    "distance_km": 9.0,
+    "duration_human": "57m 20",
+    "pace_human": "6:21/km",
+    "elevation_gain_m": 40,
+    "ascii_map": "         ╭●─\n   ╭─────╯\n  ─┤\n   │        ●─╮\n  ╭╯          ├╮\n─┬┤           ├╯\n ╰┼╮          │\n  ╰┴─╮       ─┤\n     ╰╮       ├─\n      ╰───────╯"
   }
 }
