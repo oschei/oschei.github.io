@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-20T09:17:45Z",
+  "generated_at": "2026-06-21T07:16:09Z",
   "activity": {
-    "id": "18993853238",
-    "url": "https://www.strava.com/activities/18993853238",
-    "date_label": "sat 20 jun",
-    "description": "city took a beating from the storm last night",
-    "distance_km": 10.9,
-    "duration_human": "1h 14",
-    "pace_human": "6:47/km",
-    "elevation_gain_m": 65,
-    "ascii_map": "        ╭──────●\n       ╭┤\n      ╭┼╯\n      ├┤\n  ●┬──┴╯\n  ╰┤\n   │\n  ╭┤\n  ├┼─\n──┴╯"
+    "id": "19005612027",
+    "url": "https://www.strava.com/activities/19005612027",
+    "date_label": "sun 21 jun",
+    "description": "poor thing got the sweatiest pets ever",
+    "distance_km": 20.2,
+    "duration_human": "1h 55",
+    "pace_human": "5:43/km",
+    "elevation_gain_m": 103,
+    "ascii_map": "   ╭●\n ╭─╯ ●\n╭┤   ├╮\n╰┤   ├┤\n ╰─┬┬┼╯\n   ├┼┤\n   ╰┴┴───╮\n         ╰─╮\n           ╰──╮\n              ╰─"
   }
 }
