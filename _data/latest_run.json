@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-24T05:34:22Z",
+  "generated_at": "2026-06-25T06:33:15Z",
   "activity": {
-    "id": "19044746011",
-    "url": "https://www.strava.com/activities/19044746011",
-    "date_label": "wed 24 jun",
-    "description": "there were a bunch of seniors doing a group workout at the track and one of them said “wow he’s fast” so I can only assume she left her glasses at home but it still boosted the ego ngl",
-    "distance_km": 8.7,
-    "duration_human": "55m 25",
-    "pace_human": "6:21/km",
-    "elevation_gain_m": 38,
-    "ascii_map": "       ●─────┬┬─\n             ├┤\n             ├┤\n             ├╯\n             │\n           ─┬┤\n            ├╯\n   ╭┬┬──────╯\n ╭●┼┼┤\n─┴┴┴┴┴─"
+    "id": "19058061465",
+    "url": "https://www.strava.com/activities/19058061465",
+    "date_label": "thu 25 jun",
+    "description": "finally managed to drop the hr a bit (by not running the usual final uphill but who’s checking right)",
+    "distance_km": 10.5,
+    "duration_human": "1h 07",
+    "pace_human": "6:26/km",
+    "elevation_gain_m": 66,
+    "ascii_map": "       ●─╮  ●\n         ╰─┬┤\n           ├╯\n          ╭┤\n         ─┼┤\n          ├┼╮\n   ╭┬─────┴┴╯\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
   }
 }
