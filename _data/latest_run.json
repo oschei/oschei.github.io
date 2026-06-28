@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-25T06:33:15Z",
+  "generated_at": "2026-06-28T06:53:11Z",
   "activity": {
-    "id": "19058061465",
-    "url": "https://www.strava.com/activities/19058061465",
-    "date_label": "thu 25 jun",
-    "description": "finally managed to drop the hr a bit (by not running the usual final uphill but who’s checking right)",
-    "distance_km": 10.5,
-    "duration_human": "1h 07",
-    "pace_human": "6:26/km",
-    "elevation_gain_m": 66,
-    "ascii_map": "       ●─╮  ●\n         ╰─┬┤\n           ├╯\n          ╭┤\n         ─┼┤\n          ├┼╮\n   ╭┬─────┴┴╯\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
+    "id": "19093957536",
+    "url": "https://www.strava.com/activities/19093957536",
+    "date_label": "sun 28 jun",
+    "description": "fox sighting!!! cameos from my best bird friend and early morning street crossers 🐈‍⬛",
+    "distance_km": 18.9,
+    "duration_human": "1h 49",
+    "pace_human": "5:48/km",
+    "elevation_gain_m": 82,
+    "ascii_map": "   ╭●\n ╭─╯\n │   ●╮\n─┤    │\n ╰╮  ╭┤\n  ╰┬┬┼┤\n   ╰┴┴┴╮\n       ╰───┬╮\n           ╰┴╮\n             ╰──"
   }
 }
