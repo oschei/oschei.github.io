@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-28T06:53:11Z",
+  "generated_at": "2026-06-30T07:17:18Z",
   "activity": {
-    "id": "19093957536",
-    "url": "https://www.strava.com/activities/19093957536",
-    "date_label": "sun 28 jun",
-    "description": "fox sighting!!! cameos from my best bird friend and early morning street crossers 🐈‍⬛",
-    "distance_km": 18.9,
-    "duration_human": "1h 49",
-    "pace_human": "5:48/km",
-    "elevation_gain_m": 82,
-    "ascii_map": "   ╭●\n ╭─╯\n │   ●╮\n─┤    │\n ╰╮  ╭┤\n  ╰┬┬┼┤\n   ╰┴┴┴╮\n       ╰───┬╮\n           ╰┴╮\n             ╰──"
+    "id": "19119862984",
+    "url": "https://www.strava.com/activities/19119862984",
+    "date_label": "tue 30 jun",
+    "description": "heat down humidity up",
+    "distance_km": 10.8,
+    "duration_human": "1h 08",
+    "pace_human": "6:20/km",
+    "elevation_gain_m": 73,
+    "ascii_map": "        ●●┬┬╮\n         ╰┴┼┤\n           ├╯\n           │\n         ╭┬┤\n         ├┼┼╮\n   ╭┬────┴┴┴╯\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
   }
 }
