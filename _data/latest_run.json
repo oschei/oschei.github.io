@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-30T07:17:18Z",
+  "generated_at": "2026-07-01T13:24:23Z",
   "activity": {
-    "id": "19119862984",
-    "url": "https://www.strava.com/activities/19119862984",
-    "date_label": "tue 30 jun",
-    "description": "heat down humidity up",
-    "distance_km": 10.8,
-    "duration_human": "1h 08",
-    "pace_human": "6:20/km",
-    "elevation_gain_m": 73,
-    "ascii_map": "        ●●┬┬╮\n         ╰┴┼┤\n           ├╯\n           │\n         ╭┬┤\n         ├┼┼╮\n   ╭┬────┴┴┴╯\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
+    "id": "19137378993",
+    "url": "https://www.strava.com/activities/19137378993",
+    "date_label": "wed 1 jul",
+    "description": "s/o my job for giving us a day to do something fun",
+    "distance_km": 10.7,
+    "duration_human": "1h 01",
+    "pace_human": "5:48/km",
+    "elevation_gain_m": 35,
+    "ascii_map": "●╮\n├┤\n╰┤\n ╰──╮\n    ╰╮\n     ╰─╮\n       ╰─╮\n         ╰──╮\n            ╰─╮\n              ╰●"
   }
 }
