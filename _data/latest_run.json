@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-02T06:35:08Z",
+  "generated_at": "2026-07-04T06:44:43Z",
   "activity": {
-    "id": "19146494787",
-    "url": "https://www.strava.com/activities/19146494787",
-    "date_label": "thu 2 jul",
-    "description": "cooler weather giving me that ego boost",
-    "distance_km": 10.8,
-    "duration_human": "1h 05",
-    "pace_human": "6:03/km",
-    "elevation_gain_m": 73,
-    "ascii_map": "       ●─●┬┬╮\n         ╰┴┼┤\n           ├╯\n           │\n         ─┬┤\n          ├┼╮\n   ╭┬─────┴┴╯\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
+    "id": "19171365587",
+    "url": "https://www.strava.com/activities/19171365587",
+    "date_label": "sat 4 jul",
+    "description": "feelin’ like shrek today",
+    "distance_km": 10.9,
+    "duration_human": "1h 06",
+    "pace_human": "6:10/km",
+    "elevation_gain_m": 55,
+    "ascii_map": "        ╭┬─────●\n        ├╯\n      ╭┬╯\n      ├┤\n  ●┬──┴╯\n  ╰┤\n   │\n  ╭┤\n  ├┼─\n──┴╯"
   }
 }
