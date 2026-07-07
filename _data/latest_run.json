@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-05T07:30:39Z",
+  "generated_at": "2026-07-07T05:59:51Z",
   "activity": {
-    "id": "19184790046",
-    "url": "https://www.strava.com/activities/19184790046",
-    "date_label": "sun 5 jul",
-    "description": "galloping through fourth of july weekend",
-    "distance_km": 18.9,
-    "duration_human": "1h 47",
-    "pace_human": "5:40/km",
-    "elevation_gain_m": 89,
-    "ascii_map": "   ╭●\n ╭─╯\n │   ●╮\n─┤    │\n ╰╮  ╭┤\n  ╰┬┬┼┤\n   ╰┴┴┴╮\n       ╰───┬╮\n           ╰┴╮\n             ╰──"
+    "id": "19209970604",
+    "url": "https://www.strava.com/activities/19209970604",
+    "date_label": "tue 7 jul",
+    "description": "it really shouldn’t bother me but my runna prediction dropping when I run a recovery pace pmo fr",
+    "distance_km": 10.8,
+    "duration_human": "1h 07",
+    "pace_human": "6:16/km",
+    "elevation_gain_m": 75,
+    "ascii_map": "        ●●┬┬╮\n         ╰┴┼┤\n           ├╯\n           │\n         ─┬┤\n          ├┼╮\n   ╭┬─────┴┴╯\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
   }
 }
