@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-08T05:34:25Z",
+  "generated_at": "2026-07-09T06:21:20Z",
   "activity": {
-    "id": "19223977464",
-    "url": "https://www.strava.com/activities/19223977464",
-    "date_label": "wed 8 jul",
-    "description": "feelin’ holey today 😇",
+    "id": "19238438248",
+    "url": "https://www.strava.com/activities/19238438248",
+    "date_label": "thu 9 jul",
+    "description": "who can help me id using this blurry ahh photo⁉️ also baby ducks 🐣",
     "distance_km": 10.8,
-    "duration_human": "1h 02",
-    "pace_human": "5:46/km",
-    "elevation_gain_m": 41,
-    "ascii_map": "       ●─────┬┬─\n             ├┤\n             ├┤\n             ├┤\n             ├╯\n            ╭╯\n            │\n    ╭───────╯\n ●┬┬┤\n─┴┴┴┴──"
+    "duration_human": "1h 06",
+    "pace_human": "6:07/km",
+    "elevation_gain_m": 76,
+    "ascii_map": "       ●●┬┬┬╮\n         ╰┴┼┤\n           ├╯\n           │\n         ╭┬┤\n         ├┼┼╮\n   ╭┬────┴┴┴╯\n╭┬┬┼┤\n╰┴┴┴┴───┬╮\n        ╰┴──────"
   }
 }
