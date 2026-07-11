@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-09T06:23:21Z",
+  "generated_at": "2026-07-11T06:15:10Z",
   "activity": {
-    "id": "19238438248",
-    "url": "https://www.strava.com/activities/19238438248",
-    "date_label": "thu 9 jul",
-    "description": "who can help me id using this blurry ahh photo⁉️ also baby ducks 🐣",
-    "distance_km": 10.8,
-    "duration_human": "1h 06",
-    "pace_human": "6:07/km",
-    "elevation_gain_m": 76,
-    "ascii_map": "        ●●┬┬╮\n         ╰┴┼┤\n           ├╯\n           │\n         ─┬┤\n          ├┼╮\n   ╭┬─────┴┴╯\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
+    "id": "19263922066",
+    "url": "https://www.strava.com/activities/19263922066",
+    "date_label": "sat 11 jul",
+    "description": "about midway through my run, I heard a bike slowing down behind me, so I turned around to see if I was in the way and the biker says to me, “you’re late” - absolutely no clue who this lad is.…",
+    "distance_km": 10.9,
+    "duration_human": "1h 05",
+    "pace_human": "6:02/km",
+    "elevation_gain_m": 52,
+    "ascii_map": "        ╭┬─────●\n        ├╯\n      ╭┬╯\n      ├┤\n  ●┬──┴╯\n  ╰┤\n   │\n  ╭┤\n  ├┤\n──┴╯"
   }
 }
