@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-11T06:15:10Z",
+  "generated_at": "2026-07-12T07:33:33Z",
   "activity": {
-    "id": "19263922066",
-    "url": "https://www.strava.com/activities/19263922066",
-    "date_label": "sat 11 jul",
-    "description": "about midway through my run, I heard a bike slowing down behind me, so I turned around to see if I was in the way and the biker says to me, “you’re late” - absolutely no clue who this lad is.…",
-    "distance_km": 10.9,
-    "duration_human": "1h 05",
-    "pace_human": "6:02/km",
-    "elevation_gain_m": 52,
-    "ascii_map": "        ╭┬─────●\n        ├╯\n      ╭┬╯\n      ├┤\n  ●┬──┴╯\n  ╰┤\n   │\n  ╭┤\n  ├┤\n──┴╯"
+    "id": "19277685165",
+    "url": "https://www.strava.com/activities/19277685165",
+    "date_label": "sun 12 jul",
+    "description": "always a bit of an ego bruiser to stop shy of HM distance in these situations but just happy to beat the extreme heat with early am runs",
+    "distance_km": 20.4,
+    "duration_human": "1h 53",
+    "pace_human": "5:34/km",
+    "elevation_gain_m": 87,
+    "ascii_map": "   ╭●\n ╭─╯ ●\n╭┤   │\n╰┤   │\n ╰─┬┬┼─\n   ├┼┤\n   ╰┴┴───╮\n         ╰┬╮\n          ╰┴─┬╮\n             ╰┴─"
   }
 }
