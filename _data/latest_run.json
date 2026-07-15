@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-14T05:49:06Z",
+  "generated_at": "2026-07-15T05:16:25Z",
   "activity": {
-    "id": "19304067628",
-    "url": "https://www.strava.com/activities/19304067628",
-    "date_label": "tue 14 jul",
-    "description": "deload week means more free time 😩 now what’s my excuse?",
+    "id": "19318397180",
+    "url": "https://www.strava.com/activities/19318397180",
+    "date_label": "wed 15 jul",
+    "description": "you can tell they were up to no good based on how they looked at me when I found them tusslin’ in the bushes",
     "distance_km": 7.2,
-    "duration_human": "45m 29",
-    "pace_human": "6:17/km",
-    "elevation_gain_m": 56,
-    "ascii_map": "       ●─●┬┬──┬─\n          ╰┤  │\n           ╰─┬┤\n             ├┤\n            ╭┼╯\n            ├╯\n          ╭┬┤\n          ├┼┼╮\n         ╭┴┴┴┴──\n─────────╯"
+    "duration_human": "44m 20",
+    "pace_human": "6:07/km",
+    "elevation_gain_m": 90,
+    "ascii_map": "       ●─●┬┬──┬─\n          ╰┤  │\n           ╰─┬┤\n             ├┤\n             ├╯\n           ╭┬╯\n          ╭┼┤\n          ├┼┼╮\n        ╭┬┴┴┴┴──\n────────┴╯"
   }
 }
