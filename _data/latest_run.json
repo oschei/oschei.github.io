@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-16T05:25:00Z",
+  "generated_at": "2026-07-18T07:52:12Z",
   "activity": {
-    "id": "19332006441",
-    "url": "https://www.strava.com/activities/19332006441",
-    "date_label": "thu 16 jul",
-    "description": "praise be to the most high for these cool mornings",
-    "distance_km": 6.9,
-    "duration_human": "43m 06",
-    "pace_human": "6:15/km",
-    "elevation_gain_m": 58,
-    "ascii_map": "       ●┬┬┬╮\n  ●────┴┴┴┴┼┬┬╮\n           ╰┴┼┤\n             ├┤\n             ├╯\n           ╭┬╯\n          ─┼┤\n           ├┼┬╮\n         ╭─┴┴┴┴─\n─────────╯"
+    "id": "19358686021",
+    "url": "https://www.strava.com/activities/19358686021",
+    "date_label": "sat 18 jul",
+    "description": "feeling like a boatpilled sinkmaxxer",
+    "distance_km": 11.1,
+    "duration_human": "1h 08",
+    "pace_human": "6:11/km",
+    "elevation_gain_m": 53,
+    "ascii_map": "        ╭─────●─\n       ╭╯\n      ╭╯\n      │\n  ●┬──┴─\n  ╰┤\n   │\n  ╭┤\n  ├┤\n──┴╯"
   }
 }
