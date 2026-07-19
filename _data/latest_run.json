@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-18T07:52:12Z",
+  "generated_at": "2026-07-19T07:42:46Z",
   "activity": {
-    "id": "19358686021",
-    "url": "https://www.strava.com/activities/19358686021",
-    "date_label": "sat 18 jul",
-    "description": "feeling like a boatpilled sinkmaxxer",
-    "distance_km": 11.1,
-    "duration_human": "1h 08",
-    "pace_human": "6:11/km",
-    "elevation_gain_m": 53,
-    "ascii_map": "        ╭─────●─\n       ╭╯\n      ╭╯\n      │\n  ●┬──┴─\n  ╰┤\n   │\n  ╭┤\n  ├┤\n──┴╯"
+    "id": "19371918041",
+    "url": "https://www.strava.com/activities/19371918041",
+    "date_label": "sun 19 jul",
+    "description": "top 3 athletic achievements this weekend: josh kerr mile wr, pogi tdf breakaway, my deload week recovery pace long run. i will not be taking questions at this time THANK YOU FOR YOUR ATTENTION TO THIS MATTER",
+    "distance_km": 16.5,
+    "duration_human": "1h 32",
+    "pace_human": "5:38/km",
+    "elevation_gain_m": 81,
+    "ascii_map": "    ╭●\n ╭┬─╯\n ├┤   ●╮\n─┼┤    │\n ╰┤    │\n  ╰─┬┬─┴─\n    ╰┤\n     ╰─────╮\n           ╰───╮\n               │"
   }
 }
