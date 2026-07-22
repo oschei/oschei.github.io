@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-21T18:24:43Z",
+  "generated_at": "2026-07-22T05:56:02Z",
   "activity": {
-    "id": "19407141395",
-    "url": "https://www.strava.com/activities/19407141395",
-    "date_label": "tue 21 jul",
-    "description": "peep this dudes sick ahh shirt he so tuff fr 🤞",
-    "distance_km": 10.8,
-    "duration_human": "1h 08",
-    "pace_human": "6:16/km",
-    "elevation_gain_m": 73,
-    "ascii_map": "       ●●┬┬┬╮\n         ╰┴┼┤\n           ├╯\n           │\n         ─┬┤\n          ├┼╮\n   ╭┬─────┴┴╯\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
+    "id": "19412863764",
+    "url": "https://www.strava.com/activities/19412863764",
+    "date_label": "wed 22 jul",
+    "description": "sorry i’m busy with pm recovery and am track session 💅",
+    "distance_km": 11.1,
+    "duration_human": "1h 04",
+    "pace_human": "5:46/km",
+    "elevation_gain_m": 39,
+    "ascii_map": "        ●────┬┬─\n             ╰┤\n              │\n             ╭╯\n             │\n            ╭┤\n            ├╯\n     ╭──────╯\n ●┬┬┬┤\n─┴┴┴┴┴─"
   }
 }
