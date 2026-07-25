@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-23T05:59:48Z",
+  "generated_at": "2026-07-25T09:28:20Z",
   "activity": {
-    "id": "19427170097",
-    "url": "https://www.strava.com/activities/19427170097",
-    "date_label": "thu 23 jul",
-    "description": "look at these npcs",
-    "distance_km": 10.7,
-    "duration_human": "1h 07",
-    "pace_human": "6:15/km",
-    "elevation_gain_m": 76,
-    "ascii_map": "       ●─●┬┬╮\n         ╰┴┼┤\n           ├╯\n           │\n         ╭┬┤\n         ├┼┼╮\n   ╭┬────┴┴┴╯\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
+    "id": "19455782924",
+    "url": "https://www.strava.com/activities/19455782924",
+    "date_label": "sat 25 jul",
+    "description": "tried to also get pictures of the baby swan but the swarents (swan + parents wombo [word + combo]) weren’t having it",
+    "distance_km": 10.8,
+    "duration_human": "1h 05",
+    "pace_human": "6:06/km",
+    "elevation_gain_m": 54,
+    "ascii_map": "        ╭┬─────●\n        ├╯\n      ╭┬╯\n      ├┤\n  ●┬──┴╯\n  ╰┤\n   │\n  ╭┤\n  ├┼─\n──┴╯"
   }
 }
