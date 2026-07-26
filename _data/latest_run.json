@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-25T09:28:20Z",
+  "generated_at": "2026-07-26T07:26:37Z",
   "activity": {
-    "id": "19455782924",
-    "url": "https://www.strava.com/activities/19455782924",
-    "date_label": "sat 25 jul",
-    "description": "tried to also get pictures of the baby swan but the swarents (swan + parents wombo [word + combo]) weren’t having it",
-    "distance_km": 10.8,
-    "duration_human": "1h 05",
-    "pace_human": "6:06/km",
-    "elevation_gain_m": 54,
-    "ascii_map": "        ╭┬─────●\n        ├╯\n      ╭┬╯\n      ├┤\n  ●┬──┴╯\n  ╰┤\n   │\n  ╭┤\n  ├┼─\n──┴╯"
+    "id": "19468053681",
+    "url": "https://www.strava.com/activities/19468053681",
+    "date_label": "sun 26 jul",
+    "description": "sloppy run sloppy weather but the balcony dog made up for everything",
+    "distance_km": 22.0,
+    "duration_human": "2h 11",
+    "pace_human": "5:58/km",
+    "elevation_gain_m": 94,
+    "ascii_map": "  ╭●\n ╭╯ ●\n╭┤  ├╮\n╰┼╮ ├┤\n ╰┴┬┼╯\n   ╰┤\n    ╰────╮\n         ╰╮\n          ╰──╮\n             ╰──"
   }
 }
