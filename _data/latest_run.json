@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-26T07:26:37Z",
+  "generated_at": "2026-07-28T05:50:34Z",
   "activity": {
-    "id": "19468053681",
-    "url": "https://www.strava.com/activities/19468053681",
-    "date_label": "sun 26 jul",
-    "description": "sloppy run sloppy weather but the balcony dog made up for everything",
-    "distance_km": 22.0,
-    "duration_human": "2h 11",
-    "pace_human": "5:58/km",
-    "elevation_gain_m": 94,
-    "ascii_map": "  ╭●\n ╭╯ ●\n╭┤  ├╮\n╰┼╮ ├┤\n ╰┴┬┼╯\n   ╰┤\n    ╰────╮\n         ╰╮\n          ╰──╮\n             ╰──"
+    "id": "19494963800",
+    "url": "https://www.strava.com/activities/19494963800",
+    "date_label": "tue 28 jul",
+    "description": "guess who’s baaaaaahhhck 🐑",
+    "distance_km": 10.8,
+    "duration_human": "1h 08",
+    "pace_human": "6:21/km",
+    "elevation_gain_m": 77,
+    "ascii_map": "       ●─●┬┬╮\n         ╰┴┼┤\n           ├╯\n           │\n         ─┬┤\n          ├┼╮\n   ╭┬─────┴┴╯\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
   }
 }
