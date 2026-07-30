@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-28T05:50:34Z",
+  "generated_at": "2026-07-30T06:29:10Z",
   "activity": {
-    "id": "19494963800",
-    "url": "https://www.strava.com/activities/19494963800",
-    "date_label": "tue 28 jul",
-    "description": "guess who’s baaaaaahhhck 🐑",
+    "id": "19524561901",
+    "url": "https://www.strava.com/activities/19524561901",
+    "date_label": "thu 30 jul",
+    "description": "pacemogged a group of missionaries so hard they didn’t even try to engage me in conversation",
     "distance_km": 10.8,
-    "duration_human": "1h 08",
-    "pace_human": "6:21/km",
-    "elevation_gain_m": 77,
-    "ascii_map": "       ●─●┬┬╮\n         ╰┴┼┤\n           ├╯\n           │\n         ─┬┤\n          ├┼╮\n   ╭┬─────┴┴╯\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
+    "duration_human": "1h 06",
+    "pace_human": "6:11/km",
+    "elevation_gain_m": 73,
+    "ascii_map": "       ●●┬┬┬╮\n         ╰┴┼┤\n           ├╯\n           │\n         ─┬┤\n          ├┼╮\n   ╭┬─────┴┴╯\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
   }
 }
