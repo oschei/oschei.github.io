@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-01T05:59:49Z",
+  "generated_at": "2026-08-02T09:12:06Z",
   "activity": {
-    "id": "19550665136",
-    "url": "https://www.strava.com/activities/19550665136",
-    "date_label": "sat 1 aug",
-    "description": "pro: rain\ncon: no animal sightings",
-    "distance_km": 11.0,
-    "duration_human": "1h 06",
-    "pace_human": "6:03/km",
-    "elevation_gain_m": 55,
-    "ascii_map": "        ╭┬─────●\n       ╭┴╯\n      ╭┤\n      ├┤\n  ●┬──┴╯\n  ╰┤\n   │\n  ╭┤\n  ├┤\n──┴╯"
+    "id": "19566203443",
+    "url": "https://www.strava.com/activities/19566203443",
+    "date_label": "sun 2 aug",
+    "description": "any activity that results in free stuff is good in my book",
+    "distance_km": 22.1,
+    "duration_human": "2h 03",
+    "pace_human": "5:35/km",
+    "elevation_gain_m": 105,
+    "ascii_map": "       ╭───────●\n      ╭╯\n  ● ╭─╯\n  ╰┬╯\n   │\n ╭┬┼╮\n─┴┴┴┼╮\n    ╰┴────┬╮\n          ╰┴──┬╮\n              ╰╯"
   }
 }
