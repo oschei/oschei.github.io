@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-05T05:39:47Z",
+  "generated_at": "2026-08-06T05:37:59Z",
   "activity": {
-    "id": "19607502087",
-    "url": "https://www.strava.com/activities/19607502087",
-    "date_label": "wed 5 aug",
-    "description": "euromaxxing is sleeping without a/c and raw dogging a track session after a night of losing half your body weight in sweat",
-    "distance_km": 12.4,
-    "duration_human": "1h 10",
-    "pace_human": "5:42/km",
-    "elevation_gain_m": 34,
-    "ascii_map": "       ●─────┬┬─\n             ├┤\n             ├╯\n             │\n             │\n            ╭┤\n            ├╯\n   ╭┬┬──────╯\n ●┬┼┼┤\n─┴┴┴┴┴─"
+    "id": "19622044494",
+    "url": "https://www.strava.com/activities/19622044494",
+    "date_label": "thu 6 aug",
+    "description": "petrus turn the heat off 🥵",
+    "distance_km": 10.8,
+    "duration_human": "1h 07",
+    "pace_human": "6:16/km",
+    "elevation_gain_m": 72,
+    "ascii_map": "        ●●┬┬╮\n         ╰┴┼┤\n           ├╯\n           │\n         ╭┬┤\n         ├┼┼╮\n   ╭┬────┴┴┴╯\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
   }
 }
