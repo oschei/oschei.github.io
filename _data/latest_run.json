@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-06T05:37:59Z",
+  "generated_at": "2026-08-08T06:02:31Z",
   "activity": {
-    "id": "19622044494",
-    "url": "https://www.strava.com/activities/19622044494",
-    "date_label": "thu 6 aug",
-    "description": "petrus turn the heat off 🥵",
+    "id": "19649144492",
+    "url": "https://www.strava.com/activities/19649144492",
+    "date_label": "sat 8 aug",
+    "description": "won’t every stage have coke?",
     "distance_km": 10.8,
-    "duration_human": "1h 07",
-    "pace_human": "6:16/km",
-    "elevation_gain_m": 72,
-    "ascii_map": "        ●●┬┬╮\n         ╰┴┼┤\n           ├╯\n           │\n         ╭┬┤\n         ├┼┼╮\n   ╭┬────┴┴┴╯\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
+    "duration_human": "1h 05",
+    "pace_human": "6:02/km",
+    "elevation_gain_m": 59,
+    "ascii_map": "        ╭┬─────●\n        ├╯\n      ─┬╯\n       │\n  ●┬───╯\n  ╰┤\n   │\n  ╭┤\n  ├┼─\n──┴╯"
   }
 }
