@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-08T06:02:31Z",
+  "generated_at": "2026-08-09T06:55:04Z",
   "activity": {
-    "id": "19649144492",
-    "url": "https://www.strava.com/activities/19649144492",
-    "date_label": "sat 8 aug",
-    "description": "won’t every stage have coke?",
-    "distance_km": 10.8,
-    "duration_human": "1h 05",
-    "pace_human": "6:02/km",
-    "elevation_gain_m": 59,
-    "ascii_map": "        ╭┬─────●\n        ├╯\n      ─┬╯\n       │\n  ●┬───╯\n  ╰┤\n   │\n  ╭┤\n  ├┼─\n──┴╯"
+    "id": "19663411069",
+    "url": "https://www.strava.com/activities/19663411069",
+    "date_label": "sun 9 aug",
+    "description": "de fluss schmöckt wie e kläralaag häshtäg streetparade",
+    "distance_km": 24.1,
+    "duration_human": "2h 12",
+    "pace_human": "5:30/km",
+    "elevation_gain_m": 98,
+    "ascii_map": "  ╭●\n ╭╯ ●\n─┤  │\n ╰╮ │\n  ├┬┼╮\n  ╰┴┴┴─╮\n       ╰┬╮\n        ╰┴─╮\n           ╰───╮\n               │"
   }
 }
