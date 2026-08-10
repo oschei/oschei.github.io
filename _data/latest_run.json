@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-09T06:55:04Z",
+  "generated_at": "2026-08-10T05:11:44Z",
   "activity": {
-    "id": "19663411069",
-    "url": "https://www.strava.com/activities/19663411069",
-    "date_label": "sun 9 aug",
-    "description": "de fluss schmöckt wie e kläralaag häshtäg streetparade",
-    "distance_km": 24.1,
-    "duration_human": "2h 12",
-    "pace_human": "5:30/km",
-    "elevation_gain_m": 98,
-    "ascii_map": "  ╭●\n ╭╯ ●\n─┤  │\n ╰╮ │\n  ├┬┼╮\n  ╰┴┴┴─╮\n       ╰┬╮\n        ╰┴─╮\n           ╰───╮\n               │"
+    "id": "19676368174",
+    "url": "https://www.strava.com/activities/19676368174",
+    "date_label": "mon 10 aug",
+    "description": "i remember when mondays were rest days (last week)",
+    "distance_km": 7.3,
+    "duration_human": "46m 50",
+    "pace_human": "6:27/km",
+    "elevation_gain_m": 56,
+    "ascii_map": "       ●─●┬┬──┬─\n          ╰┤  │\n           ╰─┬┤\n             ├┤\n             ├╯\n            ╭╯\n          ╭┬┤\n          ├┼┼╮\n         ╭┴┴┴┴──\n─────────╯"
   }
 }
