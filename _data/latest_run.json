@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-10T05:11:44Z",
+  "generated_at": "2026-08-11T07:28:34Z",
   "activity": {
-    "id": "19676368174",
-    "url": "https://www.strava.com/activities/19676368174",
-    "date_label": "mon 10 aug",
-    "description": "i remember when mondays were rest days (last week)",
-    "distance_km": 7.3,
-    "duration_human": "46m 50",
-    "pace_human": "6:27/km",
-    "elevation_gain_m": 56,
-    "ascii_map": "       ●─●┬┬──┬─\n          ╰┤  │\n           ╰─┬┤\n             ├┤\n             ├╯\n            ╭╯\n          ╭┬┤\n          ├┼┼╮\n         ╭┴┴┴┴──\n─────────╯"
+    "id": "19691572918",
+    "url": "https://www.strava.com/activities/19691572918",
+    "date_label": "tue 11 aug",
+    "description": "every day i’m shufflin’",
+    "distance_km": 7.2,
+    "duration_human": "45m 28",
+    "pace_human": "6:17/km",
+    "elevation_gain_m": 55,
+    "ascii_map": "        ●●┬┬──┬─\n          ╰┤  │\n           ╰─┬┤\n             ├╯\n            ╭┤\n           ╭┼╯\n          ╭┼┤\n          ├┼┼╮\n        ╭┬┴┴┴┴──\n────────┴╯"
   }
 }
