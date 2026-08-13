@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-12T05:50:20Z",
+  "generated_at": "2026-08-13T05:13:29Z",
   "activity": {
-    "id": "19706046649",
-    "url": "https://www.strava.com/activities/19706046649",
-    "date_label": "wed 12 aug",
-    "description": "always finding new friends",
-    "distance_km": 7.3,
-    "duration_human": "48m 12",
-    "pace_human": "6:37/km",
-    "elevation_gain_m": 56,
-    "ascii_map": "       ●─●┬┬──┬─\n          ╰┤  │\n           ╰─┬┤\n             ├╯\n            ╭┤\n            ├╯\n          ╭┬┤\n          ├┼┼╮\n        ╭┬┴┴┴┴──\n────────┴╯"
+    "id": "19720174746",
+    "url": "https://www.strava.com/activities/19720174746",
+    "date_label": "thu 13 aug",
+    "description": "s/o to my neighbor who says “ahh, so bewundernswert” every time he sees me coming back from a run, he the goat fr",
+    "distance_km": 7.2,
+    "duration_human": "45m 20",
+    "pace_human": "6:17/km",
+    "elevation_gain_m": 54,
+    "ascii_map": "       ●─●┬┬──┬─\n          ╰┤  │\n           ╰─┬┤\n             ├╯\n             │\n            ╭╯\n          ─┬┤\n           ├┼╮\n         ╭─┴┴┴──\n─────────╯"
   }
 }
