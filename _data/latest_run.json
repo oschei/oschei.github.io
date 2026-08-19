@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T06:28:06Z",
+  "generated_at": "2026-08-19T05:56:53Z",
   "activity": {
-    "id": "19761222297",
-    "url": "https://www.strava.com/activities/19761222297",
-    "date_label": "sun 16 aug",
-    "description": "a very eventful run:\n- drunk guys cheering me on at the train station\n- locking eyes with the lady ripping an early AM dart\n- guy riding a publibike in downhill aero position\n- cat\n…all before 8:30",
-    "distance_km": 18.1,
-    "duration_human": "1h 38",
-    "pace_human": "5:28/km",
-    "elevation_gain_m": 85,
-    "ascii_map": "   ╭─●\n ╭─╯\n │   ●╮\n─┤    │\n ╰╮   │\n  ╰┬┬┬┼╮\n   ╰┴┴┴┤\n       ╰────╮\n            ├╮\n            ╰┴──"
+    "id": "19804121764",
+    "url": "https://www.strava.com/activities/19804121764",
+    "date_label": "wed 19 aug",
+    "description": "round and round and round 😵‍💫",
+    "distance_km": 14.0,
+    "duration_human": "1h 21",
+    "pace_human": "5:50/km",
+    "elevation_gain_m": 37,
+    "ascii_map": "       ●──────┬─\n              │\n              │\n             ╭┤\n             ├╯\n            ╭┤\n            ├╯\n   ╭┬┬──────╯\n ╭┬┼┼┤\n●┴┴┴┴┴─"
   }
 }
