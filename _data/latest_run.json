@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-19T05:56:53Z",
+  "generated_at": "2026-08-20T05:59:29Z",
   "activity": {
-    "id": "19804121764",
-    "url": "https://www.strava.com/activities/19804121764",
-    "date_label": "wed 19 aug",
-    "description": "round and round and round 😵‍💫",
-    "distance_km": 14.0,
-    "duration_human": "1h 21",
-    "pace_human": "5:50/km",
-    "elevation_gain_m": 37,
-    "ascii_map": "       ●──────┬─\n              │\n              │\n             ╭┤\n             ├╯\n            ╭┤\n            ├╯\n   ╭┬┬──────╯\n ╭┬┼┼┤\n●┴┴┴┴┴─"
+    "id": "19818680172",
+    "url": "https://www.strava.com/activities/19818680172",
+    "date_label": "thu 20 aug",
+    "description": "gonna need this crane to carry me around soon",
+    "distance_km": 10.8,
+    "duration_human": "1h 07",
+    "pace_human": "6:16/km",
+    "elevation_gain_m": 75,
+    "ascii_map": "        ●●┬┬╮\n         ╰┴┼┤\n           ├╯\n           │\n         ─┬┤\n          ├┼╮\n   ╭┬─────┴┴╯\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
   }
 }
