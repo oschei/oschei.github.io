@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-20T05:59:29Z",
+  "generated_at": "2026-08-22T08:33:43Z",
   "activity": {
-    "id": "19818680172",
-    "url": "https://www.strava.com/activities/19818680172",
-    "date_label": "thu 20 aug",
-    "description": "gonna need this crane to carry me around soon",
+    "id": "19846522624",
+    "url": "https://www.strava.com/activities/19846522624",
+    "date_label": "sat 22 aug",
+    "description": "this may have been the run that forces me to admit i’m on the brink of injury 😵‍💫 time to work on telekinesis",
     "distance_km": 10.8,
-    "duration_human": "1h 07",
-    "pace_human": "6:16/km",
-    "elevation_gain_m": 75,
-    "ascii_map": "        ●●┬┬╮\n         ╰┴┼┤\n           ├╯\n           │\n         ─┬┤\n          ├┼╮\n   ╭┬─────┴┴╯\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
+    "duration_human": "1h 09",
+    "pace_human": "6:22/km",
+    "elevation_gain_m": 65,
+    "ascii_map": "        ╭┬─────●\n        ├╯\n      ╭┬╯\n      ├┤\n  ●┬──┴╯\n  ╰┤\n   │\n  ╭┤\n  ├┼─\n──┴╯"
   }
 }
