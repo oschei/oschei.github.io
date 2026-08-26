@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-22T08:33:43Z",
+  "generated_at": "2026-08-26T05:41:45Z",
   "activity": {
-    "id": "19846522624",
-    "url": "https://www.strava.com/activities/19846522624",
-    "date_label": "sat 22 aug",
-    "description": "this may have been the run that forces me to admit i’m on the brink of injury 😵‍💫 time to work on telekinesis",
-    "distance_km": 10.8,
-    "duration_human": "1h 09",
-    "pace_human": "6:22/km",
-    "elevation_gain_m": 65,
-    "ascii_map": "        ╭┬─────●\n        ├╯\n      ╭┬╯\n      ├┤\n  ●┬──┴╯\n  ╰┤\n   │\n  ╭┤\n  ├┼─\n──┴╯"
+    "id": "19903198087",
+    "url": "https://www.strava.com/activities/19903198087",
+    "date_label": "wed 26 aug",
+    "description": "rough one but just grateful to be out there again",
+    "distance_km": 7.3,
+    "duration_human": "48m 35",
+    "pace_human": "6:40/km",
+    "elevation_gain_m": 56,
+    "ascii_map": "       ●─●┬┬──┬─\n          ╰┤  │\n           ╰─┬┤\n             ├┤\n            ╭┼╯\n           ╭┼╯\n          ╭┼┤\n          ├┼┼╮\n         ╭┴┴┴┴──\n─────────╯"
   }
 }
