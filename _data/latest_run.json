@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-27T05:54:32Z",
+  "generated_at": "2026-08-29T07:10:12Z",
   "activity": {
-    "id": "19918005917",
-    "url": "https://www.strava.com/activities/19918005917",
-    "date_label": "thu 27 aug",
-    "description": "new flowers in adliswil lock in twin there’s beauty all around us",
-    "distance_km": 7.3,
-    "duration_human": "48m 32",
-    "pace_human": "6:40/km",
-    "elevation_gain_m": 53,
-    "ascii_map": "       ●─●┬┬──┬─\n          ╰┤  │\n           ╰─┬┤\n             ├┤\n            ╭┼╯\n           ╭┼╯\n          ╭┼┤\n          ├┼┼╮\n         ╭┴┴┴┴──\n─────────╯"
+    "id": "19944499517",
+    "url": "https://www.strava.com/activities/19944499517",
+    "date_label": "sat 29 aug",
+    "description": "this morning I had two options: hop test or 10k and see how bad it hurts after\ni’ll let you guess",
+    "distance_km": 11.0,
+    "duration_human": "1h 08",
+    "pace_human": "6:11/km",
+    "elevation_gain_m": 61,
+    "ascii_map": "        ╭─────●─\n       ╭╯\n      ╭╯\n      │\n  ●┬──┴─\n  ╰┤\n   │\n  ╭┤\n  ├┤\n──┴╯"
   }
 }
