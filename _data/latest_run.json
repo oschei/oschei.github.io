@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-30T06:38:42Z",
+  "generated_at": "2026-09-01T07:18:07Z",
   "activity": {
-    "id": "19957911527",
-    "url": "https://www.strava.com/activities/19957911527",
-    "date_label": "sun 30 aug",
-    "description": "there’d be a lot less people left on read if they just wrote to me on strava, sorry homies i’m pumpkinpilled and runmaxxed",
-    "distance_km": 16.6,
-    "duration_human": "1h 32",
-    "pace_human": "5:35/km",
-    "elevation_gain_m": 76,
-    "ascii_map": "    ╭●\n ╭┬─╯\n ├┤   ●╮\n─┼┤    │\n ╰┤    │\n  ╰─┬┬─┴─\n    ╰┤\n     ╰─────╮\n           ╰───╮\n               │"
+    "id": "19985998475",
+    "url": "https://www.strava.com/activities/19985998475",
+    "date_label": "tue 1 sep",
+    "description": "my algo is so cooked from the potential injuries I google that it thinks I’m a 45+ yr old man",
+    "distance_km": 10.8,
+    "duration_human": "1h 06",
+    "pace_human": "6:10/km",
+    "elevation_gain_m": 85,
+    "ascii_map": "        ●●┬┬╮\n         ╰┴┼┤\n           ├╯\n           │\n         ─┬┤\n          ├┼╮\n   ╭┬─────┴┴╯\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
   }
 }
