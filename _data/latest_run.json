@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T05:34:19Z",
+  "generated_at": "2026-09-03T06:53:46Z",
   "activity": {
-    "id": "20000531953",
-    "url": "https://www.strava.com/activities/20000531953",
-    "date_label": "wed 2 sep",
-    "description": "fueled by orange",
-    "distance_km": 10.5,
-    "duration_human": "1h 01",
-    "pace_human": "5:53/km",
-    "elevation_gain_m": 37,
-    "ascii_map": "       ●─────┬┬─\n             ├┤\n             ├┤\n             ├╯\n             │\n            ╭┤\n            ├╯\n    ╭───────╯\n ●┬┬┤\n─┴┴┴┴──"
+    "id": "20015736888",
+    "url": "https://www.strava.com/activities/20015736888",
+    "date_label": "thu 3 sep",
+    "description": "oh to be a chubby bumblebee on a sunflower 🐝🌻",
+    "distance_km": 10.8,
+    "duration_human": "1h 08",
+    "pace_human": "6:18/km",
+    "elevation_gain_m": 76,
+    "ascii_map": "       ●─●┬┬╮\n         ╰┴┼┤\n           ├╯\n           │\n         ─┬┤\n          ├┼╮\n   ╭┬─────┴┴╯\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
   }
 }
