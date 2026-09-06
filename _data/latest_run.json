@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T06:53:46Z",
+  "generated_at": "2026-09-06T06:41:45Z",
   "activity": {
-    "id": "20015736888",
-    "url": "https://www.strava.com/activities/20015736888",
-    "date_label": "thu 3 sep",
-    "description": "oh to be a chubby bumblebee on a sunflower 🐝🌻",
-    "distance_km": 10.8,
-    "duration_human": "1h 08",
-    "pace_human": "6:18/km",
-    "elevation_gain_m": 76,
-    "ascii_map": "       ●─●┬┬╮\n         ╰┴┼┤\n           ├╯\n           │\n         ─┬┤\n          ├┼╮\n   ╭┬─────┴┴╯\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
+    "id": "20055656373",
+    "url": "https://www.strava.com/activities/20055656373",
+    "date_label": "sun 6 sep",
+    "description": "quick pit stop to hang out w my new friend",
+    "distance_km": 18.2,
+    "duration_human": "1h 41",
+    "pace_human": "5:33/km",
+    "elevation_gain_m": 95,
+    "ascii_map": "   ╭─●\n ╭─╯\n │   ●╮\n─┤    │\n ╰╮   │\n  ╰┬┬┬┤\n   ╰┴┴┴╮\n       ╰────╮\n            ├╮\n            ╰┴──"
   }
 }
