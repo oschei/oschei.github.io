@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-06T06:41:45Z",
+  "generated_at": "2026-09-08T06:10:12Z",
   "activity": {
-    "id": "20055656373",
-    "url": "https://www.strava.com/activities/20055656373",
-    "date_label": "sun 6 sep",
-    "description": "quick pit stop to hang out w my new friend",
-    "distance_km": 18.2,
-    "duration_human": "1h 41",
-    "pace_human": "5:33/km",
-    "elevation_gain_m": 95,
-    "ascii_map": "   ╭─●\n ╭─╯\n │   ●╮\n─┤    │\n ╰╮   │\n  ╰┬┬┬┤\n   ╰┴┴┴╮\n       ╰────╮\n            ├╮\n            ╰┴──"
+    "id": "20083580443",
+    "url": "https://www.strava.com/activities/20083580443",
+    "date_label": "tue 8 sep",
+    "description": "first time back on the track since discovering the bends make up the majority of the track and it’s not 4 even 100s 🤯",
+    "distance_km": 12.5,
+    "duration_human": "1h 14",
+    "pace_human": "5:57/km",
+    "elevation_gain_m": 38,
+    "ascii_map": "       ●─────┬┬─\n             ├┤\n             ├┤\n             ├╯\n             │\n            ╭┤\n            ├╯\n     ╭──────╯\n ╭┬●┬┤\n─┴┴┴┴┴─"
   }
 }
