@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-08T06:13:28Z",
+  "generated_at": "2026-09-10T07:53:33Z",
   "activity": {
-    "id": "20083580443",
-    "url": "https://www.strava.com/activities/20083580443",
-    "date_label": "tue 8 sep",
-    "description": "first time back on the track since discovering the bends make up the majority of the track and it’s not 4 even 100s 🤯",
-    "distance_km": 12.5,
-    "duration_human": "1h 14",
-    "pace_human": "5:57/km",
-    "elevation_gain_m": 38,
-    "ascii_map": "       ●─────┬┬─\n             ├┤\n             ├┤\n             ├╯\n             │\n            ╭┤\n            ├╯\n    ╭───────╯\n ╭┬●┤\n─┴┴┴┴──"
+    "id": "20112404046",
+    "url": "https://www.strava.com/activities/20112404046",
+    "date_label": "thu 10 sep",
+    "description": "don’t matter the country I will find some mf animals 😤",
+    "distance_km": 16.9,
+    "duration_human": "1h 35",
+    "pace_human": "5:37/km",
+    "elevation_gain_m": 156,
+    "ascii_map": "╭─╮\n│ ╰──────────╮\n╰╮           ├─\n │           │\n ├╮         ╭╯\n ├┤       ╭─┤\n ╰┴─┬┬┬●●┬╯ ╰╮\n    ╰┴┴┴┴┤   ├╮\n         ╰───┼┼┬╮\n             ╰┴┴╯"
   }
 }
