@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-10T07:53:33Z",
+  "generated_at": "2026-09-12T13:26:11Z",
   "activity": {
-    "id": "20112404046",
-    "url": "https://www.strava.com/activities/20112404046",
-    "date_label": "thu 10 sep",
-    "description": "don’t matter the country I will find some mf animals 😤",
-    "distance_km": 16.9,
-    "duration_human": "1h 35",
-    "pace_human": "5:37/km",
-    "elevation_gain_m": 156,
-    "ascii_map": "╭─╮\n│ ╰──────────╮\n╰╮           ├─\n │           │\n ├╮         ╭╯\n ├┤       ╭─┤\n ╰┴─┬┬┬●●┬╯ ╰╮\n    ╰┴┴┴┴┤   ├╮\n         ╰───┼┼┬╮\n             ╰┴┴╯"
+    "id": "20142582749",
+    "url": "https://www.strava.com/activities/20142582749",
+    "date_label": "sat 12 sep",
+    "description": "back to business",
+    "distance_km": 11.1,
+    "duration_human": "1h 09",
+    "pace_human": "6:17/km",
+    "elevation_gain_m": 71,
+    "ascii_map": "           ●┬╮\n       ●──┬┼┼╯\n          ╰┼╯\n           │\n         ╭┬┤\n         ├┼┼╮\n   ╭┬────┴┴┴╯\n ╭┬┼┤\n─┴┴┴┴──┬╮\n       ╰┴───────"
   }
 }
