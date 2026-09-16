@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T06:07:33Z",
+  "generated_at": "2026-09-16T06:02:07Z",
   "activity": {
-    "id": "20180325985",
-    "url": "https://www.strava.com/activities/20180325985",
-    "date_label": "tue 15 sep",
-    "description": "this cat spawned outta the dark forest to give me a morale boost",
-    "distance_km": 13.2,
-    "duration_human": "1h 18",
-    "pace_human": "5:58/km",
-    "elevation_gain_m": 36,
-    "ascii_map": "       ●─────┬┬─\n             ├┤\n             ├┤\n             ├╯\n            ╭┤\n            ├┤\n            ├╯\n    ╭┬──────╯\n ●┬┬┼┤\n─┴┴┴┴┴─"
+    "id": "20195356545",
+    "url": "https://www.strava.com/activities/20195356545",
+    "date_label": "wed 16 sep",
+    "description": "celebrating the addition of the new mid week long run with rain showers",
+    "distance_km": 17.1,
+    "duration_human": "1h 30",
+    "pace_human": "5:17/km",
+    "elevation_gain_m": 109,
+    "ascii_map": "  ●●╮\n   ├╯\n   │\n   ├╮\n ╭┬┴╯\n─┴┤\n  ╰─────╮\n        ╰─┬╮\n          ╰┴┬╮\n            ╰┴──"
   }
 }
