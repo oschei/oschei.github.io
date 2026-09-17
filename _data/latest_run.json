@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-16T06:05:43Z",
+  "generated_at": "2026-09-17T05:28:03Z",
   "activity": {
-    "id": "20195356545",
-    "url": "https://www.strava.com/activities/20195356545",
-    "date_label": "wed 16 sep",
-    "description": "celebrating the addition of the new mid week long run with rain showers",
-    "distance_km": 17.1,
-    "duration_human": "1h 30",
-    "pace_human": "5:17/km",
-    "elevation_gain_m": 109,
-    "ascii_map": "  ●●╮\n   ├╯\n   │\n   ├╮\n ╭┬┴╯\n─┴┤\n  ╰─────╮\n        ╰─┬╮\n          ╰┴╮\n            ╰───"
+    "id": "20209279326",
+    "url": "https://www.strava.com/activities/20209279326",
+    "date_label": "thu 17 sep",
+    "description": "call me sam darnold the way i got a sore glute ft. cat that was scared to lock eyes",
+    "distance_km": 7.5,
+    "duration_human": "46m 09",
+    "pace_human": "6:10/km",
+    "elevation_gain_m": 59,
+    "ascii_map": "       ●─●┬┬──┬─\n          ╰┤  │\n           ╰─┬┤\n             ├┤\n            ╭┼╯\n           ╭┴╯\n          ─┤\n           ├┬┬╮\n       ╭┬──┴┴┴┴─\n───────┴╯"
   }
 }
