@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-17T05:28:03Z",
+  "generated_at": "2026-09-19T06:38:28Z",
   "activity": {
-    "id": "20209279326",
-    "url": "https://www.strava.com/activities/20209279326",
-    "date_label": "thu 17 sep",
-    "description": "call me sam darnold the way i got a sore glute ft. cat that was scared to lock eyes",
-    "distance_km": 7.5,
-    "duration_human": "46m 09",
-    "pace_human": "6:10/km",
-    "elevation_gain_m": 59,
-    "ascii_map": "       ●─●┬┬──┬─\n          ╰┤  │\n           ╰─┬┤\n             ├┤\n            ╭┼╯\n           ╭┴╯\n          ─┤\n           ├┬┬╮\n       ╭┬──┴┴┴┴─\n───────┴╯"
+    "id": "20235486297",
+    "url": "https://www.strava.com/activities/20235486297",
+    "date_label": "sat 19 sep",
+    "description": "it’s all about balance",
+    "distance_km": 11.1,
+    "duration_human": "1h 09",
+    "pace_human": "6:16/km",
+    "elevation_gain_m": 68,
+    "ascii_map": "           ●┬╮\n       ●──┬┼┼╯\n          ╰┼╯\n           │\n         ╭┬┤\n         ├┼┼╮\n   ╭┬────┴┴┴╯\n ╭┬┼┤\n─┴┴┴┴──┬╮\n       ╰┴───────"
   }
 }
