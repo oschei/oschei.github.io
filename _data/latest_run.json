@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T06:38:57Z",
+  "generated_at": "2026-09-22T05:58:41Z",
   "activity": {
-    "id": "20249436258",
-    "url": "https://www.strava.com/activities/20249436258",
-    "date_label": "sun 20 sep",
-    "description": "dialing it in\ns/o the dude that looked like he was on a sunday stroll and ended up pacing me at like 4:45",
-    "distance_km": 20.4,
-    "duration_human": "1h 44",
-    "pace_human": "5:08/km",
-    "elevation_gain_m": 158,
-    "ascii_map": "   ╭●\n ╭─╯ ●\n╭┤   │\n╰┤   │\n ╰─┬┬┼─\n   ├┼┤\n   ╰┴┴───╮\n         ╰┬╮\n          ╰┴─┬╮\n             ╰┴─"
+    "id": "20277038797",
+    "url": "https://www.strava.com/activities/20277038797",
+    "date_label": "tue 22 sep",
+    "description": "is that a banana in your shorts or are you just excited to run?",
+    "distance_km": 9.7,
+    "duration_human": "54m 43",
+    "pace_human": "5:37/km",
+    "elevation_gain_m": 25,
+    "ascii_map": "  ●┬╮\n  ╰┴┼┬┬┬┬╮\n    ╰┴┴┴┼┼──\n        ╰┤\n         ╰╮\n    ╭┬┬┬╮ ├╮\n╭┬┬┬┴┴┴┴┴─┴┼╮\n╰┴┼┤       ├┼┬┬╮\n  ╰┴┬┬╮   ╭┼┼┼┼╯\n    ╰┴┴───●┴┴┴╯"
   }
 }
