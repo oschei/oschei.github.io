@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T06:02:31Z",
+  "generated_at": "2026-09-23T05:58:32Z",
   "activity": {
-    "id": "20277038797",
-    "url": "https://www.strava.com/activities/20277038797",
-    "date_label": "tue 22 sep",
-    "description": "is that a banana in your shorts or are you just excited to run?",
-    "distance_km": 9.7,
-    "duration_human": "54m 43",
-    "pace_human": "5:37/km",
-    "elevation_gain_m": 25,
-    "ascii_map": "  ●┬┬╮\n  ╰┼┼┼┬┬┬┬╮\n   ╰┴┴┴┼┼┼┴─\n       ╰┴┤\n         ╰╮\n    ╭──╮  ├╮\n╭┬┬┬╯  ╰──┴┤\n╰┴┼┤       ├┬┬╮\n  ╰┴─╮     ├┼┼┼─\n     ╰────●┴┴┴╯"
+    "id": "20291873114",
+    "url": "https://www.strava.com/activities/20291873114",
+    "date_label": "wed 23 sep",
+    "description": "midweek milepilling and fatiguemaxxing",
+    "distance_km": 16.2,
+    "duration_human": "1h 27",
+    "pace_human": "5:25/km",
+    "elevation_gain_m": 107,
+    "ascii_map": "   ●●\n   ╰┤\n    │\n   ╭┤\n ╭─┴╯\n╭┤\n╰┴─────╮\n       ╰────┬╮\n            ├┤\n            ╰┴──"
   }
 }
