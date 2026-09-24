@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T05:58:32Z",
+  "generated_at": "2026-09-24T05:32:54Z",
   "activity": {
-    "id": "20291873114",
-    "url": "https://www.strava.com/activities/20291873114",
-    "date_label": "wed 23 sep",
-    "description": "midweek milepilling and fatiguemaxxing",
-    "distance_km": 16.2,
-    "duration_human": "1h 27",
-    "pace_human": "5:25/km",
-    "elevation_gain_m": 107,
-    "ascii_map": "   ●●\n   ╰┤\n    │\n   ╭┤\n ╭─┴╯\n╭┤\n╰┴─────╮\n       ╰────┬╮\n            ├┤\n            ╰┴──"
+    "id": "20305972001",
+    "url": "https://www.strava.com/activities/20305972001",
+    "date_label": "thu 24 sep",
+    "description": "this is how it feels doing strides",
+    "distance_km": 7.3,
+    "duration_human": "45m 40",
+    "pace_human": "6:14/km",
+    "elevation_gain_m": 61,
+    "ascii_map": "       ●─●┬┬──┬─\n          ╰┤  │\n           │  │\n          ─┴┬┬╯\n            ├┤\n            ├╯\n          ╭┬┤\n          ├┼┼╮\n         ╭┴┴┴┴──\n─────────╯"
   }
 }
