@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-27T06:42:27Z",
+  "generated_at": "2026-09-29T05:58:06Z",
   "activity": {
-    "id": "20345855292",
-    "url": "https://www.strava.com/activities/20345855292",
-    "date_label": "sun 27 sep",
-    "description": "dress rehearsal for next saturday w/ fueling strat dry run",
-    "distance_km": 21.4,
-    "duration_human": "1h 49",
-    "pace_human": "5:08/km",
-    "elevation_gain_m": 240,
-    "ascii_map": "  ╭─●\n ╭╯ ●╮\n╭┤   │\n╰┴╮  │\n  ╰┬┬╯\n   ╰┤\n    ╰────╮\n         ╰╮\n          ╰─┬╮\n            ╰┴──"
+    "id": "20373460800",
+    "url": "https://www.strava.com/activities/20373460800",
+    "date_label": "tue 29 sep",
+    "description": "middle 3km were supposed to be at opening race pace but let’s just say I don’t have a career as a pacer in my immediate future",
+    "distance_km": 10.9,
+    "duration_human": "1h 02",
+    "pace_human": "5:43/km",
+    "elevation_gain_m": 115,
+    "ascii_map": "       ●─●┬┬╮\n         ╰┴┼┤\n           ├┤\n           ├╯\n         ─┬┤\n          ├┼╮\n   ╭┬─────┴┴╯\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
   }
 }
