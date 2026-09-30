@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T05:58:06Z",
+  "generated_at": "2026-09-30T05:33:42Z",
   "activity": {
-    "id": "20373460800",
-    "url": "https://www.strava.com/activities/20373460800",
-    "date_label": "tue 29 sep",
-    "description": "middle 3km were supposed to be at opening race pace but let’s just say I don’t have a career as a pacer in my immediate future",
-    "distance_km": 10.9,
-    "duration_human": "1h 02",
-    "pace_human": "5:43/km",
-    "elevation_gain_m": 115,
-    "ascii_map": "       ●─●┬┬╮\n         ╰┴┼┤\n           ├┤\n           ├╯\n         ─┬┤\n          ├┼╮\n   ╭┬─────┴┴╯\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
+    "id": "20388145920",
+    "url": "https://www.strava.com/activities/20388145920",
+    "date_label": "wed 30 sep",
+    "description": "locked in, next stop: Sandnes 🇳🇴",
+    "distance_km": 8.3,
+    "duration_human": "52m 52",
+    "pace_human": "6:21/km",
+    "elevation_gain_m": 104,
+    "ascii_map": "        ●─●┬──┬─\n          ├┤  │\n          ╰┴─┬┤\n             ├╯\n             │\n          ╭┬┬┤\n          ├┼┼┤\n         ╭┼┴┴┴──\n ╭┬──────┴╯\n─┴╯"
   }
 }
