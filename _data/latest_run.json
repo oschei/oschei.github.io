@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T17:10:17Z",
+  "generated_at": "2026-10-03T11:58:49Z",
   "activity": {
-    "id": "20421928841",
-    "url": "https://www.strava.com/activities/20421928841",
-    "date_label": "fri 2 oct",
-    "description": "shakeout before the HM tomorrow\ngreg s and I started last and hunted down a poor soul to not finish last 😮‍💨",
-    "distance_km": 1.3,
-    "duration_human": "7m 00",
-    "pace_human": "5:11/km",
-    "elevation_gain_m": 12,
-    "ascii_map": "              ●╮\n               │\n               │\n              ╭╯\n             ╭╯\n           ╭─╯\n         ╭─╯\n    ╭────╯\n ╭──╯\n●╯"
+    "id": "20432121365",
+    "url": "https://www.strava.com/activities/20432121365",
+    "date_label": "sat 3 oct",
+    "description": "nothing beats a race no matter what happens\nthank you Sandnes & Runfest Norway 🤝",
+    "distance_km": 21.3,
+    "duration_human": "1h 46",
+    "pace_human": "5:00/km",
+    "elevation_gain_m": 106,
+    "ascii_map": "    ─╮\n     │        ╭─\n     ├╮      ╭╯\n     ├┤     ╭╯\n     ●╯     │\n    ╭┤      ├─\n  ╭┬┴╯  ╭┬──╯\n╭┬┼┤    ├┤\n●┼┼┴─┬┬┬┼╯\n╰┴╯  ╰┴┴╯"
   }
 }
