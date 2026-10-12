@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T12:01:17Z",
+  "generated_at": "2026-10-12T11:54:48Z",
   "activity": {
-    "id": "20432121365",
-    "url": "https://www.strava.com/activities/20432121365",
-    "date_label": "sat 3 oct",
-    "description": "nothing beats a race no matter what happens\nthank you Sandnes & Runfest Norway 🤝",
-    "distance_km": 21.3,
-    "duration_human": "1h 46",
-    "pace_human": "5:00/km",
-    "elevation_gain_m": 106,
-    "ascii_map": "    ─╮\n     │        ╭─\n     ├╮      ╭╯\n     ├┤     ╭╯\n     ●╯     │\n    ╭╯      ├─\n  ╭┬╯   ╭┬──╯\n╭┬┼┤    ├┤\n●┼┼┴─┬┬┬┴╯\n╰┴╯  ╰┴╯"
+    "id": "20552785133",
+    "url": "https://www.strava.com/activities/20552785133",
+    "date_label": "sun 11 oct",
+    "description": "in some weird in-between state before starting the next hm block",
+    "distance_km": 9.1,
+    "duration_human": "1h 01",
+    "pace_human": "6:43/km",
+    "elevation_gain_m": 33,
+    "ascii_map": " ╭──────╮\n╭╯      │\n│       │\n│       │\n│       │\n│       ╰──────╮\n│              │\n╰─┬────────────╯\n  ●\n  ●"
   }
 }
