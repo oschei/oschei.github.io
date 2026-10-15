@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-12T18:34:11Z",
+  "generated_at": "2026-10-15T07:20:19Z",
   "activity": {
-    "id": "20558187287",
-    "url": "https://www.strava.com/activities/20558187287",
-    "date_label": "mon 12 oct",
-    "description": ":$",
-    "distance_km": 7.0,
-    "duration_human": "45m 31",
-    "pace_human": "6:29/km",
-    "elevation_gain_m": 21,
-    "ascii_map": " ╭┬─────\n╭┼╯\n├┤\n├┤\n├┤\n├┼╮\n╰┼┼┬┬┬┬┬┬┬┬┬┬┬┬╮\n ╰┴┴┴┴┴┴┴┴┴┴┴┴┼┤\n              ├┤\n            ●─●╯"
+    "id": "20591808122",
+    "url": "https://www.strava.com/activities/20591808122",
+    "date_label": "thu 15 oct",
+    "description": "back to our regularly scheduled loops 😵‍💫",
+    "distance_km": 10.8,
+    "duration_human": "1h 07",
+    "pace_human": "6:14/km",
+    "elevation_gain_m": 113,
+    "ascii_map": "       ●─●┬┬╮\n         ╰┴┼┤\n           ├╯\n           │\n         ╭┬┤\n         ├┼┼╮\n   ╭┬────┴┴┴╯\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
   }
 }
