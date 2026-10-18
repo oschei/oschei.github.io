@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T08:46:14Z",
+  "generated_at": "2026-10-18T07:31:29Z",
   "activity": {
-    "id": "20617675509",
-    "url": "https://www.strava.com/activities/20617675509",
-    "date_label": "sat 17 oct",
-    "description": "loving the in-between seasons weather",
-    "distance_km": 11.0,
-    "duration_human": "1h 09",
-    "pace_human": "6:16/km",
-    "elevation_gain_m": 105,
-    "ascii_map": "           ●┬╮\n        ●─┬┼┼╯\n          ╰┼┤\n           ├╯\n         ╭┬┤\n         ├┼┤\n   ╭┬────┴┴┴─\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
+    "id": "20630160070",
+    "url": "https://www.strava.com/activities/20630160070",
+    "date_label": "sun 18 oct",
+    "description": "run early, nothing later",
+    "distance_km": 16.4,
+    "duration_human": "1h 32",
+    "pace_human": "5:39/km",
+    "elevation_gain_m": 155,
+    "ascii_map": "     ╭●\n  ╭──╯\n ╭┤   ●╮\n╭┼┤    │\n╰┴┤    │\n  ╰╮   ├─\n   ╰┬┬┬┤\n    ╰┴┴┴╮\n        ╰─────╮\n              ╰─"
   }
 }
