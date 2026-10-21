@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T05:44:46Z",
+  "generated_at": "2026-10-21T06:38:14Z",
   "activity": {
-    "id": "20656330681",
-    "url": "https://www.strava.com/activities/20656330681",
-    "date_label": "tue 20 oct",
-    "description": "good thing this workout finished before the sun was up, an absolutely atrocious bonk",
-    "distance_km": 12.7,
-    "duration_human": "1h 18",
-    "pace_human": "6:13/km",
-    "elevation_gain_m": 114,
-    "ascii_map": "       ●─────┬┬─\n             ├┤\n             ├┤\n             ├┤\n             ├╯\n            ╭┤\n            ├╯\n    ╭┬──────╯\n ╭●┬┼┤\n─┴┴┴┴┴─"
+    "id": "20670758796",
+    "url": "https://www.strava.com/activities/20670758796",
+    "date_label": "wed 21 oct",
+    "description": "plan said to do a progression run (whatever that is) but the only thing it progressed is my desire to be done with the run",
+    "distance_km": 14.1,
+    "duration_human": "1h 25",
+    "pace_human": "6:01/km",
+    "elevation_gain_m": 171,
+    "ascii_map": "   ●●╮\n    ├┤\n    ├╯\n    │\n    ├─\n ╭┬─╯\n─┴┤\n  ╰──────╮\n         ╰────╮\n              ╰─"
   }
 }
