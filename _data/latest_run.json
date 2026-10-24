@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T06:26:27Z",
+  "generated_at": "2026-10-24T05:33:46Z",
   "activity": {
-    "id": "20696926700",
-    "url": "https://www.strava.com/activities/20696926700",
-    "date_label": "fri 23 oct",
-    "description": "is there any better feeling than turning a run-away-from-you cat to a bash-head-into-your-legs cat? managed 1 of 2 today",
-    "distance_km": 11.3,
-    "duration_human": "1h 06",
-    "pace_human": "5:55/km",
-    "elevation_gain_m": 127,
-    "ascii_map": "       ●●┬┬┬─\n         ╰┴┤\n           │\n          ╭╯\n         ─┤\n          ├──\n   ╭──────╯\n╭┬┬┤\n╰┴┴┴─────────┬╮\n             ╰┴─"
+    "id": "20707885595",
+    "url": "https://www.strava.com/activities/20707885595",
+    "date_label": "sat 24 oct",
+    "description": "rainy day with only one (1) far away cat sighting",
+    "distance_km": 7.2,
+    "duration_human": "46m 38",
+    "pace_human": "6:26/km",
+    "elevation_gain_m": 96,
+    "ascii_map": "       ●─●┬┬──┬─\n          ╰┤  │\n           ╰─┬┤\n             ├╯\n            ╭┤\n            ├╯\n          ╭┬┤\n          ├┼┼╮\n         ╭┴┴┴┴──\n─────────╯"
   }
 }
