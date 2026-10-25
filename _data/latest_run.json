@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T05:33:46Z",
+  "generated_at": "2026-10-25T07:39:38Z",
   "activity": {
-    "id": "20707885595",
-    "url": "https://www.strava.com/activities/20707885595",
-    "date_label": "sat 24 oct",
-    "description": "rainy day with only one (1) far away cat sighting",
-    "distance_km": 7.2,
-    "duration_human": "46m 38",
-    "pace_human": "6:26/km",
-    "elevation_gain_m": 96,
-    "ascii_map": "       ●─●┬┬──┬─\n          ╰┤  │\n           ╰─┬┤\n             ├╯\n            ╭┤\n            ├╯\n          ╭┬┤\n          ├┼┼╮\n         ╭┴┴┴┴──\n─────────╯"
+    "id": "20721119232",
+    "url": "https://www.strava.com/activities/20721119232",
+    "date_label": "sun 25 oct",
+    "description": "plan said: 19km (9.5 + 3x1.5 + 5)\nshoe said: this girl is on fiiiiiirrrreeeee \ncat said: chicen toy…",
+    "distance_km": 21.2,
+    "duration_human": "1h 42",
+    "pace_human": "4:51/km",
+    "elevation_gain_m": 238,
+    "ascii_map": "  ╭●\n ╭╯ ●╮\n╭┤   │\n╰┴╮  │\n  ╰┬┬╯\n   ╰┤\n    ╰────╮\n         ╰╮\n          ╰─┬╮\n            ╰┴──"
   }
 }
