@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-27T07:05:51Z",
+  "generated_at": "2026-10-28T07:06:56Z",
   "activity": {
-    "id": "20746760577",
-    "url": "https://www.strava.com/activities/20746760577",
-    "date_label": "tue 27 oct",
-    "description": "GA + hills or something idk what this plan be doing sometimes but the moon was nice",
-    "distance_km": 12.8,
-    "duration_human": "1h 19",
-    "pace_human": "6:10/km",
-    "elevation_gain_m": 161,
-    "ascii_map": "    ●●┬╮\n     ╰┼┤\n      ├╯\n      │\n     ╭┤\n    ╭┴┴─\n ╭┬┬╯\n─┴┴┤\n   ╰───────╮\n           ╰────"
+    "id": "20760984002",
+    "url": "https://www.strava.com/activities/20760984002",
+    "date_label": "wed 28 oct",
+    "description": "noice lil midweek run innit",
+    "distance_km": 14.3,
+    "duration_human": "1h 23",
+    "pace_human": "5:48/km",
+    "elevation_gain_m": 166,
+    "ascii_map": "   ●●╮\n    ├┤\n    ├╯\n    │\n    ├─\n ╭┬┬╯\n─┴┴┤\n   ╰─────┬╮\n         ╰┴────╮\n               │"
   }
 }
