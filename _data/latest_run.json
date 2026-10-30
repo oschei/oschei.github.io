@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T07:06:56Z",
+  "generated_at": "2026-10-30T06:47:50Z",
   "activity": {
-    "id": "20760984002",
-    "url": "https://www.strava.com/activities/20760984002",
-    "date_label": "wed 28 oct",
-    "description": "noice lil midweek run innit",
-    "distance_km": 14.3,
-    "duration_human": "1h 23",
-    "pace_human": "5:48/km",
-    "elevation_gain_m": 166,
-    "ascii_map": "   ●●╮\n    ├┤\n    ├╯\n    │\n    ├─\n ╭┬┬╯\n─┴┴┤\n   ╰─────┬╮\n         ╰┴────╮\n               │"
+    "id": "20787274093",
+    "url": "https://www.strava.com/activities/20787274093",
+    "date_label": "fri 30 oct",
+    "description": "s/o greg s for the head torch so my heart rate doesn’t start elevated from walking through the scawy dawk fowest 🥺",
+    "distance_km": 12.2,
+    "duration_human": "1h 11",
+    "pace_human": "5:53/km",
+    "elevation_gain_m": 90,
+    "ascii_map": "       ●──────┬─\n              │\n              │\n             ╭┤\n             ├╯\n            ╭┤\n            ├╯\n     ╭──────╯\n ╭┬┬┬┤\n●┴┴┴┴┴─"
   }
 }
