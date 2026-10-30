@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T06:47:50Z",
+  "generated_at": "2026-10-30T06:51:39Z",
   "activity": {
     "id": "20787274093",
     "url": "https://www.strava.com/activities/20787274093",
@@ -10,6 +10,6 @@
     "duration_human": "1h 11",
     "pace_human": "5:53/km",
     "elevation_gain_m": 90,
-    "ascii_map": "       ●──────┬─\n              │\n              │\n             ╭┤\n             ├╯\n            ╭┤\n            ├╯\n     ╭──────╯\n ╭┬┬┬┤\n●┴┴┴┴┴─"
+    "ascii_map": "       ●──────┬─\n              │\n              │\n             ╭┤\n             ├╯\n            ╭┤\n            ├╯\n    ╭───────╯\n ╭┬┬┤\n●┴┴┴┴──"
   }
 }
