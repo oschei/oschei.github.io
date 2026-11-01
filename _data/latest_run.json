@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T08:03:19Z",
+  "generated_at": "2026-11-01T07:39:23Z",
   "activity": {
-    "id": "20799551586",
-    "url": "https://www.strava.com/activities/20799551586",
-    "date_label": "sat 31 oct",
-    "description": "stackin the easy ones",
-    "distance_km": 10.8,
-    "duration_human": "1h 07",
-    "pace_human": "6:16/km",
-    "elevation_gain_m": 118,
-    "ascii_map": "       ●─●┬┬╮\n         ╰┴┼┤\n           ├╯\n           │\n         ╭┬┤\n         ├┼┼╮\n   ╭┬────┴┴┴╯\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
+    "id": "20812691975",
+    "url": "https://www.strava.com/activities/20812691975",
+    "date_label": "sun 1 nov",
+    "description": "every day I think “it can’t get much better than this” life is sooooo good",
+    "distance_km": 19.2,
+    "duration_human": "1h 43",
+    "pace_human": "5:23/km",
+    "elevation_gain_m": 206,
+    "ascii_map": "   ╭●\n ╭─╯ ●\n╭┤   ╰╮\n╰┤    │\n ╰─╮ ╭┤\n   ├┬┼┤\n   ╰┴┴┴─╮\n        ╰──┬╮\n           ╰┴─╮\n              ╰─"
   }
 }
