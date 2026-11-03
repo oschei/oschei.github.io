@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T07:39:23Z",
+  "generated_at": "2026-11-03T06:52:39Z",
   "activity": {
-    "id": "20812691975",
-    "url": "https://www.strava.com/activities/20812691975",
-    "date_label": "sun 1 nov",
-    "description": "every day I think “it can’t get much better than this” life is sooooo good",
-    "distance_km": 19.2,
-    "duration_human": "1h 43",
-    "pace_human": "5:23/km",
-    "elevation_gain_m": 206,
-    "ascii_map": "   ╭●\n ╭─╯ ●\n╭┤   ╰╮\n╰┤    │\n ╰─╮ ╭┤\n   ├┬┼┤\n   ╰┴┴┴─╮\n        ╰──┬╮\n           ╰┴─╮\n              ╰─"
+    "id": "20838565002",
+    "url": "https://www.strava.com/activities/20838565002",
+    "date_label": "tue 3 nov",
+    "description": "feelin (sn) today",
+    "distance_km": 14.1,
+    "duration_human": "1h 18",
+    "pace_human": "5:32/km",
+    "elevation_gain_m": 155,
+    "ascii_map": "   ●●╮\n    ├┤\n    ├┤\n    ├┤\n    ├╯\n ╭┬─╯\n─┴┤\n  ╰──────╮\n         ╰────╮\n              ╰─"
   }
 }
