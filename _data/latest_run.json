@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-03T06:52:39Z",
+  "generated_at": "2026-11-04T07:03:01Z",
   "activity": {
-    "id": "20838565002",
-    "url": "https://www.strava.com/activities/20838565002",
-    "date_label": "tue 3 nov",
-    "description": "feelin (sn) today",
-    "distance_km": 14.1,
-    "duration_human": "1h 18",
-    "pace_human": "5:32/km",
-    "elevation_gain_m": 155,
-    "ascii_map": "   ●●╮\n    ├┤\n    ├┤\n    ├┤\n    ├╯\n ╭┬─╯\n─┴┤\n  ╰──────╮\n         ╰────╮\n              ╰─"
+    "id": "20852607916",
+    "url": "https://www.strava.com/activities/20852607916",
+    "date_label": "wed 4 nov",
+    "description": "it’s always a recovery run until i see someone running in front of me then it becomes a workout to practice surges and overtaking 🏹",
+    "distance_km": 16.3,
+    "duration_human": "1h 31",
+    "pace_human": "5:37/km",
+    "elevation_gain_m": 192,
+    "ascii_map": "   ●●\n   ╰┤\n    │\n   ╭┤\n ╭─┴╯\n─┤\n ╰─────╮\n       ╰────┬╮\n            ├┤\n            ╰┴──"
   }
 }
