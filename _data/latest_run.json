@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-06T07:20:40Z",
+  "generated_at": "2026-11-07T06:48:14Z",
   "activity": {
-    "id": "20879048777",
-    "url": "https://www.strava.com/activities/20879048777",
-    "date_label": "fri 6 nov",
-    "description": "my injured toe when I hit it with yet another recovery run",
-    "distance_km": 13.4,
-    "duration_human": "1h 21",
-    "pace_human": "6:04/km",
-    "elevation_gain_m": 150,
-    "ascii_map": "   ●●╮\n    ╰┤\n     │\n    ╭┤\n    ├┤\n ╭┬─┴╯\n╭┼┤\n╰┴┴───╮\n      ╰─────┬╮\n            ╰┴──"
+    "id": "20890524172",
+    "url": "https://www.strava.com/activities/20890524172",
+    "date_label": "sat 7 nov",
+    "description": "very rare rainy cat sighting #TYBG",
+    "distance_km": 8.0,
+    "duration_human": "49m 57",
+    "pace_human": "6:14/km",
+    "elevation_gain_m": 91,
+    "ascii_map": "       ●─●┬┬──┬─\n          ╰┤  │\n           ╰─┬┤\n             ├╯\n            ╭┤\n          ╭┬┼╯\n          ╰┼┤\n           ├┴───\n╭┬┬────────╯\n╰┴╯"
   }
 }
