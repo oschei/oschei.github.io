@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T06:48:14Z",
+  "generated_at": "2026-11-08T07:25:06Z",
   "activity": {
-    "id": "20890524172",
-    "url": "https://www.strava.com/activities/20890524172",
-    "date_label": "sat 7 nov",
-    "description": "very rare rainy cat sighting #TYBG",
-    "distance_km": 8.0,
-    "duration_human": "49m 57",
-    "pace_human": "6:14/km",
-    "elevation_gain_m": 91,
-    "ascii_map": "       ●─●┬┬──┬─\n          ╰┤  │\n           ╰─┬┤\n             ├╯\n            ╭┤\n          ╭┬┼╯\n          ╰┼┤\n           ├┴───\n╭┬┬────────╯\n╰┴╯"
+    "id": "20903634442",
+    "url": "https://www.strava.com/activities/20903634442",
+    "date_label": "sun 8 nov",
+    "description": "that’s one way to prove I’m on target for my december 1:40 goal",
+    "distance_km": 21.2,
+    "duration_human": "1h 38",
+    "pace_human": "4:38/km",
+    "elevation_gain_m": 211,
+    "ascii_map": "   ╭●\n ╭─╯\n╭┤  ●╮\n╰┤   │\n ╰─┬┬╯\n   ├┤\n   ╰┴────╮\n         ╰╮\n          ╰─┬╮\n            ╰┴──"
   }
 }
