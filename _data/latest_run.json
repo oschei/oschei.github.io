@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T07:25:06Z",
+  "generated_at": "2026-11-10T07:55:58Z",
   "activity": {
-    "id": "20903634442",
-    "url": "https://www.strava.com/activities/20903634442",
-    "date_label": "sun 8 nov",
-    "description": "that’s one way to prove I’m on target for my december 1:40 goal",
-    "distance_km": 21.2,
-    "duration_human": "1h 38",
-    "pace_human": "4:38/km",
-    "elevation_gain_m": 211,
-    "ascii_map": "   ╭●\n ╭─╯\n╭┤  ●╮\n╰┤   │\n ╰─┬┬╯\n   ├┤\n   ╰┴────╮\n         ╰╮\n          ╰─┬╮\n            ╰┴──"
+    "id": "20929682672",
+    "url": "https://www.strava.com/activities/20929682672",
+    "date_label": "tue 10 nov",
+    "description": "late start so i had the pleasure of encountering kids walking 4 and 5 wide on the sidewalk just looking at me like 👁️👄👁️",
+    "distance_km": 13.3,
+    "duration_human": "1h 23",
+    "pace_human": "6:18/km",
+    "elevation_gain_m": 184,
+    "ascii_map": "   ●●╮\n    ╰┤\n     │\n    ╭┤\n    ├┤\n ╭┬─┴╯\n╭┼┤\n╰┴┴───┬╮\n      ╰┴────╮\n            ╰───"
   }
 }
