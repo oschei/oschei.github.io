@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10T07:55:58Z",
+  "generated_at": "2026-11-11T14:09:34Z",
   "activity": {
-    "id": "20929682672",
-    "url": "https://www.strava.com/activities/20929682672",
-    "date_label": "tue 10 nov",
-    "description": "late start so i had the pleasure of encountering kids walking 4 and 5 wide on the sidewalk just looking at me like 👁️👄👁️",
-    "distance_km": 13.3,
-    "duration_human": "1h 23",
-    "pace_human": "6:18/km",
-    "elevation_gain_m": 184,
-    "ascii_map": "   ●●╮\n    ╰┤\n     │\n    ╭┤\n    ├┤\n ╭┬─┴╯\n╭┼┤\n╰┴┴───┬╮\n      ╰┴────╮\n            ╰───"
+    "id": "20947163803",
+    "url": "https://www.strava.com/activities/20947163803",
+    "date_label": "wed 11 nov",
+    "description": "i hope whoever dropped their croissant in the rain is having a wondeful day",
+    "distance_km": 10.8,
+    "duration_human": "1h 09",
+    "pace_human": "6:26/km",
+    "elevation_gain_m": 120,
+    "ascii_map": "       ●─●┬┬╮\n         ╰┴┼┤\n           ├╯\n           │\n         ╭┬┤\n         ├┼┼╮\n   ╭┬────┴┴┴╯\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
   }
 }
