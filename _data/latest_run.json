@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T14:09:34Z",
+  "generated_at": "2026-11-12T07:44:44Z",
   "activity": {
-    "id": "20947163803",
-    "url": "https://www.strava.com/activities/20947163803",
-    "date_label": "wed 11 nov",
-    "description": "i hope whoever dropped their croissant in the rain is having a wondeful day",
-    "distance_km": 10.8,
-    "duration_human": "1h 09",
-    "pace_human": "6:26/km",
-    "elevation_gain_m": 120,
-    "ascii_map": "       ●─●┬┬╮\n         ╰┴┼┤\n           ├╯\n           │\n         ╭┬┤\n         ├┼┼╮\n   ╭┬────┴┴┴╯\n ╭┬┼┤\n─┴┴┴┴───╮\n        ╰───────"
+    "id": "20956431604",
+    "url": "https://www.strava.com/activities/20956431604",
+    "date_label": "thu 12 nov",
+    "description": "bibermaxxing with cheeky lil mid week 10 miler",
+    "distance_km": 16.1,
+    "duration_human": "1h 41",
+    "pace_human": "6:15/km",
+    "elevation_gain_m": 219,
+    "ascii_map": "   ●●\n   ╰┤\n    │\n   ╭┤\n ╭─┴╯\n╭┤\n╰┴─────╮\n       ╰─────╮\n             │\n            ─┴──"
   }
 }
