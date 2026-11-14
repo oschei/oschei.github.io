@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T07:44:44Z",
+  "generated_at": "2026-11-14T07:11:10Z",
   "activity": {
-    "id": "20956431604",
-    "url": "https://www.strava.com/activities/20956431604",
-    "date_label": "thu 12 nov",
-    "description": "bibermaxxing with cheeky lil mid week 10 miler",
-    "distance_km": 16.1,
-    "duration_human": "1h 41",
-    "pace_human": "6:15/km",
-    "elevation_gain_m": 219,
-    "ascii_map": "   ●●\n   ╰┤\n    │\n   ╭┤\n ╭─┴╯\n╭┤\n╰┴─────╮\n       ╰─────╮\n             │\n            ─┴──"
+    "id": "20979844182",
+    "url": "https://www.strava.com/activities/20979844182",
+    "date_label": "sat 14 nov",
+    "description": "first frozen day in a while\nperfect conditions to lock in twin",
+    "distance_km": 7.3,
+    "duration_human": "46m 18",
+    "pace_human": "6:22/km",
+    "elevation_gain_m": 81,
+    "ascii_map": "       ●─●┬┬──┬─\n          ╰┤  │\n           ╰─┬┤\n             ├┤\n            ╭┼╯\n           ╭┼╯\n          ╭┼┤\n          ├┼┼╮\n         ╭┴┴┴┴──\n─────────╯"
   }
 }
