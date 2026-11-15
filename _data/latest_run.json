@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T07:11:10Z",
+  "generated_at": "2026-11-15T07:22:04Z",
   "activity": {
-    "id": "20979844182",
-    "url": "https://www.strava.com/activities/20979844182",
-    "date_label": "sat 14 nov",
-    "description": "first frozen day in a while\nperfect conditions to lock in twin",
-    "distance_km": 7.3,
-    "duration_human": "46m 18",
-    "pace_human": "6:22/km",
-    "elevation_gain_m": 81,
-    "ascii_map": "       ●─●┬┬──┬─\n          ╰┤  │\n           ╰─┬┤\n             ├┤\n            ╭┼╯\n           ╭┼╯\n          ╭┼┤\n          ├┼┼╮\n         ╭┴┴┴┴──\n─────────╯"
+    "id": "20992768003",
+    "url": "https://www.strava.com/activities/20992768003",
+    "date_label": "sun 15 nov",
+    "description": "ngl I’m pretty bummed to have missed 44 flat on the 10k but not a bad way to hit the 2500km mark for the year!!! i set that goal almost as a joke and feel so fortunate that I hit it with a few weeks to spare",
+    "distance_km": 16.4,
+    "duration_human": "1h 23",
+    "pace_human": "5:05/km",
+    "elevation_gain_m": 177,
+    "ascii_map": "    ╭●\n ╭──╯\n │    ●╮\n─┼╮    │\n ╰┤    │\n  ╰─┬┬─┴─\n    ├┤\n    ╰┴─────╮\n           ╰───╮\n               │"
   }
 }
