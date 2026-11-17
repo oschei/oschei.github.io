@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T07:22:04Z",
+  "generated_at": "2026-11-17T07:27:16Z",
   "activity": {
-    "id": "20992768003",
-    "url": "https://www.strava.com/activities/20992768003",
-    "date_label": "sun 15 nov",
-    "description": "ngl I’m pretty bummed to have missed 44 flat on the 10k but not a bad way to hit the 2500km mark for the year!!! i set that goal almost as a joke and feel so fortunate that I hit it with a few weeks to spare",
-    "distance_km": 16.4,
-    "duration_human": "1h 23",
-    "pace_human": "5:05/km",
-    "elevation_gain_m": 177,
-    "ascii_map": "    ╭●\n ╭──╯\n │    ●╮\n─┼╮    │\n ╰┤    │\n  ╰─┬┬─┴─\n    ├┤\n    ╰┴─────╮\n           ╰───╮\n               │"
+    "id": "21017888781",
+    "url": "https://www.strava.com/activities/21017888781",
+    "date_label": "tue 17 nov",
+    "description": "nice lil start to the week with a clutch wave from the homie who i’ve only interacted with from across the street on runs",
+    "distance_km": 13.2,
+    "duration_human": "1h 25",
+    "pace_human": "6:28/km",
+    "elevation_gain_m": 147,
+    "ascii_map": "   ●●╮\n    ╰┤\n     │\n    ╭┤\n    ├┤\n ╭┬─┴╯\n╭┼┤\n╰┴┴───┬╮\n      ╰┴────╮\n            ╰───"
   }
 }
