@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T07:27:16Z",
+  "generated_at": "2026-11-18T07:01:07Z",
   "activity": {
-    "id": "21017888781",
-    "url": "https://www.strava.com/activities/21017888781",
-    "date_label": "tue 17 nov",
-    "description": "nice lil start to the week with a clutch wave from the homie who i’ve only interacted with from across the street on runs",
-    "distance_km": 13.2,
-    "duration_human": "1h 25",
-    "pace_human": "6:28/km",
-    "elevation_gain_m": 147,
-    "ascii_map": "   ●●╮\n    ╰┤\n     │\n    ╭┤\n    ├┤\n ╭┬─┴╯\n╭┼┤\n╰┴┴───┬╮\n      ╰┴────╮\n            ╰───"
+    "id": "21030711859",
+    "url": "https://www.strava.com/activities/21030711859",
+    "date_label": "wed 18 nov",
+    "description": "most of my pre-run time is spent deciding which tier of socks, shorts, and shirt the run is worth",
+    "distance_km": 18.2,
+    "duration_human": "1h 47",
+    "pace_human": "5:54/km",
+    "elevation_gain_m": 242,
+    "ascii_map": "  ●●╮\n   ├╯\n   │\n   ├─\n╭┬┬┤\n╰┴┴┴┬╮\n    ╰┴────╮\n          ├╮\n          ╰┴──┬╮\n              ╰╯"
   }
 }
