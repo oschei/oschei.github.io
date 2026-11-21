@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T07:04:13Z",
+  "generated_at": "2026-11-21T06:23:47Z",
   "activity": {
-    "id": "21055136621",
-    "url": "https://www.strava.com/activities/21055136621",
-    "date_label": "fri 20 nov",
-    "description": "imagine my surprise when I discovered (this AM) that this wasn’t just supposed to be a vo2 max workout, but the total distance was supposed to be 16k 🫪 weather made it an impossible session but still got the distance",
-    "distance_km": 16.1,
-    "duration_human": "1h 35",
-    "pace_human": "5:55/km",
-    "elevation_gain_m": 145,
-    "ascii_map": "    ●───┬─\n        │\n        │   ╭───\n        ├───╯\n        │\n       ╭╯\n       │\n  ╭┬──┬╯\n╭┬┼┤  │\n╰●┴╯"
+    "id": "21066244777",
+    "url": "https://www.strava.com/activities/21066244777",
+    "date_label": "sat 21 nov",
+    "description": "spent this whole run wondering what my talent would be if I were ever to be invited on wetten dass..?",
+    "distance_km": 7.2,
+    "duration_human": "47m 04",
+    "pace_human": "6:31/km",
+    "elevation_gain_m": 94,
+    "ascii_map": "       ●─●┬┬──┬─\n          ╰┤  │\n           ╰─┬┤\n             ├╯\n            ╭┤\n            ├╯\n          ╭┬┤\n          ├┼┼╮\n        ╭┬┴┴┴┴──\n────────┴╯"
   }
 }
