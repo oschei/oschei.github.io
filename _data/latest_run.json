@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T06:23:47Z",
+  "generated_at": "2026-11-22T09:48:48Z",
   "activity": {
-    "id": "21066244777",
-    "url": "https://www.strava.com/activities/21066244777",
-    "date_label": "sat 21 nov",
-    "description": "spent this whole run wondering what my talent would be if I were ever to be invited on wetten dass..?",
-    "distance_km": 7.2,
-    "duration_human": "47m 04",
-    "pace_human": "6:31/km",
-    "elevation_gain_m": 94,
-    "ascii_map": "       ●─●┬┬──┬─\n          ╰┤  │\n           ╰─┬┤\n             ├╯\n            ╭┤\n            ├╯\n          ╭┬┤\n          ├┼┼╮\n        ╭┬┴┴┴┴──\n────────┴╯"
+    "id": "21080368892",
+    "url": "https://www.strava.com/activities/21080368892",
+    "date_label": "sun 22 nov",
+    "description": "it’s sometimes hard to describe or even capture how nice my “regular loop” is. this is peak routemogging and beautymaxxing all other runcels",
+    "distance_km": 23.8,
+    "duration_human": "2h 13",
+    "pace_human": "5:36/km",
+    "elevation_gain_m": 301,
+    "ascii_map": "   ╭╮\n ╭─●┤\n │  ●╮\n─┤   │\n ╰─┬┬╯\n   ├┤\n   ╰┴───╮\n        ╰┬╮\n         ╰┴──╮\n             ╰──"
   }
 }
