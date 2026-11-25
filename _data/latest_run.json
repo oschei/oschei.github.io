@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T06:58:44Z",
+  "generated_at": "2026-11-25T07:39:30Z",
   "activity": {
-    "id": "21103593224",
-    "url": "https://www.strava.com/activities/21103593224",
-    "date_label": "tue 24 nov",
-    "description": "distancepilling and slopmaxxing",
-    "distance_km": 13.2,
-    "duration_human": "1h 20",
-    "pace_human": "6:04/km",
-    "elevation_gain_m": 169,
-    "ascii_map": "    ●●\n    ╰┤\n     │\n    ╭┤\n    ├┤\n ╭┬─┴╯\n╭┼┤\n╰┴┴───┬╮\n      ╰┴────╮\n            ╰───"
+    "id": "21116477721",
+    "url": "https://www.strava.com/activities/21116477721",
+    "date_label": "wed 25 nov",
+    "description": "1° and pitch black? it doesn’t get much better than this lads",
+    "distance_km": 11.2,
+    "duration_human": "1h 08",
+    "pace_human": "6:07/km",
+    "elevation_gain_m": 150,
+    "ascii_map": "        ●●┬┬╮\n         ╰┴┼┤\n           ├╯\n           │\n         ─┬┤\n          ├┴─\n   ╭┬─────╯\n╭┬┬┼┤\n╰┴┴┴┴────────┬╮\n             ╰┴─"
   }
 }
