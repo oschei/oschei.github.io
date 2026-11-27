@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T07:39:30Z",
+  "generated_at": "2026-11-27T07:10:28Z",
   "activity": {
-    "id": "21116477721",
-    "url": "https://www.strava.com/activities/21116477721",
-    "date_label": "wed 25 nov",
-    "description": "1° and pitch black? it doesn’t get much better than this lads",
-    "distance_km": 11.2,
-    "duration_human": "1h 08",
-    "pace_human": "6:07/km",
-    "elevation_gain_m": 150,
-    "ascii_map": "        ●●┬┬╮\n         ╰┴┼┤\n           ├╯\n           │\n         ─┬┤\n          ├┴─\n   ╭┬─────╯\n╭┬┬┼┤\n╰┴┴┴┴────────┬╮\n             ╰┴─"
+    "id": "21139781906",
+    "url": "https://www.strava.com/activities/21139781906",
+    "date_label": "fri 27 nov",
+    "description": "this thanksgiving i’m thankful for all the homies keeping me motivated sharing their pbs, giving kudos and comments, a mostly injury free year so far, and these chilly days to close out the block",
+    "distance_km": 16.3,
+    "duration_human": "1h 35",
+    "pace_human": "5:50/km",
+    "elevation_gain_m": 196,
+    "ascii_map": "   ●●\n   ╰┤\n    │\n   ╭┤\n ╭─┴╯\n─┤\n ╰─────╮\n       ╰────┬╮\n            ├┤\n            ╰┴──"
   }
 }
