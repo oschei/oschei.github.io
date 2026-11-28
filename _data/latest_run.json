@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27T07:10:28Z",
+  "generated_at": "2026-11-28T07:05:17Z",
   "activity": {
-    "id": "21139781906",
-    "url": "https://www.strava.com/activities/21139781906",
-    "date_label": "fri 27 nov",
-    "description": "this thanksgiving i’m thankful for all the homies keeping me motivated sharing their pbs, giving kudos and comments, a mostly injury free year so far, and these chilly days to close out the block",
-    "distance_km": 16.3,
-    "duration_human": "1h 35",
-    "pace_human": "5:50/km",
-    "elevation_gain_m": 196,
-    "ascii_map": "   ●●\n   ╰┤\n    │\n   ╭┤\n ╭─┴╯\n─┤\n ╰─────╮\n       ╰────┬╮\n            ├┤\n            ╰┴──"
+    "id": "21150036791",
+    "url": "https://www.strava.com/activities/21150036791",
+    "date_label": "sat 28 nov",
+    "description": "chrimmuh time in a-town, e-schrott pop up in wollyhood",
+    "distance_km": 7.3,
+    "duration_human": "44m 40",
+    "pace_human": "6:04/km",
+    "elevation_gain_m": 82,
+    "ascii_map": "       ●──┬╮  ╭●\n          ╰┤  ├╯\n           ╰─┬┤\n             ├╯\n             │\n           ╭┬╯\n          ─┼┤\n           ├┼┬┬╮\n╭┬─────────┴┴┴┴╯\n╰╯"
   }
 }
